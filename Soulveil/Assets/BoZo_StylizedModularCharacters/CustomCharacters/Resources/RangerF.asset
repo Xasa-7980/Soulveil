@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e903bc507d4413143bf3f7064383bf09, type: 3}
-  m_Name: Monk
+  m_Name: RangerF
   m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: a9a3276b7548cfe4e9ccb4c64c1aa0f5, type: 3}
+  icon: {fileID: 2800000, guid: cd8adde198451f144a5643dccee6d369, type: 3}
   data:
     versionID: 1
-    characterName: Monk
+    characterName: RangerF
     bodyIDs:
     - BodyType
     - Chest
@@ -27,12 +27,12 @@ MonoBehaviour:
     - WaistSize
     - ButtSize
     bodyShapes:
-    - 55
+    - 0
+    - 70
     - 0
     - 0
     - 0
-    - 100
-    - 78
+    - 0
     - 100
     - 0
     - 0
@@ -62,13 +62,6 @@ MonoBehaviour:
     - NeckThickness
     - IrisSize
     faceShapes:
-    - 55
-    - 0
-    - 100
-    - 0
-    - 0
-    - 0
-    - 0
     - 0
     - 0
     - 0
@@ -80,8 +73,15 @@ MonoBehaviour:
     - 0
     - 0
     - 0
+    - 48
+    - 20
     - 0
     - 0
+    - 0
+    - 0
+    - 44
+    - 0
+    - 48
     - 0
     - 0
     - 100
@@ -99,42 +99,22 @@ MonoBehaviour:
     - calf_twist_01_l
     - thigh_twist_01_l
     bodyMods:
-    - scaleValue: 0.96158123
+    - scaleValue: 1
       scale: {x: 1, y: 1, z: 1}
       posValue: 0
       position: {x: 0, y: 0, z: 0}
       rotation: 0
-    - scaleValue: 1.0625875
+    - scaleValue: 0.9
       scale: {x: 1, y: 1, z: 1}
       posValue: 0
       position: {x: 0, y: 0, z: 0}
       rotation: 0
     - scaleValue: 1
-      scale: {x: 1, y: 1, z: 1.0107446}
+      scale: {x: 0.61855996, y: 1.0698402, z: 0.84420097}
       posValue: 0
-      position: {x: 0, y: 0, z: 0.00014327287}
-      rotation: 0
-    - scaleValue: 1.1357927
-      scale: {x: 1, y: 1, z: 1}
-      posValue: 0
-      position: {x: 0, y: 0, z: 0}
-      rotation: 0
-    - scaleValue: 0.8281644
-      scale: {x: 1, y: 1, z: 1}
-      posValue: 0
-      position: {x: 0, y: 0, z: 0}
-      rotation: 0
-    - scaleValue: 1.1844099
-      scale: {x: 1, y: 1, z: 1}
-      posValue: 0
-      position: {x: 0, y: 0, z: 0}
-      rotation: 0
-    - scaleValue: 1
-      scale: {x: 1, y: 0.98381424, z: 0.9730238}
-      posValue: 0
-      position: {x: 0, y: 0, z: 0}
-      rotation: 0
-    - scaleValue: 1.0743883
+      position: {x: 0.02, y: 0.02, z: -0.00873909}
+      rotation: 8.717566
+    - scaleValue: 1.0644029
       scale: {x: 1, y: 1, z: 1}
       posValue: 0
       position: {x: 0, y: 0, z: 0}
@@ -144,12 +124,32 @@ MonoBehaviour:
       posValue: 0
       position: {x: 0, y: 0, z: 0}
       rotation: 0
-    - scaleValue: 1.2124316
+    - scaleValue: 1
       scale: {x: 1, y: 1, z: 1}
       posValue: 0
       position: {x: 0, y: 0, z: 0}
       rotation: 0
-    - scaleValue: 0.9218999
+    - scaleValue: 1
+      scale: {x: 1, y: 1, z: 1}
+      posValue: 0
+      position: {x: 0, y: 0, z: 0}
+      rotation: 0
+    - scaleValue: 1
+      scale: {x: 1, y: 1, z: 1}
+      posValue: 0
+      position: {x: 0, y: 0, z: 0}
+      rotation: 0
+    - scaleValue: 1
+      scale: {x: 1.0534506, y: 1.07483, z: 1.0801753}
+      posValue: 0
+      position: {x: 0, y: 0.0014253282, z: -0.006271485}
+      rotation: -3.6066108
+    - scaleValue: 1.1932088
+      scale: {x: 1, y: 1, z: 1}
+      posValue: 0
+      position: {x: 0, y: 0, z: 0}
+      rotation: 0
+    - scaleValue: 1.1116315
       scale: {x: 1, y: 1, z: 1}
       posValue: 0
       position: {x: 0, y: 0, z: 0}
@@ -157,15 +157,15 @@ MonoBehaviour:
     outfitDatas:
     - outfit: Head/Head_BasicHead
       colors:
-      - {r: 0.8998859, g: 0.5328363, b: 0.3824063, a: 1}
-      - {r: 0.3960784, g: 0, b: 0, a: 1}
-      - {r: 0.43396226, g: 0.1676934, b: 0.13237205, a: 1}
-      - {r: 0, g: 0, b: 0, a: 1}
-      - {r: 0.17251764, g: 0.1748201, b: 0.2748965, a: 1}
+      - {r: 0.953785, g: 0.6631077, b: 0.53853184, a: 1}
+      - {r: 0.7245123, g: 0.05150821, b: 0.05150821, a: 1}
+      - {r: 0.43396226, g: 0.05007256, b: 0, a: 0}
+      - {r: 0.10062883, g: 0.10062883, b: 0.10062883, a: 0}
+      - {r: 0.049999982, g: 0.049999982, b: 0.049999982, a: 0}
       - {r: 1, g: 1, b: 1, a: 0}
-      - {r: 1, g: 1, b: 1, a: 0}
-      - {r: 0.3960784, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 0.72955966, g: 0, b: 0.025749467, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
       decal: 
       decalColors: []
       decalScale: {x: 0, y: 0, z: 0, w: 0}
@@ -176,13 +176,13 @@ MonoBehaviour:
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
-    - outfit: Body/Body_StrongBody
+    - outfit: Body/Body_BasicBody
       colors:
-      - {r: 0.8998859, g: 0.5328363, b: 0.3824063, a: 1}
-      - {r: 0.3960784, g: 0, b: 0, a: 1}
-      - {r: 0.43396217, g: 0.050072506, b: 0, a: 0}
-      - {r: 0.100628756, g: 0.100628756, b: 0.100628756, a: 0}
-      - {r: 0.049999937, g: 0.049999937, b: 0.049999937, a: 0}
+      - {r: 0.953785, g: 0.6631077, b: 0.53853184, a: 1}
+      - {r: 0.7245123, g: 0.05150821, b: 0.05150821, a: 1}
+      - {r: 0.43396226, g: 0.05007256, b: 0, a: 0}
+      - {r: 0.10062883, g: 0.10062883, b: 0.10062883, a: 0}
+      - {r: 0.049999982, g: 0.049999982, b: 0.049999982, a: 0}
       - {r: 1, g: 1, b: 1, a: 0}
       - {r: 1, g: 1, b: 1, a: 0}
       - {r: 0.5, g: 0.5, b: 0.5, a: 0}
@@ -197,10 +197,73 @@ MonoBehaviour:
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
-    - outfit: HairFront/HairFront_StarChild
+    - outfit: Top/Top_BattleDress
       colors:
-      - {r: 0.13333334, g: 0.2549018, b: 0.7294118, a: 1}
-      - {r: 0.38039216, g: 0.5843138, b: 0.81960785, a: 1}
+      - {r: 0, g: 0.3355752, b: 0.05152026, a: 1}
+      - {r: 1, g: 0.7711867, b: 0, a: 1}
+      - {r: 0.09374118, g: 1, b: 0, a: 1}
+      - {r: 1, g: 0, b: 0.9240179, a: 1}
+      - {r: 0.7057148, g: 0.26822656, b: 0, a: 1}
+      - {r: 0.9666331, g: 0.8630745, b: 0.51404333, a: 1}
+      - {r: 0.7785287, g: 0.5634789, b: 0.28781348, a: 1}
+      - {r: 0.8331396, g: 0.31812376, b: 0.007207555, a: 1}
+      - {r: 0.56008583, g: 0.48483887, b: 0.23594496, a: 1}
+      decal: 
+      decalColors: []
+      decalScale: {x: 0, y: 0, z: 0, w: 0}
+      pattern: 
+      patternColors: []
+      patternScale: {x: 0, y: 0, z: 0, w: 0}
+      partVisibility: 0101
+      color: {r: 0, g: 0, b: 0, a: 0}
+      swatch: 0
+      decalDatas: []
+    - outfit: Bottom/Bottom_TatteredPants
+      colors:
+      - {r: 0.6632393, g: 0.6361441, b: 0.0692664, a: 1}
+      - {r: 0.6289307, g: 0.5832241, b: 0.42917588, a: 0}
+      - {r: 0.72955966, g: 0.7033337, b: 0.60796636, a: 0}
+      - {r: 1, g: 0, b: 0.9240179, a: 0}
+      - {r: 0.7169812, g: 0.3823589, b: 0.32241598, a: 0}
+      - {r: 0.7987421, g: 0.7487409, b: 0.5802182, a: 0}
+      - {r: 0.23899361, g: 0.23899361, b: 0.23899361, a: 0}
+      - {r: 0.7176471, g: 0.3843137, b: 0.3215686, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      decal: 
+      decalColors: []
+      decalScale: {x: 0, y: 0, z: 0, w: 0}
+      pattern: 
+      patternColors: []
+      patternScale: {x: 0, y: 0, z: 0, w: 0}
+      partVisibility: 01
+      color: {r: 0, g: 0, b: 0, a: 0}
+      swatch: 0
+      decalDatas: []
+    - outfit: Feet/Feet_TiedBoots
+      colors:
+      - {r: 0.33627155, g: 0.48727193, b: 0.27887163, a: 1}
+      - {r: 0.6875108, g: 0.5756055, b: 0.1984428, a: 1}
+      - {r: 1, g: 0.7843139, b: 0, a: 1}
+      - {r: 1, g: 0, b: 0.9240179, a: 0}
+      - {r: 0.7169812, g: 0.3823589, b: 0.32241598, a: 0}
+      - {r: 0.7987421, g: 0.7487409, b: 0.5802182, a: 0}
+      - {r: 0.23899361, g: 0.23899361, b: 0.23899361, a: 0}
+      - {r: 0.7176471, g: 0.3843137, b: 0.3215686, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      decal: 
+      decalColors: []
+      decalScale: {x: 0, y: 0, z: 0, w: 0}
+      pattern: 
+      patternColors: []
+      patternScale: {x: 0, y: 0, z: 0, w: 0}
+      partVisibility: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+      swatch: 0
+      decalDatas: []
+    - outfit: HairFront/HairFront_PureCut
+      colors:
+      - {r: 1, g: 0.7434516, b: 0, a: 1}
+      - {r: 0.608629, g: 0.37597492, b: 0, a: 1}
       - {r: 0.28930804, g: 0.28930804, b: 0.28930804, a: 0}
       - {r: 1, g: 0, b: 0.9240179, a: 0}
       - {r: 0.9695323, g: 1, b: 0, a: 0}
@@ -218,11 +281,11 @@ MonoBehaviour:
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
-    - outfit: HairBack/HairBack_WarriorWolfTail
+    - outfit: HairBack/HairBack_DolphinTail
       colors:
-      - {r: 0.13333334, g: 0.25504148, b: 0.7294118, a: 1}
-      - {r: 0.1464786, g: 0.23990782, b: 0.3477107, a: 1}
-      - {r: 0.3338782, g: 0, b: 0.7421217, a: 1}
+      - {r: 1, g: 0.7434516, b: 0, a: 1}
+      - {r: 0.608629, g: 0.37597492, b: 0, a: 1}
+      - {r: 0.28930804, g: 0.28930804, b: 0.28930804, a: 0}
       - {r: 1, g: 0, b: 0.9240179, a: 0}
       - {r: 0.9695323, g: 1, b: 0, a: 0}
       - {r: 0, g: 0.8895352, b: 1, a: 0}
@@ -236,82 +299,19 @@ MonoBehaviour:
       patternColors: []
       patternScale: {x: 0, y: 0, z: 0, w: 0}
       partVisibility: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      swatch: 0
-      decalDatas: []
-    - outfit: Bottom/Bottom_MeditativeSkirt
-      colors:
-      - {r: 0.19252859, g: 0.6167304, b: 0.69357854, a: 1}
-      - {r: 0.29019603, g: 0.83137256, b: 0.92941177, a: 1}
-      - {r: 0.017994048, g: 0.31255242, b: 0.36591443, a: 1}
-      - {r: 0.063598596, g: 0.38119337, b: 0.43872863, a: 1}
-      - {r: 0.53547156, g: 0.6640781, b: 1, a: 1}
-      - {r: 0.28079572, g: 0.39489105, b: 0.96056455, a: 1}
-      - {r: 0.11156889, g: 0.54865384, b: 0.8816829, a: 1}
-      - {r: 0.74213827, g: 0.44574964, b: 0.44574964, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      decal: 
-      decalColors: []
-      decalScale: {x: 0, y: 0, z: 0, w: 0}
-      pattern: 
-      patternColors: []
-      patternScale: {x: 0, y: 0, z: 0, w: 0}
-      partVisibility: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      swatch: 0
-      decalDatas: []
-    - outfit: Feet/Feet_FearsomeBoots
-      colors:
-      - {r: 0.17801672, g: 0.5617674, b: 0.6329002, a: 1}
-      - {r: 0.052354217, g: 0.2921364, b: 0.3355752, a: 1}
-      - {r: 0.24103352, g: 0, b: 0.6389682, a: 1}
-      - {r: 0.18737127, g: 0.23615186, b: 0.39018548, a: 1}
-      - {r: 0.8331396, g: 0.6346017, b: 0.14839695, a: 1}
-      - {r: 0.28079572, g: 0.39489105, b: 0.96056455, a: 1}
-      - {r: 0.11156889, g: 0.54865384, b: 0.8816829, a: 1}
-      - {r: 0.74213827, g: 0.44574964, b: 0.44574964, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      decal: 
-      decalColors: []
-      decalScale: {x: 0, y: 0, z: 0, w: 0}
-      pattern: 
-      patternColors: []
-      patternScale: {x: 0, y: 0, z: 0, w: 0}
-      partVisibility: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      swatch: 0
-      decalDatas: []
-    - outfit: Top/Top_FearsomeGarb
-      colors:
-      - {r: 0.19252859, g: 0.6167304, b: 0.69357854, a: 1}
-      - {r: 0.29019603, g: 0.83137256, b: 0.92941177, a: 1}
-      - {r: 0.017994048, g: 0.31255242, b: 0.36591443, a: 1}
-      - {r: 0.063598596, g: 0.38119337, b: 0.43872863, a: 1}
-      - {r: 0.7785287, g: 0.6298287, b: 0.19890082, a: 1}
-      - {r: 0.28079572, g: 0.39489105, b: 0.96056455, a: 1}
-      - {r: 0.11156889, g: 0.54865384, b: 0.8816829, a: 1}
-      - {r: 0.74213827, g: 0.44574964, b: 0.44574964, a: 0}
-      - {r: 0.7798742, g: 0.55374527, b: 0.37522238, a: 0}
-      decal: 
-      decalColors: []
-      decalScale: {x: 0, y: 0, z: 0, w: 0}
-      pattern: 
-      patternColors: []
-      patternScale: {x: 0, y: 0, z: 0, w: 0}
-      partVisibility: 01000100
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
     - outfit: Gloves/Gloves_RusticGloves
       colors:
-      - {r: 0.17801672, g: 0.5617674, b: 0.6329002, a: 1}
-      - {r: 0.052354217, g: 0.2921364, b: 0.3355752, a: 1}
-      - {r: 0.24103352, g: 0, b: 0.6389682, a: 1}
-      - {r: 0.18737127, g: 0.23615186, b: 0.39018548, a: 1}
-      - {r: 0.8331396, g: 0.6346017, b: 0.14839695, a: 1}
-      - {r: 0.28079572, g: 0.39489105, b: 0.96056455, a: 1}
-      - {r: 0.11156889, g: 0.54865384, b: 0.8816829, a: 1}
-      - {r: 0.74213827, g: 0.44574964, b: 0.44574964, a: 0}
+      - {r: 0.33627155, g: 0.48727193, b: 0.27887163, a: 1}
+      - {r: 0.6875108, g: 0.5756055, b: 0.1984428, a: 1}
+      - {r: 0.72955966, g: 0.7033337, b: 0.60796636, a: 0}
+      - {r: 1, g: 0, b: 0.9240179, a: 0}
+      - {r: 0.7169812, g: 0.3823589, b: 0.32241598, a: 0}
+      - {r: 0.7987421, g: 0.7487409, b: 0.5802182, a: 0}
+      - {r: 0.23899361, g: 0.23899361, b: 0.23899361, a: 0}
+      - {r: 0.7176471, g: 0.3843137, b: 0.3215686, a: 0}
       - {r: 0, g: 0, b: 0, a: 0}
       decal: 
       decalColors: []
@@ -320,54 +320,12 @@ MonoBehaviour:
       patternColors: []
       patternScale: {x: 0, y: 0, z: 0, w: 0}
       partVisibility: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      swatch: 0
-      decalDatas: []
-    - outfit: Neck/Neck_HoodedCape
-      colors:
-      - {r: 0.14103211, g: 0.40290478, b: 0.645036, a: 1}
-      - {r: 0, g: 0.5189872, b: 1, a: 1}
-      - {r: 0, g: 0, b: 1, a: 0}
-      - {r: 1, g: 0, b: 0.9240179, a: 0}
-      - {r: 0.9695323, g: 1, b: 0, a: 0}
-      - {r: 0, g: 0.8895352, b: 1, a: 0}
-      - {r: 1, g: 1, b: 1, a: 0}
-      - {r: 0.5, g: 0.5, b: 0.5, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      decal: 
-      decalColors: []
-      decalScale: {x: 0, y: 0, z: 0, w: 0}
-      pattern: 
-      patternColors: []
-      patternScale: {x: 0, y: 0, z: 0, w: 0}
-      partVisibility: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      swatch: 0
-      decalDatas: []
-    - outfit: Shoulders/Shoulder_SharpPauldrons
-      colors:
-      - {r: 0.0070583518, g: 0.30728582, b: 0.57222134, a: 1}
-      - {r: 0.63522, g: 0.63522, b: 0.63522, a: 0}
-      - {r: 0, g: 0, b: 1, a: 0}
-      - {r: 1, g: 0, b: 0.9240179, a: 0}
-      - {r: 0.9695323, g: 1, b: 0, a: 0}
-      - {r: 0, g: 0.8895352, b: 1, a: 0}
-      - {r: 1, g: 1, b: 1, a: 0}
-      - {r: 0.5, g: 0.5, b: 0.5, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      decal: 
-      decalColors: []
-      decalScale: {x: 0, y: 0, z: 0, w: 0}
-      pattern: 
-      patternColors: []
-      patternScale: {x: 0, y: 0, z: 0, w: 0}
-      partVisibility: 0100
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
     - outfit: Pupil/Pupil_BasicPupil
       colors:
-      - {r: 0, g: 0, b: 0, a: 1}
+      - {r: 0, g: 0, b: 0, a: 0}
       - {r: 0, g: 0, b: 0, a: 0}
       - {r: 0, g: 0, b: 0, a: 0}
       - {r: 1, g: 0, b: 0.9240179, a: 0}
@@ -388,30 +346,9 @@ MonoBehaviour:
       decalDatas: []
     - outfit: Eyes/Eyes_BasicIris
       colors:
-      - {r: 0.17801672, g: 0.5617674, b: 0.6329002, a: 1}
-      - {r: 0.052354217, g: 0.2921364, b: 0.3355752, a: 1}
-      - {r: 0.24103352, g: 0, b: 0.6389682, a: 1}
-      - {r: 0.18737127, g: 0.23615186, b: 0.39018548, a: 1}
-      - {r: 0.8331396, g: 0.6346017, b: 0.14839695, a: 1}
-      - {r: 0.28079572, g: 0.39489105, b: 0.96056455, a: 1}
-      - {r: 0.11156889, g: 0.54865384, b: 0.8816829, a: 1}
-      - {r: 0.74213827, g: 0.44574964, b: 0.44574964, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      decal: 
-      decalColors: []
-      decalScale: {x: 0, y: 0, z: 0, w: 0}
-      pattern: 
-      patternColors: []
-      patternScale: {x: 0, y: 0, z: 0, w: 0}
-      partVisibility: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      swatch: 0
-      decalDatas: []
-    - outfit: UnderLower/UnderLower_SimpleBoxers
-      colors:
-      - {r: 0.8742138, g: 0.8742138, b: 0.8742138, a: 0}
-      - {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 0}
-      - {r: 0.44968522, g: 0.7604513, b: 1, a: 0}
+      - {r: 0, g: 0, b: 0, a: 1}
+      - {r: 0, g: 0, b: 0, a: 1}
+      - {r: 0, g: 1, b: 0.6385796, a: 1}
       - {r: 1, g: 0, b: 0.9240179, a: 0}
       - {r: 0.9695323, g: 1, b: 0, a: 0}
       - {r: 0, g: 0.8895352, b: 1, a: 0}
@@ -428,6 +365,69 @@ MonoBehaviour:
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
+    - outfit: UnderUpper/UnderUpper_SimpleBra
+      colors:
+      - {r: 0.8742138, g: 0.8742138, b: 0.8742138, a: 0}
+      - {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 0}
+      - {r: 0.4496854, g: 0.7604513, b: 1, a: 0}
+      - {r: 1, g: 0, b: 0.9240179, a: 0}
+      - {r: 0.9695323, g: 1, b: 0, a: 0}
+      - {r: 0, g: 0.8895352, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 0.5, g: 0.5, b: 0.5, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      decal: 
+      decalColors: []
+      decalScale: {x: 0, y: 0, z: 0, w: 0}
+      pattern: 
+      patternColors: []
+      patternScale: {x: 0, y: 0, z: 0, w: 0}
+      partVisibility: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+      swatch: 0
+      decalDatas: []
+    - outfit: UnderLower/UnderLower_SimplePanties
+      colors:
+      - {r: 0.8742138, g: 0.8742138, b: 0.8742138, a: 0}
+      - {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 0}
+      - {r: 0.4496854, g: 0.7604513, b: 1, a: 0}
+      - {r: 1, g: 0, b: 0.9240179, a: 0}
+      - {r: 0.9695323, g: 1, b: 0, a: 0}
+      - {r: 0, g: 0.8895352, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 0.5, g: 0.5, b: 0.5, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      decal: 
+      decalColors: []
+      decalScale: {x: 0, y: 0, z: 0, w: 0}
+      pattern: 
+      patternColors: []
+      patternScale: {x: 0, y: 0, z: 0, w: 0}
+      partVisibility: 
+      color: {r: 0, g: 0, b: 0, a: 0}
+      swatch: 0
+      decalDatas: []
+    - outfit: Shoulders/Shoulders_FierceShoulders
+      colors:
+      - {r: 0.6389682, g: 0.49825847, b: 0, a: 1}
+      - {r: 0.9544968, g: 0.67951417, b: 0, a: 1}
+      - {r: 0.9666331, g: 0.4566248, b: 0, a: 1}
+      - {r: 0.98483604, g: 0.3560027, b: 0, a: 1}
+      - {r: 0.9695323, g: 1, b: 0, a: 0}
+      - {r: 0, g: 0.8895352, b: 1, a: 0}
+      - {r: 1, g: 1, b: 1, a: 0}
+      - {r: 0.5, g: 0.5, b: 0.5, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      decal: 
+      decalColors: []
+      decalScale: {x: 0, y: 0, z: 0, w: 0}
+      pattern: 
+      patternColors: []
+      patternScale: {x: 0, y: 0, z: 0, w: 0}
+      partVisibility: 0001
+      color: {r: 0, g: 0, b: 0, a: 0}
+      swatch: 0
+      decalDatas: []
     bodyData:
       outfit: 
       colors: []
@@ -441,4 +441,4 @@ MonoBehaviour:
       color: {r: 0, g: 0, b: 0, a: 0}
       swatch: 0
       decalDatas: []
-    stance: 0.2423244
+    stance: 0.35706833
