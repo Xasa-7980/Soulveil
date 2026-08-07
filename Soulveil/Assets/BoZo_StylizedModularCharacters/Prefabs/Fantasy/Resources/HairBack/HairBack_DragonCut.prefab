@@ -52,6 +52,8 @@ MonoBehaviour:
   - Base
   - Gradient
   TextureCatagory: 
+  mergeTexture: 1
+  mergeMesh: 1
   supportDecals: 0
   supportPatterns: 0
   showCharacterCreator: 1
@@ -93,7 +95,8 @@ MonoBehaviour:
   material: {fileID: 0}
   controlMaterial: {fileID: 0}
   controlIndex: 0
-  editMode: 0
+  MC2Map: {fileID: 0}
+  attached: 0
 --- !u!1001 &1721215612533724294
 PrefabInstance:
   m_ObjectHideFlags: 0
