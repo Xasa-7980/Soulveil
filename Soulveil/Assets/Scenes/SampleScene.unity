@@ -1052,6 +1052,7 @@ MonoBehaviour:
   rotationSpeed: 12
   jumpHeight: 1.5
   airControl: 0.6
+  jumpBufferTime: 0.15
   coyoteTime: 0.12
   gravity: -20
   groundedForce: -2
@@ -1142,12 +1143,12 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1422275541}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
