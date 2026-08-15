@@ -25,11 +25,18 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller; 
     private PlayerDodge playerDodge;
     private Vector2 moveInput;
+    public Vector2 MoveInput => moveInput;
+    public bool IsGrounded { get; private set; }
     private float verticalVelocity;
-    private bool isSprinting;
+    public float VerticalVelocity { get { return verticalVelocity; } }
+    
+
     private bool jumpRequested;
     private float coyoteTimer;
     private float jumpBufferTimer;
+    
+    private bool isSprinting;
+    public bool IsSprinting { get { return isSprinting; } }
     public Vector3 MoveDirection { get; private set; }
 
     private void Awake ( )
@@ -65,7 +72,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovement ( )
     {
-        if (playerDodge != null && playerDodge.IsDodging) return;
+        if (playerDodge != null && playerDodge.IsDodging)
+            return;
 
         Vector3 forward = cameraTransform.forward;
         Vector3 right = cameraTransform.right;
@@ -86,33 +94,41 @@ public class PlayerMovement : MonoBehaviour
 
         float currentSpeed = moveSpeed;
 
-        if (isSprinting && controller.isGrounded) currentSpeed = sprintSpeed; 
-        if (!controller.isGrounded) currentSpeed *= airControl; 
+        if (isSprinting && IsGrounded)
+            currentSpeed = sprintSpeed;
 
+        if (!IsGrounded)
+            currentSpeed *= airControl;
+
+        // X/Z
+        Vector3 velocity = direction * currentSpeed;
+
+        // Y
+        velocity.y = verticalVelocity;
+
+        // UN SOLO MOVE
         controller.Move(
-            direction *
-            currentSpeed *
-            Time.deltaTime
+            velocity * Time.deltaTime
         );
 
         if (direction.sqrMagnitude > 0.001f)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            Quaternion targetRotation =
+                Quaternion.LookRotation(direction);
 
-            transform.rotation = Quaternion.Slerp(
-                transform.rotation,
-                targetRotation,
-                rotationSpeed * Time.deltaTime
-            );
+            transform.rotation =
+                Quaternion.Slerp(
+                    transform.rotation,
+                    targetRotation,
+                    rotationSpeed * Time.deltaTime
+                );
         }
     }
-
     private void HandleGravity ( )
     {
-        bool grounded = controller.isGrounded;
+        IsGrounded = controller.isGrounded;
 
-        // Ground / Coyote Time
-        if (grounded)
+        if (IsGrounded)
         {
             coyoteTimer = coyoteTime;
 
@@ -128,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
         if (jumpBufferTimer > 0f)
             jumpBufferTimer -= Time.deltaTime;
 
-        // SALTO
+        // Salto
         if (jumpBufferTimer > 0f && coyoteTimer > 0f)
         {
             verticalVelocity =
@@ -140,11 +156,5 @@ public class PlayerMovement : MonoBehaviour
 
         // Gravedad
         verticalVelocity += gravity * Time.deltaTime;
-
-        controller.Move(
-            Vector3.up *
-            verticalVelocity *
-            Time.deltaTime
-        );
     }
 }

@@ -9,6 +9,8 @@ public class PlayerDodge : MonoBehaviour
     [SerializeField] private float dodgeDistance = 4f;
     [SerializeField] private float dodgeDuration = 0.25f;
     [SerializeField] private float dodgeCooldown = 0.35f;
+    [SerializeField] private float dodgeBufferTime = 0.15f;
+    private float dodgeBufferTimer;
 
     private CharacterController controller;
     private PlayerMovement playerMovement;
@@ -18,23 +20,42 @@ public class PlayerDodge : MonoBehaviour
 
     public bool IsDodging => isDodging;
 
+    private float dodgeStance;
+    public float DodgeStance => dodgeStance;
+
     private void Awake ( )
     {
         controller = GetComponent<CharacterController>();
         playerMovement = GetComponent<PlayerMovement>();
     }
+    private void Update ( )
+    {
+        if (dodgeBufferTimer > 0f)
+        {
+            dodgeBufferTimer -= Time.deltaTime;
 
+            if (canDodge &&
+                !isDodging &&
+                playerMovement.IsGrounded)
+            {
+                dodgeBufferTimer = 0f;
+                StartCoroutine(DodgeRoutine());
+            }
+        }
+    }
     public void OnDodge ( InputAction.CallbackContext context )
     {
         if (!context.performed)
             return;
 
+
         if (!canDodge || isDodging)
             return;
 
-        if (!controller.isGrounded)
+        if (!playerMovement.IsGrounded)
             return;
 
+        dodgeBufferTimer = dodgeBufferTime;
         StartCoroutine(DodgeRoutine());
     }
 
@@ -43,9 +64,20 @@ public class PlayerDodge : MonoBehaviour
         isDodging = true;
         canDodge = false;
 
-        // Si nos estamos moviendo, esquivamos en esa dirección.
-        Vector3 dodgeDirection = playerMovement.MoveDirection;
-        if (dodgeDirection.sqrMagnitude < 0.01f) dodgeDirection = transform.forward;
+        Vector2 input = playerMovement.MoveInput;
+
+        Vector3 dodgeDirection;
+
+        if (input.magnitude > 0.1f)
+        {
+            dodgeDirection = transform.forward;
+            dodgeStance = 0f;
+        }
+        else
+        {
+            dodgeDirection = -transform.forward;
+            dodgeStance = 1f;
+        }
 
         dodgeDirection.y = 0f;
         dodgeDirection.Normalize();
@@ -62,7 +94,6 @@ public class PlayerDodge : MonoBehaviour
             );
 
             elapsed += Time.deltaTime;
-
             yield return null;
         }
 
