@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 MoveInput => moveInput;
     public bool IsGrounded { get; private set; }
     private float verticalVelocity;
-    public float VerticalVelocity { get { return verticalVelocity; } }
     
 
     private bool jumpRequested;
@@ -36,7 +35,11 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferTimer;
     
     private bool isSprinting;
+    private bool isCrouching;
+
+    public float VerticalVelocity { get { return verticalVelocity; } }
     public bool IsSprinting { get { return isSprinting; } }
+    public bool IsCrouching { get { return isCrouching; } }
     public Vector3 MoveDirection { get; private set; }
 
     private void Awake ( )
@@ -51,18 +54,22 @@ public class PlayerMovement : MonoBehaviour
     }
     public void OnSprint ( InputAction.CallbackContext context )
     {
-        if (context.performed)
-            isSprinting = true;
+        isCrouching = false;
 
-        if (context.canceled)
-            isSprinting = false;
+        if (context.performed) isSprinting = true;
+        if (context.canceled) isSprinting = false;
     }
     public void OnJump ( InputAction.CallbackContext context )
     {
+        isCrouching = false;
         if (context.performed)
         {
             jumpBufferTimer = jumpBufferTime;
         }
+    }
+    public void OnCrouch (InputAction.CallbackContext context )
+    {
+        isCrouching = true;
     }
     private void Update ( )
     {
@@ -84,21 +91,14 @@ public class PlayerMovement : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        Vector3 direction =
-            forward * moveInput.y +
-            right * moveInput.x;
-
+        Vector3 direction = forward * moveInput.y + right * moveInput.x;
         direction = Vector3.ClampMagnitude(direction, 1f);
-
         MoveDirection = direction;
 
         float currentSpeed = moveSpeed;
 
-        if (isSprinting && IsGrounded)
-            currentSpeed = sprintSpeed;
-
-        if (!IsGrounded)
-            currentSpeed *= airControl;
+        if (isSprinting && IsGrounded) currentSpeed = sprintSpeed;
+        if (!IsGrounded) currentSpeed *= airControl;
 
         // X/Z
         Vector3 velocity = direction * currentSpeed;
@@ -106,15 +106,11 @@ public class PlayerMovement : MonoBehaviour
         // Y
         velocity.y = verticalVelocity;
 
-        // UN SOLO MOVE
-        controller.Move(
-            velocity * Time.deltaTime
-        );
+        controller.Move( velocity * Time.deltaTime );
 
         if (direction.sqrMagnitude > 0.001f)
         {
-            Quaternion targetRotation =
-                Quaternion.LookRotation(direction);
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
 
             transform.rotation =
                 Quaternion.Slerp(
