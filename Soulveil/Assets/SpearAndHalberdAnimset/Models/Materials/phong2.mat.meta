@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: af688a44a19ed4d4bb19a45cacfb65a0
+timeCreated: 1588332159
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168429
+  packageName: Spear And Halberd Animset
+  packageVersion: 1.0
+  assetPath: Assets/SpearAndHalberdAnimset/Models/Materials/phong2.mat
+  uploadId: 367095

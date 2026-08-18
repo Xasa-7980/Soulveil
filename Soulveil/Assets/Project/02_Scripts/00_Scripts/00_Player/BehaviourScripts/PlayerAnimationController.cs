@@ -15,34 +15,24 @@ public class PlayerAnimationController : MonoBehaviour
     private PlayerSpeacialist playerSpecialist;
     private PlayerCombat playerCombat;
 
-    #region ANIMATION LAYERS
-
     private int baseLayerIndex;
     private int combatLayerIndex;
     private int faceLayerIndex;
 
-    #endregion
-
-    #region LOCOMOTION
-
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
     private static readonly int GroundedHash = Animator.StringToHash("Grounded");
     private static readonly int VerticalSpeedHash = Animator.StringToHash("VerticalSpeed");
-    private static readonly int DodgeHash = Animator.StringToHash("Dodge");
-    private static readonly int DodgeStanceHash = Animator.StringToHash("DodgeStance");
-    private static readonly int JumpHash = Animator.StringToHash("Jump");
-    private static readonly int LandingIndexHash = Animator.StringToHash("LandingIndex");
     private static readonly int IsCrouchingHash = Animator.StringToHash("IsCrouching");
 
-    #endregion
+    private static readonly int DodgeHash = Animator.StringToHash("Dodge");
+    private static readonly int DodgeStanceHash = Animator.StringToHash("DodgeStance");
 
-    #region COMBAT
+    private static readonly int JumpHash = Animator.StringToHash("Jump");
+    private static readonly int LandingIndexHash = Animator.StringToHash("LandingIndex");
 
     private static readonly int ComboIndexHash = Animator.StringToHash("ComboIndex");
     private static readonly int LightAttackHash = Animator.StringToHash("LightAttack");
     private static readonly int HeavyAttackHash = Animator.StringToHash("HeavyAttack");
-
-    #endregion
 
     private bool wasDodging;
 
@@ -86,14 +76,13 @@ public class PlayerAnimationController : MonoBehaviour
         UpdateJump();
     }
 
-    #region SPECIALIST / OVERRIDE
+    #region SPECIALIST
 
     private void OnChangeSpecialist ( object sender, PlayerSpeacialist.OnChangeSpecialistEventArgs e )
     {
-        AnimatorOverrideController newOverride = null;
-
-        if (e.specialistHandler != null)
-            newOverride = e.specialistHandler.animatorOverrideController;
+        AnimatorOverrideController newOverride = e.specialistHandler != null
+            ? e.specialistHandler.animatorOverrideController
+            : null;
 
         SetAnimatorOverride(newOverride);
     }
@@ -139,13 +128,14 @@ public class PlayerAnimationController : MonoBehaviour
         float currentWeight = animator.GetLayerWeight(combatLayerIndex);
         float targetWeight = InCombat ? 1f : 0f;
 
-        float newWeight = Mathf.MoveTowards(
-            currentWeight,
-            targetWeight,
-            combatLayerBlendSpeed * Time.deltaTime
+        animator.SetLayerWeight(
+            combatLayerIndex,
+            Mathf.MoveTowards(
+                currentWeight,
+                targetWeight,
+                combatLayerBlendSpeed * Time.deltaTime
+            )
         );
-
-        animator.SetLayerWeight(combatLayerIndex, newWeight);
     }
 
     #endregion
@@ -164,25 +154,35 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetBool(GroundedHash, playerMovement.IsGrounded);
         animator.SetFloat(VerticalSpeedHash, playerMovement.VerticalVelocity);
     }
+
+    #endregion
+
+    #region JUMP
+
     public void PlayJump ( )
     {
         animator.SetTrigger(JumpHash);
     }
+
     private void UpdateJump ( )
     {
         if (!playerMovement.JustLanded)
             return;
 
         float fallSpeed = Mathf.Abs(playerMovement.MaxFallSpeed);
-        Debug.Log($"Fall Speed: {fallSpeed}");
+
         int landingIndex;
 
-        if (fallSpeed < 15f) landingIndex = 0;
-        else if (fallSpeed < 30f) landingIndex = 1;
-        else landingIndex = 2;
+        if (fallSpeed < 15f)
+            landingIndex = 0;
+        else if (fallSpeed < 30f)
+            landingIndex = 1;
+        else
+            landingIndex = 2;
 
         animator.SetFloat(LandingIndexHash, landingIndex);
     }
+
     #endregion
 
     #region DODGE
@@ -202,7 +202,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     #endregion
 
-    #region ATTACK
+    #region COMBAT
 
     public void PlayLightAttack ( int comboIndex )
     {
@@ -226,13 +226,31 @@ public class PlayerAnimationController : MonoBehaviour
         return animator.GetCurrentAnimatorStateInfo(combatLayerIndex).normalizedTime;
     }
 
+    public bool IsInAttackTransition ( )
+    {
+        return combatLayerIndex >= 0 && animator.IsInTransition(combatLayerIndex);
+    }
+
     public bool IsInAttackState ( )
     {
-        if (combatLayerIndex < 0)
-            return false;
+        if (combatLayerIndex < 0) return false;
+
+        return IsAttackState( animator.GetCurrentAnimatorStateInfo(combatLayerIndex) );
+    }
+
+    public bool IsCurrentAttack ( bool isLight, int comboIndex )
+    {
+        if (combatLayerIndex < 0) return false;
 
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(combatLayerIndex);
 
+        string stateName = (isLight ? "LightAttack " : "HeavyAttack ") + comboIndex;
+
+        return stateInfo.IsName(stateName);
+    }
+
+    private bool IsAttackState ( AnimatorStateInfo stateInfo )
+    {
         return stateInfo.IsName("LightAttack 1") ||
                stateInfo.IsName("LightAttack 2") ||
                stateInfo.IsName("LightAttack 3") ||

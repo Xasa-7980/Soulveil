@@ -3,12 +3,18 @@ using UnityEngine.InputSystem;
 
 public class PlayerCombat : MonoBehaviour
 {
+    private enum AttackType { None, Light, Heavy }
+
     [Header("Combo")]
-    [SerializeField, Range(0f, 1f)] private float nextAttackNormalizedTime = 0.95f;
     [SerializeField] private float comboResetDelay = 1f;
+    [SerializeField, Range(0f, 1f)] private float normTime = 0.75f;
 
     [Header("Combat State")]
     [SerializeField] private float inCombatCountdown = 4f;
+
+    [Header("Debug")]
+    [SerializeField] private bool debugCombat = true;
+    [SerializeField] private bool debugEveryFrame = false;
 
     private PlayerSpeacialist playerSpecialist;
     private PlayerAnimationController animationController;
@@ -20,9 +26,12 @@ public class PlayerCombat : MonoBehaviour
     private float combatTimer;
 
     private bool attackLocked;
+    private bool attackStateEntered;
     private bool inCombat;
-    private bool lightAttackBuffered;
-    private bool heavyAttackBuffered;
+    private bool normTimeReached;
+
+    private AttackType currentAttack;
+    private AttackType bufferedAttack;
 
     public bool InCombat => inCombat;
     public bool IsAttacking => attackLocked;
@@ -31,131 +40,258 @@ public class PlayerCombat : MonoBehaviour
     {
         playerSpecialist = GetComponent<PlayerSpeacialist>();
         animationController = GetComponent<PlayerAnimationController>();
-    }
 
+        PlayerCombat[] combats = FindObjectsByType<PlayerCombat>(
+            FindObjectsSortMode.None
+        );
+
+        Debug.Log($"PLAYER COMBAT INSTANCES: {combats.Length}");
+
+        foreach (PlayerCombat combat in combats)
+        {
+            Debug.Log(
+                $"Combat encontrado: {combat.gameObject.name} | ID:{combat.GetInstanceID()}"
+            );
+        }
+
+        Log("AWAKE");
+    }
     private void Update ( )
     {
         UpdateAttack();
         UpdateComboReset();
         UpdateCombatTimer();
+
+        if (debugEveryFrame)
+        {
+            Log(
+                $"FRAME | Locked:{attackLocked} | Entered:{attackStateEntered} | " +
+                $"Current:{currentAttack} | Buffer:{bufferedAttack} | " +
+                $"L:{lightAttackIndex} H:{heavyAttackIndex} | " +
+                $"AttackState:{animationController.IsInAttackState()} | " +
+                $"Transition:{animationController.IsInAttackTransition()} | " +
+                $"Norm:{animationController.GetCombatNormalizedTime():0.00}"
+            );
+        }
     }
 
     public void OnLightAttack ( InputAction.CallbackContext context )
     {
-        if (!context.performed)
-            return;
+        if (!context.performed) return;
 
+
+        Debug.Log(
+            $"LIGHT INPUT | Object:{gameObject.name} | " +
+            $"ID:{GetInstanceID()} | " +
+            $"Frame:{Time.frameCount}"
+        );
         if (!attackLocked)
         {
-            StartLightAttack();
-            return;
+            Log("LIGHT -> inicia cadena");
+            StartAttack(AttackType.Light);
         }
-
-        lightAttackBuffered = true;
-        heavyAttackBuffered = false;
+        else
+        {
+            bufferedAttack = AttackType.Light;
+            Log("LIGHT -> guardado en buffer");
+        }
     }
 
     public void OnHeavyAttack ( InputAction.CallbackContext context )
     {
-        if (!context.performed)
-            return;
+        if (!context.performed) return;
 
+        Debug.Log(
+       $"HEAVY INPUT | Object:{gameObject.name} | " +
+       $"ID:{GetInstanceID()} | " +
+       $"Frame:{Time.frameCount}"
+   );
         if (!attackLocked)
         {
-            StartHeavyAttack();
+            Log("HEAVY -> inicia cadena");
+            StartAttack(AttackType.Heavy);
+        }
+        else
+        {
+            bufferedAttack = AttackType.Heavy;
+            Log("HEAVY -> guardado en buffer");
+        }
+    }
+
+    private void StartAttack ( AttackType type )
+    {
+        if (GetAttackLength(type) <= 0)
+        {
+            Log($"START CANCELADO | {type} no tiene ataques");
             return;
         }
 
-        lightAttackBuffered = false;
-        heavyAttackBuffered = true;
-    }
-
-    private void StartLightAttack ( )
-    {
-        if (playerSpecialist.lightAttackLength <= 0)
-            return;
+        bool startingNewChain = !attackLocked;
 
         attackLocked = true;
-        lightAttackBuffered = false;
-        heavyAttackBuffered = false;
+
+        if (startingNewChain)
+            attackStateEntered = false;
+
+        normTimeReached = false;
+        currentAttack = type;
+        bufferedAttack = AttackType.None;
         comboResetTimer = 0f;
 
         EnterCombat();
-        animationController.PlayLightAttack(lightAttackIndex);
+
+        Log($"START {type} {GetAttackIndex(type)} | NuevaCadena:{startingNewChain}");
+
+        PlayAttack(type);
     }
-
-    private void StartHeavyAttack ( )
-    {
-        if (playerSpecialist.heavyAttackLength <= 0)
-            return;
-
-        attackLocked = true;
-        lightAttackBuffered = false;
-        heavyAttackBuffered = false;
-        comboResetTimer = 0f;
-
-        EnterCombat();
-        animationController.PlayHeavyAttack(heavyAttackIndex);
-    }
-
     private void UpdateAttack ( )
     {
         if (!attackLocked)
             return;
 
-        if (!animationController.IsInAttackState())
+        if (animationController.IsInAttackTransition())
             return;
 
-        if (animationController.GetCombatNormalizedTime() < nextAttackNormalizedTime)
+        bool inAttackState = animationController.IsInAttackState();
+
+        // Acabamos de disparar el primer trigger y todavía
+        // no hemos entrado físicamente al state.
+        if (!inAttackState && !attackStateEntered)
             return;
 
-        if (lightAttackBuffered)
+        // Ya estuvimos atacando y ahora hemos vuelto a Idle.
+        if (!inAttackState && attackStateEntered)
         {
-            AdvanceLightCombo();
-            attackLocked = false;
-            StartLightAttack();
+            Log($"FIN REAL | {currentAttack} {GetAttackIndex(currentAttack)}");
+
+            FinishAttack();
             return;
         }
 
-        if (heavyAttackBuffered)
-        {
-            AdvanceHeavyCombo();
-            attackLocked = false;
-            StartHeavyAttack();
+        bool isCurrentAttack = animationController.IsCurrentAttack(
+            currentAttack == AttackType.Light,
+            GetAttackIndex(currentAttack)
+        );
+
+        if (!isCurrentAttack)
             return;
+
+        if (!attackStateEntered)
+        {
+            attackStateEntered = true;
+
+            Log(
+                $"ENTRÓ AL STATE | {currentAttack} " +
+                $"{GetAttackIndex(currentAttack)}"
+            );
         }
 
-        FinishAttack();
+        float normalizedTime =
+            animationController.GetCombatNormalizedTime();
+
+        if (normalizedTime < normTime)
+            return;
+
+        if (!normTimeReached)
+        {
+            normTimeReached = true;
+
+            Log(
+                $"VENTANA COMBO | {currentAttack} " +
+                $"{GetAttackIndex(currentAttack)} | " +
+                $"Buffer:{bufferedAttack}"
+            );
+        }
+
+        if (bufferedAttack == AttackType.None)
+            return;
+
+        AttackType nextAttack = bufferedAttack;
+
+        Log($"CONSUME BUFFER | {currentAttack} -> {nextAttack}");
+
+        AdvanceCombo(nextAttack);
+        StartAttack(nextAttack);
+    }
+    private void PlayAttack ( AttackType type )
+    {
+        int index = GetAttackIndex(type);
+
+        Log($"PLAY ATTACK | {type} {index}");
+
+        if (type == AttackType.Light)
+            animationController.PlayLightAttack(index);
+        else
+            animationController.PlayHeavyAttack(index);
     }
 
-    private void AdvanceLightCombo ( )
+    private void AdvanceCombo ( AttackType type )
     {
-        lightAttackIndex++;
+        int previousLight = lightAttackIndex;
+        int previousHeavy = heavyAttackIndex;
 
-        if (lightAttackIndex > playerSpecialist.lightAttackLength)
-            lightAttackIndex = 1;
+        if (type == AttackType.Light)
+        {
+            lightAttackIndex++;
 
-        heavyAttackIndex = 1;
-    }
+            if (lightAttackIndex > playerSpecialist.lightAttackLength)
+                lightAttackIndex = 1;
 
-    private void AdvanceHeavyCombo ( )
-    {
-        heavyAttackIndex++;
-
-        if (heavyAttackIndex > playerSpecialist.heavyAttackLength)
             heavyAttackIndex = 1;
+        }
+        else
+        {
+            heavyAttackIndex++;
 
-        lightAttackIndex = 1;
+            if (heavyAttackIndex > playerSpecialist.heavyAttackLength)
+                heavyAttackIndex = 1;
+
+            lightAttackIndex = 1;
+        }
+
+        Log(
+            $"ADVANCE COMBO {type} | " +
+            $"Light:{previousLight}->{lightAttackIndex} | " +
+            $"Heavy:{previousHeavy}->{heavyAttackIndex}"
+        );
+    }
+
+    private int GetAttackIndex ( AttackType type )
+    {
+        return type == AttackType.Light
+            ? lightAttackIndex
+            : heavyAttackIndex;
+    }
+
+    private int GetAttackLength ( AttackType type )
+    {
+        return type == AttackType.Light
+            ? playerSpecialist.lightAttackLength
+            : playerSpecialist.heavyAttackLength;
     }
 
     private void FinishAttack ( )
     {
-        attackLocked = false;
-        lightAttackBuffered = false;
-        heavyAttackBuffered = false;
-        comboResetTimer = comboResetDelay;
-    }
+        Log(
+            $"FINISH ATTACK | {currentAttack} | " +
+            $"L:{lightAttackIndex} H:{heavyAttackIndex}"
+        );
 
+        attackLocked = false;
+        attackStateEntered = false;
+        normTimeReached = false;
+
+        currentAttack = AttackType.None;
+        bufferedAttack = AttackType.None;
+
+        comboResetTimer = comboResetDelay;
+
+        // Desde ahora empiezan a contar los segundos
+        // para salir de combate.
+        combatTimer = inCombatCountdown;
+
+        Log("ATTACK UNLOCKED");
+    }
     private void UpdateComboReset ( )
     {
         if (attackLocked || comboResetTimer <= 0f)
@@ -163,23 +299,40 @@ public class PlayerCombat : MonoBehaviour
 
         comboResetTimer -= Time.deltaTime;
 
+        if (debugEveryFrame)
+            Log($"ComboResetTimer:{comboResetTimer:0.00}");
+
         if (comboResetTimer <= 0f)
+        {
+            Log("COMBO RESET TIMER TERMINADO");
             ResetCombo();
+        }
     }
 
     private void ResetCombo ( )
     {
+        Log($"RESET COMBO | L:{lightAttackIndex}->1 H:{heavyAttackIndex}->1");
+
         lightAttackIndex = 1;
         heavyAttackIndex = 1;
-        lightAttackBuffered = false;
-        heavyAttackBuffered = false;
+
+        currentAttack = AttackType.None;
+        bufferedAttack = AttackType.None;
+
         comboResetTimer = 0f;
     }
 
     private void EnterCombat ( )
     {
+        bool wasInCombat = inCombat;
+
         inCombat = true;
         combatTimer = inCombatCountdown;
+
+        if (!wasInCombat)
+            Log("ENTER COMBAT");
+        else
+            Log("COMBAT TIMER REFRESH");
     }
 
     private void UpdateCombatTimer ( )
@@ -187,16 +340,32 @@ public class PlayerCombat : MonoBehaviour
         if (!inCombat)
             return;
 
+        // Mientras estamos atacando, no podemos salir de combate.
+        if (attackLocked)
+            return;
+
         combatTimer -= Time.deltaTime;
 
-        if (combatTimer <= 0f)
-            ExitCombat();
-    }
+        if (debugEveryFrame)
+            Log($"CombatTimer:{combatTimer:0.00}");
 
-    private void ExitCombat ( )
-    {
+        if (combatTimer > 0f)
+            return;
+
+        Log("EXIT COMBAT");
+
         inCombat = false;
         combatTimer = 0f;
+
         ResetCombo();
+    }
+    private void Log ( string message )
+    {
+        if (!debugCombat)
+            return;
+
+        Debug.Log(
+            $"[PLAYER COMBAT | {gameObject.name} | ID:{GetInstanceID()} | Frame:{Time.frameCount}] {message}"
+        );
     }
 }
