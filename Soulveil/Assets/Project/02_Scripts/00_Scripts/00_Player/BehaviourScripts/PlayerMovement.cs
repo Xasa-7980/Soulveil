@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     private CharacterController controller; 
     private PlayerDodge playerDodge;
+    private PlayerAnimationController playerAnimationController;
     private Vector2 moveInput;
     public Vector2 MoveInput => moveInput;
     public bool IsGrounded { get; private set; }
@@ -46,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         playerDodge = GetComponent<PlayerDodge>();
+        playerAnimationController = GetComponent<PlayerAnimationController>();
     }
 
     public void OnMove ( InputAction.CallbackContext context )
@@ -120,9 +122,20 @@ public class PlayerMovement : MonoBehaviour
                 );
         }
     }
+    public bool JustLanded { get; private set; }
+    private float maxFallSpeed;
+    private bool wasGrounded;
+
+    public float MaxFallSpeed => maxFallSpeed;
     private void HandleGravity ( )
     {
+        wasGrounded = IsGrounded;
         IsGrounded = controller.isGrounded;
+
+        JustLanded = !wasGrounded && IsGrounded;
+
+        if (!IsGrounded && verticalVelocity < maxFallSpeed)
+            maxFallSpeed = verticalVelocity;
 
         if (IsGrounded)
         {
@@ -136,21 +149,18 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimer -= Time.deltaTime;
         }
 
-        // Jump Buffer
         if (jumpBufferTimer > 0f)
             jumpBufferTimer -= Time.deltaTime;
 
-        // Salto
         if (jumpBufferTimer > 0f && coyoteTimer > 0f)
         {
-            verticalVelocity =
-                Mathf.Sqrt(jumpHeight * -2f * gravity);
-
+            verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            playerAnimationController.PlayJump();
             jumpBufferTimer = 0f;
             coyoteTimer = 0f;
+            maxFallSpeed = 0f;
         }
 
-        // Gravedad
         verticalVelocity += gravity * Time.deltaTime;
     }
 }
