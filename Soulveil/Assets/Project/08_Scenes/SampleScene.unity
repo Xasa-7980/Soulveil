@@ -567,10 +567,10 @@ MonoBehaviour:
   VerticalAxis:
     Value: 17.5
     Center: 17.5
-    Range: {x: -10, y: 45}
+    Range: {x: -65, y: 45}
     Wrap: 0
     Recentering:
-      Enabled: 1
+      Enabled: 0
       Wait: 1
       Time: 2
     Restrictions: 0
@@ -2661,6 +2661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1935773063}
+  - component: {fileID: 1935773064}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2685,6 +2686,86 @@ Transform:
   - {fileID: 362987269}
   m_Father: {fileID: 1364583714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1935773064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935773062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ade158523fbf249a04ec6767c0b165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineCamera: {fileID: 362987273}
+  transitionDuration: 0.5
+  transitionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  combatRadius: 3.5
+  combatFOV: 63
+  umbralRadius: 2.7
+  umbralFOV: 64
+  umbralDutch: 1.5
+  heavyAttackFOVOffset: -12
+  heavyAttackDuration: 0.18
+  dodgeFOVOffset: 4
+  dodgeDuration: 0.2
+  pulseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1957581084
 GameObject:
   m_ObjectHideFlags: 0

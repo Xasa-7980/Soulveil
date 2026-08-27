@@ -168,7 +168,7 @@ public class PlayerAnimationController : MonoBehaviour
     {
         if (!playerMovement.JustLanded)
         {
-            animator.SetFloat(LandingIndexHash, -1f);
+            animator.SetFloat(LandingIndexHash, -1f); //Buscar alternativa para no llamar esto siempre
             return;
         }
 
