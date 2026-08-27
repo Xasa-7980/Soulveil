@@ -167,7 +167,10 @@ public class PlayerAnimationController : MonoBehaviour
     private void UpdateJump ( )
     {
         if (!playerMovement.JustLanded)
+        {
+            animator.SetFloat(LandingIndexHash, -1f);
             return;
+        }
 
         float fallSpeed = Mathf.Abs(playerMovement.MaxFallSpeed);
 
@@ -182,7 +185,6 @@ public class PlayerAnimationController : MonoBehaviour
 
         animator.SetFloat(LandingIndexHash, landingIndex);
     }
-
     #endregion
 
     #region DODGE

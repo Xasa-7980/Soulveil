@@ -6,8 +6,7 @@ public class PlayerCombat : MonoBehaviour
     private enum AttackType { None, Light, Heavy }
 
     [Header("Combo")]
-    [SerializeField] private float comboResetDelay = 1f;
-    [SerializeField, Range(0f, 1f)] private float normTime = 0.75f;
+    [SerializeField, Range(0f, 1f)] private float nextAttackWindow = 0.75f;
 
     [Header("Combat State")]
     [SerializeField] private float inCombatCountdown = 4f;
@@ -18,7 +17,6 @@ public class PlayerCombat : MonoBehaviour
     private int lightAttackIndex = 1;
     private int heavyAttackIndex = 1;
 
-    private float comboResetTimer;
     private float combatTimer;
 
     private bool attackLocked;
@@ -40,8 +38,8 @@ public class PlayerCombat : MonoBehaviour
     private void Update ( )
     {
         UpdateAttack();
-        UpdateComboReset();
         UpdateCombatTimer();
+
     }
 
     public void OnLightAttack ( InputAction.CallbackContext context )
@@ -67,6 +65,11 @@ public class PlayerCombat : MonoBehaviour
     private void StartAttack ( AttackType type )
     {
         if (GetAttackLength(type) <= 0) return;
+        if (animationController.GetCombatNormalizedTime() < nextAttackWindow)
+        {
+            Debug.Log("Attack animation time: " + animationController.GetCombatNormalizedTime() + " needs to pass the animation time by " + nextAttackWindow);
+            return;
+        }
 
         bool startingNewChain = !attackLocked;
 
@@ -77,7 +80,6 @@ public class PlayerCombat : MonoBehaviour
 
         currentAttack = type;
         bufferedAttack = AttackType.None;
-        comboResetTimer = 0f;
 
         EnterCombat();
         PlayAttack(type);
@@ -103,7 +105,6 @@ public class PlayerCombat : MonoBehaviour
 
         attackStateEntered = true;
 
-        if (animationController.GetCombatNormalizedTime() < normTime) return;
         if (bufferedAttack == AttackType.None) return;
 
         AttackType nextAttack = bufferedAttack;
@@ -159,21 +160,13 @@ public class PlayerCombat : MonoBehaviour
         attackLocked = false;
         attackStateEntered = false;
 
+        lightAttackIndex = 1;
+        heavyAttackIndex = 1;
+
         currentAttack = AttackType.None;
         bufferedAttack = AttackType.None;
 
-        comboResetTimer = comboResetDelay;
         combatTimer = inCombatCountdown;
-    }
-
-    private void UpdateComboReset ( )
-    {
-        if (attackLocked || comboResetTimer <= 0f) return;
-
-        comboResetTimer -= Time.deltaTime;
-
-        if (comboResetTimer <= 0f)
-            ResetCombo();
     }
 
     private void ResetCombo ( )
@@ -184,7 +177,6 @@ public class PlayerCombat : MonoBehaviour
         currentAttack = AttackType.None;
         bufferedAttack = AttackType.None;
 
-        comboResetTimer = 0f;
     }
 
     private void EnterCombat ( )

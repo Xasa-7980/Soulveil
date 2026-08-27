@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAcwJsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAswK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-16T19:37:54.609Z",
               "EditorCaption": ""
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerAnimationController.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
-              "ViewState": "AgIAANsAAAAAAAAAAAAwwPMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANgAAAAAAAAAAAAYwN4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-15T15:47:48.65Z",
               "EditorCaption": ""
