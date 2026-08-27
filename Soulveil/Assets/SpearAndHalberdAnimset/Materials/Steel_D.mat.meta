@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a7befd2530ece2b4c9542d4064035140
+timeCreated: 1588337896
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168429
+  packageName: Spear And Halberd Animset
+  packageVersion: 1.0
+  assetPath: Assets/SpearAndHalberdAnimset/Materials/Steel_D.mat
+  uploadId: 367095

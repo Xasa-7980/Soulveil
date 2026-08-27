@@ -24,18 +24,30 @@ public class PlayerMovement : MonoBehaviour
 
     private CharacterController controller; 
     private PlayerDodge playerDodge;
+    private PlayerAnimationController playerAnimationController;
     private Vector2 moveInput;
+    public Vector2 MoveInput => moveInput;
+    public bool IsGrounded { get; private set; }
     private float verticalVelocity;
-    private bool isSprinting;
+    
+
     private bool jumpRequested;
     private float coyoteTimer;
     private float jumpBufferTimer;
+    
+    private bool isSprinting;
+    private bool isCrouching;
+
+    public float VerticalVelocity { get { return verticalVelocity; } }
+    public bool IsSprinting { get { return isSprinting; } }
+    public bool IsCrouching { get { return isCrouching; } }
     public Vector3 MoveDirection { get; private set; }
 
     private void Awake ( )
     {
         controller = GetComponent<CharacterController>();
         playerDodge = GetComponent<PlayerDodge>();
+        playerAnimationController = GetComponent<PlayerAnimationController>();
     }
 
     public void OnMove ( InputAction.CallbackContext context )
@@ -44,18 +56,22 @@ public class PlayerMovement : MonoBehaviour
     }
     public void OnSprint ( InputAction.CallbackContext context )
     {
-        if (context.performed)
-            isSprinting = true;
+        isCrouching = false;
 
-        if (context.canceled)
-            isSprinting = false;
+        if (context.performed) isSprinting = true;
+        if (context.canceled) isSprinting = false;
     }
     public void OnJump ( InputAction.CallbackContext context )
     {
+        isCrouching = false;
         if (context.performed)
         {
             jumpBufferTimer = jumpBufferTime;
         }
+    }
+    public void OnCrouch (InputAction.CallbackContext context )
+    {
+        isCrouching = true;
     }
     private void Update ( )
     {
@@ -65,7 +81,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovement ( )
     {
-        if (playerDodge != null && playerDodge.IsDodging) return;
+        if (playerDodge != null && playerDodge.IsDodging)
+            return;
 
         Vector3 forward = cameraTransform.forward;
         Vector3 right = cameraTransform.right;
@@ -76,43 +93,51 @@ public class PlayerMovement : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        Vector3 direction =
-            forward * moveInput.y +
-            right * moveInput.x;
-
+        Vector3 direction = forward * moveInput.y + right * moveInput.x;
         direction = Vector3.ClampMagnitude(direction, 1f);
-
         MoveDirection = direction;
 
         float currentSpeed = moveSpeed;
 
-        if (isSprinting && controller.isGrounded) currentSpeed = sprintSpeed; 
-        if (!controller.isGrounded) currentSpeed *= airControl; 
+        if (isSprinting && IsGrounded) currentSpeed = sprintSpeed;
+        if (!IsGrounded) currentSpeed *= airControl;
 
-        controller.Move(
-            direction *
-            currentSpeed *
-            Time.deltaTime
-        );
+        // X/Z
+        Vector3 velocity = direction * currentSpeed;
+
+        // Y
+        velocity.y = verticalVelocity;
+
+        controller.Move( velocity * Time.deltaTime );
 
         if (direction.sqrMagnitude > 0.001f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(direction);
 
-            transform.rotation = Quaternion.Slerp(
-                transform.rotation,
-                targetRotation,
-                rotationSpeed * Time.deltaTime
-            );
+            transform.rotation =
+                Quaternion.Slerp(
+                    transform.rotation,
+                    targetRotation,
+                    rotationSpeed * Time.deltaTime
+                );
         }
     }
+    public bool JustLanded { get; private set; }
+    private float maxFallSpeed;
+    private bool wasGrounded;
 
+    public float MaxFallSpeed => maxFallSpeed;
     private void HandleGravity ( )
     {
-        bool grounded = controller.isGrounded;
+        wasGrounded = IsGrounded;
+        IsGrounded = controller.isGrounded;
 
-        // Ground / Coyote Time
-        if (grounded)
+        JustLanded = !wasGrounded && IsGrounded;
+
+        if (!IsGrounded && verticalVelocity < maxFallSpeed)
+            maxFallSpeed = verticalVelocity;
+
+        if (IsGrounded)
         {
             coyoteTimer = coyoteTime;
 
@@ -124,27 +149,18 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimer -= Time.deltaTime;
         }
 
-        // Jump Buffer
         if (jumpBufferTimer > 0f)
             jumpBufferTimer -= Time.deltaTime;
 
-        // SALTO
         if (jumpBufferTimer > 0f && coyoteTimer > 0f)
         {
-            verticalVelocity =
-                Mathf.Sqrt(jumpHeight * -2f * gravity);
-
+            verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            playerAnimationController.PlayJump();
             jumpBufferTimer = 0f;
             coyoteTimer = 0f;
+            maxFallSpeed = 0f;
         }
 
-        // Gravedad
         verticalVelocity += gravity * Time.deltaTime;
-
-        controller.Move(
-            Vector3.up *
-            verticalVelocity *
-            Time.deltaTime
-        );
     }
 }
