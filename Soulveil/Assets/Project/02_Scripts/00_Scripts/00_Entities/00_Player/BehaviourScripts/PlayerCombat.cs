@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,13 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Combat State")]
     [SerializeField] private float inCombatCountdown = 4f;
+
+    [Header("Combat References")]
+    [SerializeField] private WeaponHitBox weaponHitBox;
+    [SerializeField] private PlayerStats playerStats;
+    private EntityElement entityElement;
+
+    private readonly HashSet<iDamageable> hitTargets = new();
 
     private PlayerSpeacialist playerSpecialist;
     private PlayerAnimationController animationController;
@@ -33,19 +41,33 @@ public class PlayerCombat : MonoBehaviour
     {
         playerSpecialist = GetComponent<PlayerSpeacialist>();
         animationController = GetComponent<PlayerAnimationController>();
+        entityElement = GetComponent<EntityElement>();
+
     }
 
     private void Update ( )
     {
         UpdateAttack();
         UpdateCombatTimer();
+        UpdateHitDetection(); //borrable, testeable para proto
 
     }
+    private void UpdateHitDetection ( )
+    {
+        if (!attackLocked)
+            return;
 
+        PerformHit();
+    }
     public void OnLightAttack ( InputAction.CallbackContext context )
     {
         if (!context.performed) return;
 
+        if (animationController.GetCombatNormalizedTime() < nextAttackWindow)
+        {
+            //Debug.Log("Attack animation time: " + animationController.GetCombatNormalizedTime() + " needs to pass the animation time by " + nextAttackWindow);
+            return;
+        }
         if (!attackLocked)
             StartAttack(AttackType.Light);
         else
@@ -56,6 +78,11 @@ public class PlayerCombat : MonoBehaviour
     {
         if (!context.performed) return;
 
+        if (animationController.GetCombatNormalizedTime() < nextAttackWindow)
+        {
+            //Debug.Log("Attack animation time: " + animationController.GetCombatNormalizedTime() + " needs to pass the animation time by " + nextAttackWindow);
+            return;
+        }
         if (!attackLocked)
             StartAttack(AttackType.Heavy);
         else
@@ -65,11 +92,8 @@ public class PlayerCombat : MonoBehaviour
     private void StartAttack ( AttackType type )
     {
         if (GetAttackLength(type) <= 0) return;
-        if (animationController.GetCombatNormalizedTime() < nextAttackWindow)
-        {
-            Debug.Log("Attack animation time: " + animationController.GetCombatNormalizedTime() + " needs to pass the animation time by " + nextAttackWindow);
-            return;
-        }
+
+        hitTargets.Clear();
 
         bool startingNewChain = !attackLocked;
 
@@ -197,5 +221,60 @@ public class PlayerCombat : MonoBehaviour
         combatTimer = 0f;
 
         ResetCombo();
+    }
+    public void PerformHit ( )
+    {
+        Collider[] hits = weaponHitBox.CheckHitbox();
+
+        foreach (Collider hit in hits)
+        {
+            Hurtbox hurtbox = hit.GetComponent<Hurtbox>();
+
+            if (hurtbox == null)
+                continue;
+
+            iDamageable damageable = hit.GetComponentInParent<iDamageable>();
+
+            if (damageable == null) continue;
+            if (hitTargets.Contains(damageable)) continue;
+
+            hitTargets.Add(damageable);
+
+            float damage = GetCurrentAttackDamage();
+
+            Vector3 hitPoint = hit.ClosestPoint(weaponHitBox.WorldPosition);
+
+            DamageInfo damageInfo = new DamageInfo(
+                damage,
+                gameObject,
+                hitPoint,
+                hurtbox.HitZone,
+                entityElement.CurrentElement
+            );
+
+            damageable.ReceiveDamage(damageInfo);
+            Debug.Log(
+            $"Golpe detectado | " +
+            $"Objetivo: {hit.transform.root.name} | " +
+            $"Zona: {hurtbox.HitZone}"
+        );
+
+        }
+    }
+    private float GetCurrentAttackDamage ( )
+    {
+        float baseDamage = playerStats.AttackDamage;
+
+        if (currentAttack == AttackType.Light)
+        {
+            return baseDamage;
+        }
+
+        if (currentAttack == AttackType.Heavy)
+        {
+            return baseDamage * 1.5f;
+        }
+
+        return 0f;
     }
 }
