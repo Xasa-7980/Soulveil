@@ -3,7 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\bozo_stylizedmodularcharacters\\outfit layering guide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playerspeacialist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playerspeacialist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playerdodge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_player\\behaviourscripts\\playerdodge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\00_player\\scriptable\\specialisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\00_player\\scriptable\\specialisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\bozo_stylizedmodularcharacters\\outfit layering guide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\bozo_stylizedmodularcharacters\\outfit layering guide.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -31,6 +55,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerCombat.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAswK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T19:37:54.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpecialistHandler.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\00_Player\\Scriptable\\SpecialistHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\00_Player\\Scriptable\\SpecialistHandler.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\00_Player\\Scriptable\\SpecialistHandler.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\00_Player\\Scriptable\\SpecialistHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T17:45:26.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerSpeacialist.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerSpeacialist.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerSpeacialist.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerSpeacialist.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerSpeacialist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T17:44:52.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerAnimationController.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAYwN4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T15:47:48.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerDodge.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerDodge.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerDodge.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerDodge.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerDodge.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvzcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T17:35:53.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Player\\BehaviourScripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwH0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T19:21:23.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Outfit Layering Guide.txt",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\BoZo_StylizedModularCharacters\\Outfit Layering Guide.txt",
               "RelativeDocumentMoniker": "Assets\\BoZo_StylizedModularCharacters\\Outfit Layering Guide.txt",
@@ -38,8 +136,7 @@
               "RelativeToolTip": "Assets\\BoZo_StylizedModularCharacters\\Outfit Layering Guide.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-07-18T19:27:42.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T19:27:42.755Z"
             }
           ]
         }
