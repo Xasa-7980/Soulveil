@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class PlayerStats : Stats
+{
+    [Header("Base Stats")]
+    [SerializeField] private float baseMaxHealth = 100f;
+    [SerializeField] private float baseAttackDamage = 20f;
+    [SerializeField] private float baseDefense = 5f;
+
+    [Header("Combat")]
+    [SerializeField] private float baseCriticalChance = 0.05f;
+    [SerializeField] private float baseCriticalDamage = 1.5f;
+
+    public float MaxHealth => CalculateStat(StatType.MaxHealth, baseMaxHealth);
+    public float AttackDamage => CalculateStat(StatType.AttackDamage, baseAttackDamage);
+    public float Defense => CalculateStat(StatType.Defense, baseDefense);
+    public float CriticalChance => CalculateStat(StatType.CriticalChance, baseCriticalChance);
+    public float CriticalDamage => CalculateStat(StatType.CriticalDamage, baseCriticalDamage);
+}

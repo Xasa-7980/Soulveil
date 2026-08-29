@@ -20,6 +20,11 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float umbralFOV = 64f;
     [SerializeField] private float umbralDutch = 1.5f;
 
+    [Header("Aim")]
+    [SerializeField] private float aimRadius = 0.1f;
+    [SerializeField] private float aimNearClip = 1f;
+    [SerializeField] private float aimTransitionDuration = 0.25f;
+
     [Header("Heavy Attack")]
     [SerializeField] private float heavyAttackFOVOffset = -4f;
     [SerializeField] private float heavyAttackDuration = 0.18f;
@@ -42,19 +47,19 @@ public class CameraController : MonoBehaviour
     private float originalFOV;
     private float originalDutch;
     private float originalNearClip;
-    private float originalFarClip;
 
     private float currentRadius;
     private float currentFOV;
     private float currentDutch;
+    private float currentNearClip;
     private float fovPulse;
 
     private bool inCombat;
     private bool inUmbral;
+    private bool isAiming;
 
     private Coroutine stateTransition;
     private Coroutine pulseTransition;
-    private Coroutine clipTransition;
 
     private void Awake ( )
     {
@@ -64,14 +69,177 @@ public class CameraController : MonoBehaviour
         originalFOV = cinemachineCamera.Lens.FieldOfView;
         originalDutch = cinemachineCamera.Lens.Dutch;
         originalNearClip = cinemachineCamera.Lens.NearClipPlane;
-        originalFarClip = cinemachineCamera.Lens.FarClipPlane;
 
         currentRadius = originalRadius;
         currentFOV = originalFOV;
         currentDutch = originalDutch;
+        currentNearClip = originalNearClip;
     }
 
-    //Testeo
+    public void EnterCombatCamera ( )
+    {
+        inCombat = true;
+        RefreshCameraState();
+    }
+
+    public void ExitCombatCamera ( )
+    {
+        inCombat = false;
+        RefreshCameraState();
+    }
+
+    public void EnterUmbralCamera ( )
+    {
+        inUmbral = true;
+        RefreshCameraState();
+    }
+
+    public void ExitUmbralCamera ( )
+    {
+        inUmbral = false;
+        RefreshCameraState();
+    }
+
+    public void OnAim ( InputAction.CallbackContext context )
+    {
+        if (context.started)
+            EnterAimCamera();
+
+        if (context.canceled)
+            ExitAimCamera();
+    }
+
+    public void EnterAimCamera ( )
+    {
+        isAiming = true;
+        RefreshCameraState(aimTransitionDuration);
+    }
+
+    public void ExitAimCamera ( )
+    {
+        isAiming = false;
+        RefreshCameraState(aimTransitionDuration);
+    }
+
+    public void PlayHeavyAttackCamera ( )
+    {
+        PlayFOVPulse(heavyAttackFOVOffset, heavyAttackDuration);
+    }
+
+    public void PlayDodgeCamera ( )
+    {
+        PlayFOVPulse(dodgeFOVOffset, dodgeDuration);
+    }
+
+    private void RefreshCameraState ( float duration = -1f )
+    {
+        float radius = originalRadius;
+        float fov = originalFOV;
+        float dutch = originalDutch;
+        float nearClip = originalNearClip;
+
+        if (inCombat)
+        {
+            radius = combatRadius;
+            fov = combatFOV;
+        }
+
+        if (inUmbral)
+        {
+            radius = umbralRadius;
+            fov = umbralFOV;
+            dutch = umbralDutch;
+        }
+
+        if (isAiming)
+        {
+            radius = aimRadius;
+            nearClip = aimNearClip;
+        }
+
+        StartCameraTransition(radius, fov, dutch, nearClip, duration < 0f ? transitionDuration : duration);
+    }
+
+    private void StartCameraTransition ( float radius, float fov, float dutch, float nearClip, float duration )
+    {
+        if (stateTransition != null)
+            StopCoroutine(stateTransition);
+
+        stateTransition = StartCoroutine(AnimateCameraState(radius, fov, dutch, nearClip, duration));
+    }
+
+    private IEnumerator AnimateCameraState ( float targetRadius, float targetFOV, float targetDutch, float targetNearClip, float duration )
+    {
+        float startRadius = currentRadius;
+        float startFOV = currentFOV;
+        float startDutch = currentDutch;
+        float startNearClip = currentNearClip;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+
+            float t = Mathf.Clamp01(time / duration);
+            float curveValue = transitionCurve.Evaluate(t);
+
+            currentRadius = Mathf.Lerp(startRadius, targetRadius, curveValue);
+            currentFOV = Mathf.Lerp(startFOV, targetFOV, curveValue);
+            currentDutch = Mathf.Lerp(startDutch, targetDutch, curveValue);
+            currentNearClip = Mathf.Lerp(startNearClip, targetNearClip, curveValue);
+
+            ApplyCamera();
+            yield return null;
+        }
+
+        currentRadius = targetRadius;
+        currentFOV = targetFOV;
+        currentDutch = targetDutch;
+        currentNearClip = targetNearClip;
+
+        ApplyCamera();
+        stateTransition = null;
+    }
+
+    private void PlayFOVPulse ( float offset, float duration )
+    {
+        if (pulseTransition != null)
+            StopCoroutine(pulseTransition);
+
+        fovPulse = 0f;
+        pulseTransition = StartCoroutine(AnimateFOVPulse(offset, duration));
+    }
+
+    private IEnumerator AnimateFOVPulse ( float offset, float duration )
+    {
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+
+            float t = Mathf.Clamp01(time / duration);
+            fovPulse = offset * pulseCurve.Evaluate(t);
+
+            ApplyCamera();
+            yield return null;
+        }
+
+        fovPulse = 0f;
+        ApplyCamera();
+
+        pulseTransition = null;
+    }
+
+    private void ApplyCamera ( )
+    {
+        orbitalFollow.Radius = currentRadius;
+        cinemachineCamera.Lens.FieldOfView = currentFOV + fovPulse;
+        cinemachineCamera.Lens.Dutch = currentDutch;
+        cinemachineCamera.Lens.NearClipPlane = currentNearClip;
+    }
+
+#if UNITY_EDITOR
     private void Update ( )
     {
         if (Keyboard.current.f1Key.wasPressedThisFrame)
@@ -112,167 +280,15 @@ public class CameraController : MonoBehaviour
 
         if (Keyboard.current.f7Key.wasPressedThisFrame)
         {
-            Debug.Log("Esto es una prueba de: Dodge + entrar al Umbral simultáneamente");
-            PlayDodgeCamera();
-            EnterUmbralCamera();
+            Debug.Log("Esto es una prueba de: Entrar en primera persona");
+            EnterAimCamera();
         }
-    }
-    public void EnterCombatCamera ( )
-    {
-        inCombat = true;
-        RefreshCameraState();
-    }
 
-    public void ExitCombatCamera ( )
-    {
-        inCombat = false;
-        RefreshCameraState();
-    }
-
-    public void EnterUmbralCamera ( )
-    {
-        inUmbral = true;
-        RefreshCameraState();
-    }
-
-    public void ExitUmbralCamera ( )
-    {
-        inUmbral = false;
-        RefreshCameraState();
-    }
-
-    public void PlayHeavyAttackCamera ( )
-    {
-        PlayFOVPulse(heavyAttackFOVOffset, heavyAttackDuration);
-    }
-
-    public void PlayDodgeCamera ( )
-    {
-        PlayFOVPulse(dodgeFOVOffset, dodgeDuration);
-    }
-
-    private void RefreshCameraState ( )
-    {
-        if (inUmbral)
+        if (Keyboard.current.f8Key.wasPressedThisFrame)
         {
-            StartCameraTransition(umbralRadius, umbralFOV, umbralDutch);
-            return;
+            Debug.Log("Esto es una prueba de: Salir de primera persona");
+            ExitAimCamera();
         }
-
-        if (inCombat)
-        {
-            StartCameraTransition(combatRadius, combatFOV, originalDutch);
-            return;
-        }
-
-        StartCameraTransition(originalRadius, originalFOV, originalDutch);
     }
-
-    private void StartCameraTransition ( float radius, float fov, float dutch )
-    {
-        if (stateTransition != null) StopCoroutine(stateTransition);
-        stateTransition = StartCoroutine(AnimateCameraState(radius, fov, dutch));
-    }
-
-    private IEnumerator AnimateCameraState ( float targetRadius, float targetFOV, float targetDutch )
-    {
-        float startRadius = currentRadius;
-        float startFOV = currentFOV;
-        float startDutch = currentDutch;
-        float time = 0f;
-
-        while (time < transitionDuration)
-        {
-            time += Time.deltaTime;
-
-            float t = Mathf.Clamp01(time / transitionDuration);
-            float curveValue = transitionCurve.Evaluate(t);
-
-            currentRadius = Mathf.Lerp(startRadius, targetRadius, curveValue);
-            currentFOV = Mathf.Lerp(startFOV, targetFOV, curveValue);
-            currentDutch = Mathf.Lerp(startDutch, targetDutch, curveValue);
-
-            ApplyCamera();
-            yield return null;
-        }
-
-        currentRadius = targetRadius;
-        currentFOV = targetFOV;
-        currentDutch = targetDutch;
-
-        ApplyCamera();
-        stateTransition = null;
-    }
-
-    private void PlayFOVPulse ( float offset, float duration )
-    {
-        if (pulseTransition != null) StopCoroutine(pulseTransition);
-
-        fovPulse = 0f;
-        pulseTransition = StartCoroutine(AnimateFOVPulse(offset, duration));
-    }
-
-    private IEnumerator AnimateFOVPulse ( float offset, float duration )
-    {
-        float time = 0f;
-
-        while (time < duration)
-        {
-            time += Time.deltaTime;
-
-            float t = Mathf.Clamp01(time / duration);
-            fovPulse = offset * pulseCurve.Evaluate(t);
-
-            ApplyCamera();
-            yield return null;
-        }
-
-        fovPulse = 0f;
-        ApplyCamera();
-
-        pulseTransition = null;
-    }
-
-    private void ApplyCamera ( )
-    {
-        orbitalFollow.Radius = currentRadius;
-        cinemachineCamera.Lens.FieldOfView = currentFOV + fovPulse;
-        cinemachineCamera.Lens.Dutch = currentDutch;
-    }
-
-    public void SetClipDistance ( float nearClip, float farClip = 1000f )
-    {
-        if (clipTransition != null) StopCoroutine(clipTransition);
-        clipTransition = StartCoroutine(AnimateClipDistance(nearClip, farClip));
-    }
-
-    public void SetOriginalClipDistance ( )
-    {
-        SetClipDistance(originalNearClip, originalFarClip);
-    }
-
-    private IEnumerator AnimateClipDistance ( float targetNear, float targetFar )
-    {
-        float startNear = cinemachineCamera.Lens.NearClipPlane;
-        float startFar = cinemachineCamera.Lens.FarClipPlane;
-        float time = 0f;
-
-        while (time < transitionDuration)
-        {
-            time += Time.deltaTime;
-
-            float t = Mathf.Clamp01(time / transitionDuration);
-            float curveValue = transitionCurve.Evaluate(t);
-
-            cinemachineCamera.Lens.NearClipPlane = Mathf.Lerp(startNear, targetNear, curveValue);
-            cinemachineCamera.Lens.FarClipPlane = Mathf.Lerp(startFar, targetFar, curveValue);
-
-            yield return null;
-        }
-
-        cinemachineCamera.Lens.NearClipPlane = targetNear;
-        cinemachineCamera.Lens.FarClipPlane = targetFar;
-
-        clipTransition = null;
-    }
+#endif
 }
