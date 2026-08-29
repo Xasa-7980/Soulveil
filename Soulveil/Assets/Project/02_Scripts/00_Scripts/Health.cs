@@ -1,5 +1,18 @@
 using UnityEngine;
-
+public struct EntityInfo
+{
+    public GameObject entity;
+    public Health health;
+    public Stats stats;
+    public EntityElement element;
+    public EntityInfo ( GameObject entity, Health health, Stats stats, EntityElement element )
+    {
+        this.entity = entity;
+        this.health = health;
+        this.stats = stats;
+        this.element = element;
+    }
+}
 public abstract class Health : MonoBehaviour, iDamageable
 {
     [Header("Health")]
@@ -15,29 +28,26 @@ public abstract class Health : MonoBehaviour, iDamageable
     protected bool isInvincible;
 
     public float CurrentHealth => currentHealth;
-    public float PercentHealth => maxHealth > 0f
-        ? currentHealth / maxHealth
-        : 0f;
-
+    public float PercentHealth => maxHealth > 0f ? currentHealth / maxHealth : 0f;
     public float MaxHealth => maxHealth;
     public bool IsDead => isDead;
     public bool IsInvincible => isInvincible;
+    private Stats stats;
+    public EntityInfo EntityInfo => new EntityInfo(gameObject, this, stats, entityElement);
+    private EntityElement entityElement;
 
     protected virtual void Awake ( )
     {
         currentHealth = maxHealth;
+        stats = GetComponent<Stats>();
+        entityElement = GetComponent<EntityElement>();
     }
 
     public virtual void ReceiveDamage ( DamageInfo damageInfo )
     {
-        if (isDead)
-            return;
-
-        if (isInvincible)
-            return;
-
-        if (damageInfo.damage <= 0f)
-            return;
+        if (isDead) return;
+        if (isInvincible) return;
+        if (damageInfo.damage <= 0f) return;
 
         float finalDamage = CalculateHitZoneDamage( damageInfo.damage,  damageInfo.hitZone );
 
@@ -47,18 +57,11 @@ public abstract class Health : MonoBehaviour, iDamageable
 
         currentHealth -= finalDamage;
 
-        currentHealth = Mathf.Clamp(
-            currentHealth,
-            0f,
-            maxHealth
-        );
+        currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
-        Debug.Log(
-            $"{gameObject.name} recibe {finalDamage} de daño " +
-            $"en {damageInfo.hitZone}. " +
-            $"Vida: {currentHealth}/{maxHealth}"
-        );
+        Debug.Log( $"{gameObject.name} recibe {finalDamage} de daño " + $"en {damageInfo.hitZone}. " + $"Vida: {currentHealth}/{maxHealth}");
 
+        CheckElementReaction(damageInfo);
         OnDamaged(damageInfo);
 
         if (currentHealth <= 0f)
@@ -102,5 +105,14 @@ public abstract class Health : MonoBehaviour, iDamageable
         isDead = true;
 
         Debug.Log($"{gameObject.name} ha muerto.");
+    }
+    private void CheckElementReaction ( DamageInfo damageInfo )
+    {
+        if (entityElement == null) return;
+        if (entityElement.CurrentElement == null) return;
+        if (damageInfo.element == null) return;
+        if (ElementReactionSystem.Instance == null) return;
+
+        ElementReactionSystem.Instance.TryReact(entityElement.CurrentElement, damageInfo.element, damageInfo, EntityInfo);
     }
 }

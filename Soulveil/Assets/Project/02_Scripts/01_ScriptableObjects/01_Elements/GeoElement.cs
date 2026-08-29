@@ -1,5 +1,5 @@
 using UnityEngine;
-[CreateAssetMenu(menuName = "Soulveil/Elements/Geo Element")]
+[CreateAssetMenu(menuName = "Soulveil/Elements/Geo CurrentElement")]
 
 public class GeoElement : Element
 {

@@ -2,37 +2,30 @@ using UnityEngine;
 
 public class EnemyHealth : Health
 {
+    private EnemyStats enemyStats;
+    private EnemyController controller;
+
+    protected override void Awake ( )
+    {
+        enemyStats = GetComponent<EnemyStats>();
+        if (enemyStats != null) maxHealth = enemyStats.MaxHealth;
+        base.Awake();
+        controller = GetComponent<EnemyController>();
+    }
+
     protected override void OnDamaged ( DamageInfo damageInfo )
     {
-        base.OnDamaged(damageInfo);
-
-        Debug.Log(
-            $"{gameObject.name} golpeado en {damageInfo.hitZone} " +
-            $"por {damageInfo.attacker.name}"
-        );
-
-        Debug.Log(
-            $"Punto de impacto: {damageInfo.hitPoint}"
-        );
-
-        // Más adelante:
-        // - Hit reaction
-        // - Aggro
-        // - Stagger
-        // - Damage numbers
-        // - VFX en damageInfo.hitPoint
+        Debug.Log($"{gameObject.name} golpeado en {damageInfo.hitZone} por {damageInfo.attacker.name}");
     }
 
     protected override void Die ( )
     {
-        if (isDead)
-            return;
+        if (isDead) return;
 
         base.Die();
+        Debug.Log($"{gameObject.name} ha muerto.");
 
-        Debug.Log("Enemigo muerto");
-
-        // Temporal para el prototipo.
+        if (controller != null) controller.ChangeState(controller.DeadState);
         Destroy(gameObject, 2f);
     }
 }

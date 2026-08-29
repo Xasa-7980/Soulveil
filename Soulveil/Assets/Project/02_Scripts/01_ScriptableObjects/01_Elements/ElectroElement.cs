@@ -1,5 +1,5 @@
 using UnityEngine;
-[CreateAssetMenu(menuName = "Soulveil/Elements/Electro Element")]
+[CreateAssetMenu(menuName = "Soulveil/Elements/Electro CurrentElement")]
 
 public class ElectroElement : Element
 {

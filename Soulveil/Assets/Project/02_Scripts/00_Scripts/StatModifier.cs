@@ -28,3 +28,20 @@ public class StatModifier
         Source = source;
     }
 }
+
+[System.Serializable]
+public struct StatModifierData
+{
+    [SerializeField] private StatType statType;
+    [SerializeField] private StatModifierType modifierType;
+    [SerializeField] private float value;
+
+    public StatType StatType => statType;
+    public StatModifierType ModifierType => modifierType;
+    public float Value => value;
+
+    public StatModifier CreateModifier ( Object source )
+    {
+        return new StatModifier(statType, modifierType, value, source);
+    }
+}

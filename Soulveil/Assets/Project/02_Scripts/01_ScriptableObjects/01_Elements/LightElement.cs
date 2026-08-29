@@ -1,5 +1,5 @@
 using UnityEngine;
-[CreateAssetMenu(menuName = "Soulveil/Elements/Light Element")]
+[CreateAssetMenu(menuName = "Soulveil/Elements/Light CurrentElement")]
 
 public class LightElement : Element
 {

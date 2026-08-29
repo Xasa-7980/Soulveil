@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class EntityElement : MonoBehaviour
 {
-    [SerializeField] private Element currentElement;
+    [SerializeField] private Element element;
 
-    public Element CurrentElement => currentElement;
+    public Element CurrentElement => element;
 
     public void SetElement ( Element newElement )
     {
-        currentElement = newElement;
+        element = newElement;
     }
 }

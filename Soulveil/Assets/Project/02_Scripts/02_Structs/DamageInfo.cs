@@ -8,12 +8,7 @@ public struct DamageInfo
     public HitZone hitZone;
     public Element element;
 
-    public DamageInfo (
-        float damage,
-        GameObject attacker,
-        Vector3 hitPoint,
-        HitZone hitZone,
-        Element element)
+    public DamageInfo ( float damage, GameObject attacker, Vector3 hitPoint, HitZone hitZone, Element element)
     {
         this.damage = damage;
         this.attacker = attacker;

@@ -256,7 +256,8 @@ public class PlayerCombat : MonoBehaviour
             Debug.Log(
             $"Golpe detectado | " +
             $"Objetivo: {hit.transform.root.name} | " +
-            $"Zona: {hurtbox.HitZone}"
+            $"Zona: {hurtbox.HitZone} ! " +
+            $"Elemento: { damageInfo.element } ! "
         );
 
         }

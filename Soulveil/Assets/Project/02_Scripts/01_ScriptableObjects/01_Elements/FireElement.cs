@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu( menuName = "Soulveil/Elements/Fire Element")]
+[CreateAssetMenu( menuName = "Soulveil/Elements/Fire CurrentElement")]
 public class FireElement : Element
 {
     public override void ReactWith ( Element otherElement, DamageInfo damageInfo )
