@@ -10,10 +10,20 @@ public class InventorySlot
     public int Quantity => quantity;
     public bool IsEmpty => itemInstance == null || itemInstance.ItemData == null;
 
+    public InventorySlot ( )
+    {
+        Clear();
+    }
+
     public InventorySlot ( ItemInstance itemInstance, int quantity = 1 )
     {
-        this.itemInstance = itemInstance;
-        this.quantity = quantity;
+        SetItem(itemInstance, quantity);
+    }
+
+    public void SetItem ( ItemInstance newItemInstance, int newQuantity = 1 )
+    {
+        itemInstance = newItemInstance;
+        quantity = itemInstance != null ? Mathf.Max(1, newQuantity) : 0;
     }
 
     public int AddQuantity ( int amount )
@@ -26,5 +36,23 @@ public class InventorySlot
         quantity += amountToAdd;
 
         return amount - amountToAdd;
+    }
+
+    public int RemoveQuantity ( int amount )
+    {
+        if (IsEmpty) return 0;
+
+        int amountToRemove = Mathf.Min(amount, quantity);
+        quantity -= amountToRemove;
+
+        if (quantity <= 0) Clear();
+
+        return amountToRemove;
+    }
+
+    public void Clear ( )
+    {
+        itemInstance = null;
+        quantity = 0;
     }
 }

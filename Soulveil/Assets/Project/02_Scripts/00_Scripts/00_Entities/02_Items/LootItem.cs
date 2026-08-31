@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class LootItem : MonoBehaviour, IInteractable
 {
+    [Header("Item")]
     [SerializeField] private ItemInstance itemInstance;
+
+    [Header("Interaction")]
+    [SerializeField] private Transform interactionPoint;
+    [SerializeField] private Vector3 interactionGizmoSize = new Vector3(0.8f, 0.3f, 0.2f);
 
     [Header("Drop")]
     [SerializeField] private float launchForce = 4f;
@@ -14,7 +19,9 @@ public class LootItem : MonoBehaviour, IInteractable
     private Rigidbody rb;
     private bool isDropping;
 
+    public Transform InteractionPoint => interactionPoint != null ? interactionPoint : transform;
     public ItemInstance ItemInstance => itemInstance;
+    //Texto del objeto en el suelo interactuable
     public string InteractionText => itemInstance != null && itemInstance.ItemData != null ? $"Recoger {itemInstance.ItemData.ItemName}" : "Recoger";
 
     private void Awake ( )
@@ -24,10 +31,7 @@ public class LootItem : MonoBehaviour, IInteractable
 
     private void Update ( )
     {
-        if (!isDropping) return;
-        if (visual == null) return;
-
-        visual.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
+        RotateVisual();
     }
 
     public void Initialize ( ItemInstance newItemInstance )
@@ -42,16 +46,24 @@ public class LootItem : MonoBehaviour, IInteractable
 
         Vector2 randomDirection = Random.insideUnitCircle.normalized;
 
-        Vector3 force = new Vector3(
-            randomDirection.x * horizontalForce,
-            launchForce,
-            randomDirection.y * horizontalForce
-        );
+        Vector3 horizontalVelocity = new Vector3(
+            randomDirection.x,
+            0f,
+            randomDirection.y
+        ) * horizontalForce;
+
+        Vector3 verticalVelocity = Vector3.up * launchForce;
 
         isDropping = true;
 
         rb.isKinematic = false;
-        rb.AddForce(force, ForceMode.Impulse);
+        rb.linearVelocity = horizontalVelocity + verticalVelocity;
+    }
+    private void RotateVisual ( )
+    {
+        if (visual == null) return;
+
+        visual.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
     }
 
     private void OnCollisionEnter ( Collision collision )
@@ -59,7 +71,15 @@ public class LootItem : MonoBehaviour, IInteractable
         if (!isDropping) return;
         if ((groundLayer.value & (1 << collision.gameObject.layer)) == 0) return;
 
+        if (rb.linearVelocity.y > 0f) return;
+
+        StopDrop();
+    }
+    private void StopDrop ( )
+    {
         isDropping = false;
+
+        if (rb == null) return;
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
@@ -83,5 +103,13 @@ public class LootItem : MonoBehaviour, IInteractable
         Debug.Log($"Recogido: {itemInstance.ItemData.ItemName}");
 
         Destroy(gameObject);
+    }
+
+    private void OnDrawGizmosSelected ( )
+    {
+        Transform point = interactionPoint != null ? interactionPoint : transform;
+
+        Gizmos.matrix = Matrix4x4.TRS(point.position, point.rotation, Vector3.one);
+        Gizmos.DrawWireCube(Vector3.zero, interactionGizmoSize);
     }
 }
