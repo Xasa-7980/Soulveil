@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 980fa86783adaaf4ba2c44ff40168dd3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Scripts/Helpers/ExtraPropertiesForEditor.cs
+  uploadId: 708964

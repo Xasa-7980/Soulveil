@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f577ebfc2bfa0d4388df5705de4c888
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals_HighQuality/DiffusionProfiles/Smoke.asset
+  uploadId: 708964

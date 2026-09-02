@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5d568e75c0068b641836c525f7ede8ac
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/VFX/Graphs/SubGraphs/Magio SkinnedMesh Positioning.vfxblock
+  uploadId: 708964

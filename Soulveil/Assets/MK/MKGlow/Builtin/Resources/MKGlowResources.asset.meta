@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7214a85d80cb30a45abb28ccee32f5be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90204
+  packageName: MK Glow - Bloom, Lens Flare & Glare Post-Processing Shader
+  packageVersion: 4.9.6B
+  assetPath: Assets/MK/MKGlow/Builtin/Resources/MKGlowResources.asset
+  uploadId: 977988

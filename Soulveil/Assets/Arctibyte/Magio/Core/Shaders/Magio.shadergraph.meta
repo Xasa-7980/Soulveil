@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9ef6bcacc48faf04ca9eaef455e9381e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Shaders/Magio.shadergraph
+  uploadId: 708964

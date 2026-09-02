@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 78f0be5dbb4c8ef45b23d91aacc55f7f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Scripts/MagioObject/Preview/PreviewMagioShader.cs
+  uploadId: 708964

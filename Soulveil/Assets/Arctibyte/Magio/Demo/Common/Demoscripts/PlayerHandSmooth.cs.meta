@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1d57615ad7ec2ec4e86f765dd33ef118
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/Common/Demoscripts/PlayerHandSmooth.cs
+  uploadId: 708964

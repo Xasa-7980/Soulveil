@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c9bf85340eb94a847862661f3cf78262
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals_HighQuality/Graphs/Mesh/Mesh_FreezeHQ.vfx
+  uploadId: 708964

@@ -63,7 +63,7 @@ public abstract class Health : MonoBehaviour, iDamageable
 
         CheckElementReaction(damageInfo);
         OnDamaged(damageInfo);
-
+        WorldTextManager.ShowDamage(damageInfo.damage, transform.position + Vector3.up * 2f);
         if (currentHealth <= 0f)
         {
             Die();

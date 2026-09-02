@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fabe95c5f33a7c8449ed0bcbf5d81d2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/HDRP/Materials/Floor_HDRP.mat
+  uploadId: 708964

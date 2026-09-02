@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 20fc364bdf0c4b042b44538375bea09c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90204
+  packageName: MK Glow - Bloom, Lens Flare & Glare Post-Processing Shader
+  packageVersion: 4.9.6B
+  assetPath: Assets/MK/MKGlow/Shaders/UI/UI-DefaultFont.shader
+  uploadId: 977988

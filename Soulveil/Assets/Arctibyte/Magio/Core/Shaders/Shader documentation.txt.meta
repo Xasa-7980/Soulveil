@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6bdd0c99b69279469967b986dc1d2c7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Shaders/Shader documentation.txt
+  uploadId: 708964

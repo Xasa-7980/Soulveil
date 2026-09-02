@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b71c2763626b0c42b2a21de66c1379f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/Mesh/Mesh_Melt.prefab
+  uploadId: 708964

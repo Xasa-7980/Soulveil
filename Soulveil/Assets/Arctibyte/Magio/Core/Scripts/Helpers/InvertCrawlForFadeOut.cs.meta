@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b688a337f830fc342ab0813e3feda4b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Scripts/Helpers/InvertCrawlForFadeOut.cs
+  uploadId: 708964

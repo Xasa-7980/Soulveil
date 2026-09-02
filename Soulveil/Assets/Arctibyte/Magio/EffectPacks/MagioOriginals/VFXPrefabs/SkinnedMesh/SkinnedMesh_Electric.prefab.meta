@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8f383feacf5f81c4aad349b034acf19b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/SkinnedMesh/SkinnedMesh_Electric.prefab
+  uploadId: 708964

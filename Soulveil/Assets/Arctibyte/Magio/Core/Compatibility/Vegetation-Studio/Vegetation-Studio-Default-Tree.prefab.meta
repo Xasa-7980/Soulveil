@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 236cf1f9bf0d946499723cdc5f8e4c22
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Compatibility/Vegetation-Studio/Vegetation-Studio-Default-Tree.prefab
+  uploadId: 708964

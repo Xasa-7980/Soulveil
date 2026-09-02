@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8573a9e4d4fa2934d80f8285a7f8f85a
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/Graphs/SkinnedMesh/SkinnedMesh_Petrify.vfx
+  uploadId: 708964

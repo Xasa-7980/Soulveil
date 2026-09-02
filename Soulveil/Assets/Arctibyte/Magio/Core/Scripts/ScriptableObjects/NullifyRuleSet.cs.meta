@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 88fd893cbb360ce41975b3f0050f49b8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Scripts/ScriptableObjects/NullifyRuleSet.cs
+  uploadId: 708964

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cae0615295fcbc649921f57a841cae58
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/HDRP/Scenes/HDRPDefaultResources/DefaultScene.prefab
+  uploadId: 708964

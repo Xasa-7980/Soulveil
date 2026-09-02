@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 26eb783ba4583014288ed3c18791fd51
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/Graphs/Mesh/Mesh_FlameWild.vfx
+  uploadId: 708964

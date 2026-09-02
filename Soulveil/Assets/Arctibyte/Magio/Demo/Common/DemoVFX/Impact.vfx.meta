@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7fc9947d992314f4d947bd4388c5e353
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/Common/DemoVFX/Impact.vfx
+  uploadId: 708964

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0ad96b531a474e842830d83970c4b684
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/Mesh/Mesh_Freeze.prefab
+  uploadId: 708964

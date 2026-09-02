@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5e6eeee52947c89499c9d8de68894415
+timeCreated: 1511736203
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90204
+  packageName: MK Glow - Bloom, Lens Flare & Glare Post-Processing Shader
+  packageVersion: 4.9.6B
+  assetPath: Assets/MK/MKGlow/Shaders/VariantsSelective/Legacy/Particle/MK_Particle
+    Multiply.shader
+  uploadId: 977988

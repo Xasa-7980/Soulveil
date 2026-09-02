@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f3f919b85befd8548ae6d0716c885937
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/SkinnedMesh/SkinnedMesh_Melt.prefab
+  uploadId: 708964

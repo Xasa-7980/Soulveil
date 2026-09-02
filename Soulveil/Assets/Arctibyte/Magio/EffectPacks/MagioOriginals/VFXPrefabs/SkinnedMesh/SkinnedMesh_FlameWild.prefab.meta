@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ea164bbd49b555543811f71142b6420a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/SkinnedMesh/SkinnedMesh_FlameWild.prefab
+  uploadId: 708964

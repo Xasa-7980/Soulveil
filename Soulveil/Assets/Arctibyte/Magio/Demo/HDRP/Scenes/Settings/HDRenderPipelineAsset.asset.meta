@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a9a17be61ae66f47a5193c31a210896
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/HDRP/Scenes/Settings/HDRenderPipelineAsset.asset
+  uploadId: 708964

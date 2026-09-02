@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe06bbd8ade5c3242bd2716d008323ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/URP/Materials/Materials/WoodenWall.mat
+  uploadId: 708964

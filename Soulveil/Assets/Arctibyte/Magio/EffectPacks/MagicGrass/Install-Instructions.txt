@@ -1,0 +1,7 @@
+Thank you for reviewing Magio!
+
+You need Magio 0.9.1+ to use this package, so if you are using 0.9.0 please update.
+
+To use the package, simply add MagicGrass-EffectPack (In this folder) to MagioEngine->EffectPacks.
+
+Have fun!

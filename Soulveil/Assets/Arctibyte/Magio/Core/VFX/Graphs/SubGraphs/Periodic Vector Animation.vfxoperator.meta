@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a43161aa195c46e4182f383656e6c78b
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/VFX/Graphs/SubGraphs/Periodic Vector Animation.vfxoperator
+  uploadId: 708964

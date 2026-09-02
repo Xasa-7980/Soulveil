@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31c55802a733ad24a9cad38ae67583f6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/HDRP/Scenes/HDRP_SampleSceneSettings.lighting
+  uploadId: 708964

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1deb3ae3309e3f4cb68b994b431540f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/Common/Trees/Tree3/Tree3_meshes/Tree3_LOD4.mesh
+  uploadId: 708964

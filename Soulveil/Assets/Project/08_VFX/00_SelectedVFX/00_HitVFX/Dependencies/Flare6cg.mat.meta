@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 82f16bfe1d124c54e877ead985da0dc0
+timeCreated: 1516211342
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 158864
+  packageName: Wizard spells pack
+  packageVersion: 1.5
+  assetPath: Assets/Project/08_VFX/00_SelectedVFX/00_HitVFX/Dependencies/Flare6cg.mat
+  uploadId: 745086

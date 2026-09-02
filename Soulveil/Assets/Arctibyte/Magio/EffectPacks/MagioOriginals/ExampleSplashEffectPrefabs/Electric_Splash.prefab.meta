@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20065e3f92e11b94c9d0d415d66a4838
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/ExampleSplashEffectPrefabs/Electric_Splash.prefab
+  uploadId: 708964

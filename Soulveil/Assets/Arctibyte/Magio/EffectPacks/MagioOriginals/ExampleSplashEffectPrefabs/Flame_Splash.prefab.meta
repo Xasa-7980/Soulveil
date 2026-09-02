@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 797d40338923b564fa13065c7b4a4166
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/ExampleSplashEffectPrefabs/Flame_Splash.prefab
+  uploadId: 708964

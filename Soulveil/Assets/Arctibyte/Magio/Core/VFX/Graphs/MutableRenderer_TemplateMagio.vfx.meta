@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e7bf62f6f228484448d94fb77dd7e42e
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/VFX/Graphs/MutableRenderer_TemplateMagio.vfx
+  uploadId: 708964

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 62584d32e3d880c448ba1518ba3e0ac9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/URP/Materials/Materials/WhiteMetal.mat
+  uploadId: 708964

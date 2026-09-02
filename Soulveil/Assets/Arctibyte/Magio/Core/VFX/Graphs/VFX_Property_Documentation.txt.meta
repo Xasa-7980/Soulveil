@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e3a244e6241fce49b12ed3dea7f8afc
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/VFX/Graphs/VFX_Property_Documentation.txt
+  uploadId: 708964

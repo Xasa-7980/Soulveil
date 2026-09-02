@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: df44eb0ddd155f045bfe2ddf660f4847
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90204
+  packageName: MK Glow - Bloom, Lens Flare & Glare Post-Processing Shader
+  packageVersion: 4.9.6B
+  assetPath: Assets/MK/MKGlow/Shaders/Inc/Sprite.hlsl
+  uploadId: 977988

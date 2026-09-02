@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48cde19a987a3794e9abce2e7af0346f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/HDRP/Materials/Chair_Back_Front_HDRP.mat
+  uploadId: 708964

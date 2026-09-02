@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a2e73e61faf0ffb4da2d439f7ba09992
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/SkinnedMesh/SkinnedMesh_Plantify.prefab
+  uploadId: 708964

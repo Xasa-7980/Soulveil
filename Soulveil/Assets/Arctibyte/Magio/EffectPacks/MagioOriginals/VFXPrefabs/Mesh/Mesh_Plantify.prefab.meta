@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2dc5059d361365a4e958017b21ce9f88
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/VFXPrefabs/Mesh/Mesh_Plantify.prefab
+  uploadId: 708964

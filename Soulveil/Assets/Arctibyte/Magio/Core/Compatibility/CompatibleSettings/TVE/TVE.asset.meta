@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d0e0820187b59e843806981d356c5c77
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Compatibility/CompatibleSettings/TVE/TVE.asset
+  uploadId: 708964

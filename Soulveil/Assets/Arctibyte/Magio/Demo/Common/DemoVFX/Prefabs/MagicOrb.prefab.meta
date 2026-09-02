@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b740b15391c681a4b986a82b4360ae9d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/Common/DemoVFX/Prefabs/MagicOrb.prefab
+  uploadId: 708964

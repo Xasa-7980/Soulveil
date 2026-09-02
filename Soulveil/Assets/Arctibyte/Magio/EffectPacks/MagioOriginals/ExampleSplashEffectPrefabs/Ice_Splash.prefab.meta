@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a83bf6fa27e5ace4f96a7537a726a563
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals/ExampleSplashEffectPrefabs/Ice_Splash.prefab
+  uploadId: 708964

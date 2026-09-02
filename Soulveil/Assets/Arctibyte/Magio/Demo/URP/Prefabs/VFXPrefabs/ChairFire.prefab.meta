@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 30593a153d09b8741ac04521f80fdeaa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Demo/URP/Prefabs/VFXPrefabs/ChairFire.prefab
+  uploadId: 708964

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee74f75c606fe0249893b490697e8777
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals_HighQuality/Graphs/Mesh/Mesh_PlantifyHQ.vfx
+  uploadId: 708964

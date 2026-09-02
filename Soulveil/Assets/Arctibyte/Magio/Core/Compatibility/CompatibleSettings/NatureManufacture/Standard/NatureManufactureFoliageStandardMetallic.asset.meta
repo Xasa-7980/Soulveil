@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 15e9a7bd51f4b0e41aae83d3a40135ec
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/Compatibility/CompatibleSettings/NatureManufacture/Standard/NatureManufactureFoliageStandardMetallic.asset
+  uploadId: 708964

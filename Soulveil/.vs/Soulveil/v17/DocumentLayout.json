@@ -3,23 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\materialsitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\arctibyte\\magio\\core\\scripts\\magioobject\\magiomaterialanimationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\arctibyte\\magio\\core\\scripts\\magioobject\\magiomaterialanimationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\arctibyte\\magio\\install-instructions.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\arctibyte\\magio\\install-instructions.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\worldtextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\worldtextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3328ECC-C58D-F847-B395-8CE439603DFE}|Unity.RenderPipelines.Universal.Editor.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\library\\packagecache\\com.unity.render-pipelines.universal@e1fa89d1f997\\editor\\assetversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3328ECC-C58D-F847-B395-8CE439603DFE}|Unity.RenderPipelines.Universal.Editor.csproj|solutionrelative:library\\packagecache\\com.unity.render-pipelines.universal@e1fa89d1f997\\editor\\assetversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3328ECC-C58D-F847-B395-8CE439603DFE}|Unity.RenderPipelines.Universal.Editor.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\library\\packagecache\\com.unity.render-pipelines.universal@e1fa89d1f997\\editor\\shadergraph\\universalmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3328ECC-C58D-F847-B395-8CE439603DFE}|Unity.RenderPipelines.Universal.Editor.csproj|solutionrelative:library\\packagecache\\com.unity.render-pipelines.universal@e1fa89d1f997\\editor\\shadergraph\\universalmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\editor\\shadergraphurpbatchconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\shadergraphurpbatchconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\GeneratedFromGraph-SH_Add_Dissolve.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\GeneratedFromGraph-SH_Add_Dissolve.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\materialsitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\materialsitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\consumableitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\consumableitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\consumableitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\weaponitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\weaponitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\weaponitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\equipmentitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\equipmentitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\equipmentitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\02_items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,16 +67,12 @@
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\lootitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\statmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\statmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\statmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,11 +186,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "EquipmentItemData.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\EquipmentItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\EquipmentItemData.cs",
@@ -163,12 +199,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T06:52:54.098Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "LootItem.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
@@ -177,12 +212,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-28T07:10:03.456Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "WeaponItemData.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\WeaponItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\WeaponItemData.cs",
@@ -191,12 +225,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T06:52:58.395Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "MaterialsItemData.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\MaterialsItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\MaterialsItemData.cs",
@@ -205,12 +238,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T06:52:56.857Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ConsumableItemData.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\ConsumableItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\ConsumableItemData.cs",
@@ -219,12 +251,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T06:52:52.634Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\02_Items\\ItemData.cs",
@@ -233,8 +264,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T06:52:55.529Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -250,7 +280,118 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MagioMaterialAnimationSettings.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Arctibyte\\Magio\\Core\\Scripts\\MagioObject\\MagioMaterialAnimationSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Arctibyte\\Magio\\Core\\Scripts\\MagioObject\\MagioMaterialAnimationSettings.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Arctibyte\\Magio\\Core\\Scripts\\MagioObject\\MagioMaterialAnimationSettings.cs",
+              "RelativeToolTip": "Assets\\Arctibyte\\Magio\\Core\\Scripts\\MagioObject\\MagioMaterialAnimationSettings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T13:52:30.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute",
+              "RelativeDocumentMoniker": "Temp\\VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute",
+              "RelativeToolTip": "Temp\\VFX-Shader-Mesh_Electric-[Mesh_Electric] [System] Initialize Particle.compute",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-09-02T13:51:39.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute",
+              "RelativeDocumentMoniker": "Temp\\VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute",
+              "RelativeToolTip": "Temp\\VFX-Shader-MutableRenderer_TemplateMagio-[MutableRenderer_TemplateMagio] [System] Initialize Particle.compute",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAgwLMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-09-02T13:46:18.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INSTALL-INSTRUCTIONS.txt",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Arctibyte\\Magio\\INSTALL-INSTRUCTIONS.txt",
+              "RelativeDocumentMoniker": "Assets\\Arctibyte\\Magio\\INSTALL-INSTRUCTIONS.txt",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Arctibyte\\Magio\\INSTALL-INSTRUCTIONS.txt",
+              "RelativeToolTip": "Assets\\Arctibyte\\Magio\\INSTALL-INSTRUCTIONS.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-02T13:44:08.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorldTextManager.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\WorldTextManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\WorldTextManager.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\WorldTextManager.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\WorldTextManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T09:53:57.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GeneratedFromGraph-SH_Add_Dissolve.shader",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\GeneratedFromGraph-SH_Add_Dissolve.shader",
+              "RelativeDocumentMoniker": "Temp\\GeneratedFromGraph-SH_Add_Dissolve.shader",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Temp\\GeneratedFromGraph-SH_Add_Dissolve.shader",
+              "RelativeToolTip": "Temp\\GeneratedFromGraph-SH_Add_Dissolve.shader",
+              "ViewState": "AgIAAHwNAAAAAAAAAADwv6kNAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-09-02T05:53:20.479Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AssetVersion.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\AssetVersion.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\AssetVersion.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\AssetVersion.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\AssetVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T07:54:18.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UniversalMetadata.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\ShaderGraph\\UniversalMetadata.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\ShaderGraph\\UniversalMetadata.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\ShaderGraph\\UniversalMetadata.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Editor\\ShaderGraph\\UniversalMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T07:48:07.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShaderGraphURPBatchConverter.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Editor\\ShaderGraphURPBatchConverter.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\ShaderGraphURPBatchConverter.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Editor\\ShaderGraphURPBatchConverter.cs",
+              "RelativeToolTip": "Assets\\Editor\\ShaderGraphURPBatchConverter.cs",
+              "ViewState": "AgIAANcDAAAAAAAAAAAwwAMEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T05:50:10.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "StatModifier.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\StatModifier.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\StatModifier.cs",
@@ -258,12 +399,11 @@
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\StatModifier.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T06:49:10.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-29T06:49:10.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "EnemyStunned.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyStunned.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyStunned.cs",
@@ -275,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "EnemyReturn.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyReturn.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyReturn.cs",
@@ -287,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyPatrol.cs",
@@ -299,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "EnemyIdle.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyIdle.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyIdle.cs",
@@ -311,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyHealth.cs",
@@ -323,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "EnemyDeath.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyDeath.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyDeath.cs",
@@ -335,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyController.cs",
@@ -347,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "EnemyChase.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyChase.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyChase.cs",
@@ -359,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyAttack.cs",
@@ -371,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "WaterElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\WaterElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\WaterElement.cs",
@@ -383,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "LightElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\LightElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\LightElement.cs",
@@ -395,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "GeoElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\GeoElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\GeoElement.cs",
@@ -407,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "FireElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\FireElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\FireElement.cs",
@@ -419,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ElectroElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\ElectroElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\ElectroElement.cs",
@@ -431,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "DarkElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\DarkElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\DarkElement.cs",
@@ -443,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "EnemyStats.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyStats.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyStats.cs",
@@ -455,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\Stats.cs",
@@ -467,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\PlayerStats.cs",
@@ -479,19 +619,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv0EAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-28T04:46:37.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\PlayerHealth.cs",
@@ -503,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "ElementReactionSystem.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\01_Elements\\ElementReactionSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\01_Elements\\ElementReactionSystem.cs",
@@ -515,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "EntityElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\EntityElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\EntityElement.cs",
@@ -527,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
@@ -539,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "DamageInfo.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\02_Structs\\DamageInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\02_Structs\\DamageInfo.cs",
@@ -551,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "ElementSystem.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\01_Elements\\ElementSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\01_Elements\\ElementSystem.cs",
@@ -563,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "SpecialistHandler.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\00_Player\\Scriptable\\SpecialistHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\00_Player\\Scriptable\\SpecialistHandler.cs",
@@ -575,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "NewMonoBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\NewMonoBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Elements\\NewMonoBehaviourScript.cs",
@@ -587,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "Element.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\01_Elements\\Element.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\01_Elements\\Element.cs",

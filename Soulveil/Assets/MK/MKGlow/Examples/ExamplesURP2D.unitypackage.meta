@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c3f3fff728c562347881bd8528eec473
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90204
+  packageName: MK Glow - Bloom, Lens Flare & Glare Post-Processing Shader
+  packageVersion: 4.9.6B
+  assetPath: Assets/MK/MKGlow/Examples/ExamplesURP2D.unitypackage
+  uploadId: 977988

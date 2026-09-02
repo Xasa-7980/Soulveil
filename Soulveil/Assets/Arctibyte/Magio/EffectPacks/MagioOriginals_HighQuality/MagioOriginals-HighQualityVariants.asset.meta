@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5639f4a14ade67488ab6d5e1848709d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/EffectPacks/MagioOriginals_HighQuality/MagioOriginals-HighQualityVariants.asset
+  uploadId: 708964

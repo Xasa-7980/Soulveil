@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b91929f1b919e044942ce39a33a3af1
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203817
+  packageName: Magio Pro - Interactive Effect Engine - URP/HDRP
+  packageVersion: 1.0.10
+  assetPath: Assets/Arctibyte/Magio/Core/VFX/Graphs/SubGraphs/Magio Mesh Positioning.vfxblock
+  uploadId: 708964
