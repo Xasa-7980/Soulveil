@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LootItem : MonoBehaviour, IInteractable
 {
@@ -15,11 +16,13 @@ public class LootItem : MonoBehaviour, IInteractable
     private bool isDropping;
 
     public ItemInstance ItemInstance => itemInstance;
+    public bool IsDropping => isDropping;
     public string InteractionText => itemInstance != null && itemInstance.ItemData != null ? $"Recoger {itemInstance.ItemData.ItemName}" : "Recoger";
-
+    public UnityEvent onPicked;
     private void Awake ( )
     {
         rb = GetComponent<Rigidbody>();
+        onPicked.AddListener(( ) => Destroy(gameObject));
     }
 
     private void Update ( )
@@ -82,6 +85,6 @@ public class LootItem : MonoBehaviour, IInteractable
 
         Debug.Log($"Recogido: {itemInstance.ItemData.ItemName}");
 
-        Destroy(gameObject);
+        onPicked?.Invoke();
     }
 }

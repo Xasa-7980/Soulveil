@@ -5,7 +5,8 @@ public enum ItemRarity
     Uncommon,
     Rare,
     Epic,
-    Legendary
+    Legendary,
+    Unique
 }
 
 public abstract class ItemData : ScriptableObject

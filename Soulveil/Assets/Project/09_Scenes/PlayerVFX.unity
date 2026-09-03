@@ -13456,7 +13456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a573fdc16943998409b8bfb04a500666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10000
+  maxHealth: 10
   headDamageMultiplier: 1.5
   bodyDamageMultiplier: 1
   legsDamageMultiplier: 0.8
@@ -13585,7 +13585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c34a8704d9ab004586250b23290d53f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleLoot: []
+  possibleLoot:
+  - {fileID: 11400000, guid: ad1e3cf5f2e2ec44ab350655b5f02ba3, type: 2}
   lootSpawnPoint: {fileID: 0}
   dropChance: 1
   minItemLevel: 1
@@ -13638,7 +13639,7 @@ MonoBehaviour:
   returnState: {fileID: 1145603687}
   deadState: {fileID: 1145603690}
   detectionDistance: 10.4
-  detectionAngle: 64
+  detectionAngle: 227
   eyeHeight: -1
   targetLayer:
     serializedVersion: 2
