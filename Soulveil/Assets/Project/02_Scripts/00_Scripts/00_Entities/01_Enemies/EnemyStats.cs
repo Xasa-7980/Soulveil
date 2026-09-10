@@ -2,12 +2,21 @@ using UnityEngine;
 
 public class EnemyStats : Stats
 {
-    [Header("Base Stats")]
-    [SerializeField] private float baseMaxHealth = 100f;
-    [SerializeField] private float baseAttackDamage = 10f;
-    [SerializeField] private float baseDefense = 2f;
+    [Header("Enemy Data")]
+    [SerializeField] private EnemyData enemyData;
 
-    public float MaxHealth => CalculateStat(StatType.MaxHealth, baseMaxHealth);
-    public float AttackDamage => CalculateStat(StatType.AttackDamage, baseAttackDamage);
-    public float Defense => CalculateStat(StatType.Defense, baseDefense);
-}   
+    public EnemyData Data => enemyData;
+
+    public float MaxHealth => enemyData != null ? CalculateStat(StatType.MaxHealth, enemyData.MaxHealth) : 100f;
+    public float AttackDamage => enemyData != null ? CalculateStat(StatType.AttackDamage, enemyData.AttackDamage) : 10f;
+    public float Defense => enemyData != null ? CalculateStat(StatType.Defense, enemyData.Defense) : 2f;
+
+    public float MoveSpeed => enemyData != null ? enemyData.MoveSpeed : 3.5f;
+
+    public float DetectionDistance => enemyData != null ? enemyData.DetectionDistance : 10f;
+    public float DetectionAngle => enemyData != null ? enemyData.DetectionAngle : 90f;
+    public float AttackRange => enemyData != null ? enemyData.AttackRange : 2f;
+    public float MaxChaseDistance => enemyData != null ? enemyData.MaxChaseDistance : 20f;
+
+    public Element Element => enemyData != null ? enemyData.Element : null;
+}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9747bb8c53aba4c4bab7eb7813cd397c, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: 2c91fb955e2a54944b67a3488bfa4ae5, type: 2}
+  hitVFX: {fileID: 8460912653555914080, guid: e9cfab0ba452780468f365c8e1e0a44b, type: 3}
+  commonWeaponAura: {fileID: 0}
+  uncommonWeaponAura: {fileID: 0}
+  rareWeaponAura: {fileID: 0}
+  epicWeaponAura: {fileID: 3155125002801167478, guid: 759bfca43593c9441a71b1ca251a9bbb, type: 3}
+  legendaryWeaponAura: {fileID: 138147253843667403, guid: df9d36bee28994a438f2a9236733c869, type: 3}
+  uniqueWeaponAura: {fileID: 6762456411764577992, guid: e81193babb79e6b498da7828df5693fd, type: 3}
+  commonWeaponTrail: {fileID: 0}
+  uncommonWeaponTrail: {fileID: 0}
+  rareWeaponTrail: {fileID: 0}
+  epicWeaponTrail: {fileID: 0}
+  legendaryWeaponTrail: {fileID: 0}
+  uniqueWeaponTrail: {fileID: 0}

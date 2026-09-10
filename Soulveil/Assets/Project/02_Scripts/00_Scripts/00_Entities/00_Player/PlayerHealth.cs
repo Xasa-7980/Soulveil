@@ -3,10 +3,14 @@
 public class PlayerHealth : Health
 {
     private PlayerStats playerStats;
+    private PlayerSkillController skillController;
+    private PlayerActionController playerActions;
 
     protected override void Awake ( )
     {
         playerStats = GetComponent<PlayerStats>();
+        skillController = GetComponent<PlayerSkillController>();
+        playerActions = GetComponent<PlayerActionController>();
 
         if (playerStats != null)
         {
@@ -20,10 +24,10 @@ public class PlayerHealth : Health
     {
         base.OnDamaged(damageInfo);
 
-        Debug.Log(
-            $"Player golpeado en {damageInfo.hitZone} " +
-            $"por {damageInfo.attacker.name}"
-        );
+        if (skillController != null)
+        {
+            skillController.GainEnergyFromDamageTaken(damageInfo.damage);
+        }
 
         // Más adelante:
         // - Hit animation
@@ -34,17 +38,47 @@ public class PlayerHealth : Health
 
     protected override void Die ( )
     {
-        if (isDead)
-            return;
+        if (isDead) return;
 
         base.Die();
+
+        if (playerActions != null)
+        {
+            playerActions.Block(this, PlayerActionBlock.All);
+        }
 
         Debug.Log("Player muerto");
 
         // Más adelante:
-        // PlayerCombat desactivado
-        // PlayerMovement desactivado
-        // Animación de muerte
-        // GameManager.EndRun()
+        // - Animación de muerte
+        // - UI de derrota
+        // - GameManager.EndRun()
+        // - Respawn / Revive
+    }
+
+    public void Revive ( float healthPercent = 1f )
+    {
+        if (!isDead) return;
+
+        isDead = false;
+
+        healthPercent = Mathf.Clamp01(healthPercent);
+
+        currentHealth = maxHealth * healthPercent;
+
+        if (currentHealth <= 0f)
+        {
+            currentHealth = 1f;
+        }
+
+        if (playerActions != null)
+        {
+            playerActions.Unblock(this);
+        }
+
+        Debug.Log(
+            $"Player revivido | " +
+            $"Vida: {currentHealth}/{maxHealth}"
+        );
     }
 }

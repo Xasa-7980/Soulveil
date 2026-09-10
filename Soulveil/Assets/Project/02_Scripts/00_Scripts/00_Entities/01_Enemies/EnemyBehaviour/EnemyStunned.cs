@@ -50,4 +50,8 @@ public class EnemyStunned : MonoBehaviour
     {
         stunTimer = 0f;
     }
+    public void SetStunDuration( float duration )
+    {
+        stunDuration = duration;
+    }   
 }

@@ -1,5 +1,30 @@
 using UnityEngine;
 
+public enum ElementReactionType
+{
+    None,
+
+    Water_Fire,
+    Water_Electro,
+    Water_Geo,
+    Water_Light,
+    Water_Dark,
+
+    Fire_Electro,
+    Fire_Geo,
+    Fire_Light,
+    Fire_Dark,
+
+    Electro_Geo,
+    Electro_Light,
+    Electro_Dark,
+
+    Geo_Light,
+    Geo_Dark,
+
+    Light_Dark
+}
+
 public class ElementReactionSystem : MonoBehaviour
 {
     public static ElementReactionSystem Instance { get; private set; }
@@ -15,100 +40,102 @@ public class ElementReactionSystem : MonoBehaviour
         Instance = this;
     }
 
-    public void TryReact ( Element currentElement, Element incomingElement, DamageInfo damageInfo, EntityInfo target )
+    public ElementReactionType TryReact ( Element currentElement, Element incomingElement, DamageInfo damageInfo, EntityInfo target )
     {
-        if (currentElement == null || incomingElement == null) return;
-        if (currentElement == incomingElement) return;
+        if (currentElement == null || incomingElement == null) return ElementReactionType.None;
+        if (currentElement == incomingElement) return ElementReactionType.None;
 
         if (IsCombination<WaterElement, FireElement>(currentElement, incomingElement))
         {
             WaterFireReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Water_Fire;
         }
 
         if (IsCombination<WaterElement, ElectroElement>(currentElement, incomingElement))
         {
             WaterElectroReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Water_Electro;
         }
 
         if (IsCombination<WaterElement, GeoElement>(currentElement, incomingElement))
         {
             WaterGeoReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Water_Geo;
         }
 
         if (IsCombination<WaterElement, LightElement>(currentElement, incomingElement))
         {
             WaterLightReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Water_Light;
         }
 
         if (IsCombination<WaterElement, DarkElement>(currentElement, incomingElement))
         {
             WaterDarkReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Water_Dark;
         }
 
         if (IsCombination<FireElement, ElectroElement>(currentElement, incomingElement))
         {
             FireElectroReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Fire_Electro;
         }
 
         if (IsCombination<FireElement, GeoElement>(currentElement, incomingElement))
         {
             FireGeoReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Fire_Geo;
         }
 
         if (IsCombination<FireElement, LightElement>(currentElement, incomingElement))
         {
             FireLightReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Fire_Light;
         }
 
         if (IsCombination<FireElement, DarkElement>(currentElement, incomingElement))
         {
             FireDarkReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Fire_Dark;
         }
 
         if (IsCombination<ElectroElement, GeoElement>(currentElement, incomingElement))
         {
             ElectroGeoReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Electro_Geo;
         }
 
         if (IsCombination<ElectroElement, LightElement>(currentElement, incomingElement))
         {
             ElectroLightReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Electro_Light;
         }
 
         if (IsCombination<ElectroElement, DarkElement>(currentElement, incomingElement))
         {
             ElectroDarkReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Electro_Dark;
         }
 
         if (IsCombination<GeoElement, LightElement>(currentElement, incomingElement))
         {
             GeoLightReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Geo_Light;
         }
 
         if (IsCombination<GeoElement, DarkElement>(currentElement, incomingElement))
         {
             GeoDarkReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Geo_Dark;
         }
 
         if (IsCombination<LightElement, DarkElement>(currentElement, incomingElement))
         {
             LightDarkReaction(damageInfo, target);
-            return;
+            return ElementReactionType.Light_Dark;
         }
+
+        return ElementReactionType.None;
     }
 
     private void WaterFireReaction ( DamageInfo damageInfo, EntityInfo target )
@@ -130,6 +157,7 @@ public class ElementReactionSystem : MonoBehaviour
             // consultar/cambiar elemento
         }
     }
+
     private void WaterElectroReaction ( DamageInfo damageInfo, EntityInfo target )
     {
         DebugReaction("Water + Electro", damageInfo, target);

@@ -15,7 +15,7 @@ public class EnemyHealth : Health
 
     protected override void OnDamaged ( DamageInfo damageInfo )
     {
-        Debug.Log($"{gameObject.name} golpeado en {damageInfo.hitZone} por {damageInfo.attacker.name}");
+        base.OnDamaged(damageInfo);
     }
 
     protected override void Die ( )

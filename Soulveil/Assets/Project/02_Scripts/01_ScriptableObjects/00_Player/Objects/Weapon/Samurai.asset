@@ -15,4 +15,6 @@ MonoBehaviour:
   weaponPrefab: {fileID: 0}
   lightAttackLength: 3
   heavyAttackLength: 5
+  skill1: {fileID: 11400000, guid: 185a17d50ad5bb74d8971af697736c3e, type: 2}
+  skill2: {fileID: 11400000, guid: 2b4f929c781844a4fb8252447d20cdd4, type: 2}
   animatorOverrideController: {fileID: 22100000, guid: 342efc556cf4b2e48b85996d76a0eeff, type: 2}

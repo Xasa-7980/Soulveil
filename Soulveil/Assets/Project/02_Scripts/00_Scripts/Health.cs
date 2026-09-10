@@ -26,6 +26,8 @@ public abstract class Health : MonoBehaviour, iDamageable
     protected float currentHealth;
     protected bool isDead;
     protected bool isInvincible;
+    public event System.EventHandler<DamageInfo> OnDamagedEvent;
+    public event System.EventHandler<ElementReactionType> OnElementReactionEvent;
 
     public float CurrentHealth => currentHealth;
     public float PercentHealth => maxHealth > 0f ? currentHealth / maxHealth : 0f;
@@ -59,11 +61,17 @@ public abstract class Health : MonoBehaviour, iDamageable
 
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
-        Debug.Log( $"{gameObject.name} recibe {finalDamage} de daño " + $"en {damageInfo.hitZone}. " + $"Vida: {currentHealth}/{maxHealth}");
+        //Debug.Log( $"{gameObject.name} recibe {finalDamage} de daño " + $"en {damageInfo.hitZone}. " + $"Vida: {currentHealth}/{maxHealth}" + 
+        //    $"Elemento personaje: {entityElement.CurrentElement}" + $"Elemento Enemigo: {damageInfo.element}");
 
         CheckElementReaction(damageInfo);
         OnDamaged(damageInfo);
         WorldTextManager.ShowDamage(damageInfo.damage, transform.position + Vector3.up * 2f);
+        if (damageInfo.element != null)
+        {
+            CombatVFXManager.ShowHit( damageInfo.element, damageInfo.hitPoint);
+        }
+
         if (currentHealth <= 0f)
         {
             Die();
@@ -90,6 +98,7 @@ public abstract class Health : MonoBehaviour, iDamageable
 
     protected virtual void OnDamaged ( DamageInfo damageInfo )
     {
+        OnDamagedEvent?.Invoke(this, damageInfo);
     }
 
     public virtual void SetInvincible ( bool value )
@@ -113,6 +122,10 @@ public abstract class Health : MonoBehaviour, iDamageable
         if (damageInfo.element == null) return;
         if (ElementReactionSystem.Instance == null) return;
 
-        ElementReactionSystem.Instance.TryReact(entityElement.CurrentElement, damageInfo.element, damageInfo, EntityInfo);
+        ElementReactionType reaction = ElementReactionSystem.Instance.TryReact(entityElement.CurrentElement, damageInfo.element, damageInfo, EntityInfo);
+
+        if (reaction == ElementReactionType.None) return;
+
+        OnElementReactionEvent?.Invoke(this,reaction);
     }
 }

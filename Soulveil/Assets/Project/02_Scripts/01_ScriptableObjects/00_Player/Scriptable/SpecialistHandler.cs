@@ -16,6 +16,10 @@ public class SpecialistHandler : ScriptableObject
     [Min(0)]
     public int heavyAttackLength = 1;
 
+    [Header("Skills")]
+    public SkillData skill1;
+    public SkillData skill2;
+
     [Header("Animation")]
     public AnimatorOverrideController animatorOverrideController;
 }

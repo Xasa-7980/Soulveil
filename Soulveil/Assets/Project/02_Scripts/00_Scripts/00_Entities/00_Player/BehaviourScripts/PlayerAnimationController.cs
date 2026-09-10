@@ -12,7 +12,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     private PlayerMovement playerMovement;
     private PlayerDodge playerDodge;
-    private PlayerSpeacialist playerSpecialist;
+    private PlayerSpecialist playerSpecialist;
     private PlayerCombat playerCombat;
 
     private int baseLayerIndex;
@@ -29,20 +29,26 @@ public class PlayerAnimationController : MonoBehaviour
 
     private static readonly int JumpHash = Animator.StringToHash("Jump");
     private static readonly int LandingIndexHash = Animator.StringToHash("LandingIndex");
+    private static readonly int FallingAttackHash = Animator.StringToHash("FallingAttack");
+    private static readonly int FallingAttackEndHash = Animator.StringToHash("FallingAttackEnd");
 
     private static readonly int ComboIndexHash = Animator.StringToHash("ComboIndex");
     private static readonly int LightAttackHash = Animator.StringToHash("LightAttack");
     private static readonly int HeavyAttackHash = Animator.StringToHash("HeavyAttack");
 
+    // FUTUROS SKILLS
+    private static readonly int SkillIndexHash = Animator.StringToHash("SkillIndex");
+    private static readonly int SkillHash = Animator.StringToHash("Skill");
+
     private bool wasDodging;
 
     private bool InCombat => playerCombat != null && playerCombat.InCombat;
-
+    private bool isOnFallingAttack = false;
     private void Awake ( )
     {
         playerMovement = GetComponent<PlayerMovement>();
         playerDodge = GetComponent<PlayerDodge>();
-        playerSpecialist = GetComponent<PlayerSpeacialist>();
+        playerSpecialist = GetComponent<PlayerSpecialist>();
         playerCombat = GetComponent<PlayerCombat>();
 
         RuntimeAnimatorController currentController = animator.runtimeAnimatorController;
@@ -78,7 +84,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     #region SPECIALIST
 
-    private void OnChangeSpecialist ( object sender, PlayerSpeacialist.OnChangeSpecialistEventArgs e )
+    private void OnChangeSpecialist ( object sender, PlayerSpecialist.OnChangeSpecialistEventArgs e )
     {
         AnimatorOverrideController newOverride = e.specialistHandler != null
             ? e.specialistHandler.animatorOverrideController
@@ -89,9 +95,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     public void SetAnimatorOverride ( AnimatorOverrideController overrideController )
     {
-        animator.runtimeAnimatorController = overrideController != null
-            ? overrideController
-            : baseAnimatorController;
+        animator.runtimeAnimatorController = overrideController != null ? overrideController : baseAnimatorController;
 
         CacheLayerIndexes();
         ResetLayerWeights();
@@ -164,8 +168,21 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetTrigger(JumpHash);
     }
 
+    public void PlayFallingAttackIntro ( )
+    {
+        animator.SetTrigger(FallingAttackHash);
+        animator.SetBool(FallingAttackEndHash, false);
+        isOnFallingAttack = true;
+    }
+    public void PlayFallingAttackEnding ( )
+    {
+        animator.SetBool(FallingAttackEndHash, true);
+        isOnFallingAttack = false;
+    }
+
     private void UpdateJump ( )
     {
+        if (isOnFallingAttack) return;
         if (!playerMovement.JustLanded)
         {
             animator.SetFloat(LandingIndexHash, -1f); //Buscar alternativa para no llamar esto siempre
@@ -185,6 +202,7 @@ public class PlayerAnimationController : MonoBehaviour
 
         animator.SetFloat(LandingIndexHash, landingIndex);
     }
+
     #endregion
 
     #region DODGE
@@ -220,6 +238,12 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetTrigger(HeavyAttackHash);
     }
 
+    public void PlaySkill ( int skillIndex )
+    {
+        animator.SetInteger(SkillIndexHash, skillIndex);
+        animator.SetTrigger(SkillHash);
+    }
+
     public float GetCombatNormalizedTime ( )
     {
         if (combatLayerIndex < 0)
@@ -237,7 +261,7 @@ public class PlayerAnimationController : MonoBehaviour
     {
         if (combatLayerIndex < 0) return false;
 
-        return IsAttackState( animator.GetCurrentAnimatorStateInfo(combatLayerIndex) );
+        return IsAttackState(animator.GetCurrentAnimatorStateInfo(combatLayerIndex));
     }
 
     public bool IsCurrentAttack ( bool isLight, int comboIndex )

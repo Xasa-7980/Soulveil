@@ -9,13 +9,29 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float maxInteractionAngle = 70f;
 
     private IInteractable currentInteractable;
+    private PlayerActionController playerActions;
 
     public IInteractable CurrentInteractable => currentInteractable;
     public bool HasInteractable => currentInteractable != null;
-    public string InteractionText => currentInteractable != null ? currentInteractable.InteractionText : "";
+
+    public string InteractionText =>
+        currentInteractable != null
+            ? currentInteractable.InteractionText
+            : "";
+
+    private void Awake ( )
+    {
+        playerActions = GetComponent<PlayerActionController>();
+    }
 
     private void Update ( )
     {
+        if (playerActions != null && !playerActions.CanInteract)
+        {
+            currentInteractable = null;
+            return;
+        }
+
         FindInteractable();
     }
 
@@ -25,8 +41,10 @@ public class PlayerInteraction : MonoBehaviour
 
         TryInteract();
     }
+
     public void TryInteract ( )
     {
+        if (playerActions != null && !playerActions.CanInteract) return;
         if (currentInteractable == null) return;
         if (!currentInteractable.CanInteract(gameObject)) return;
 
@@ -35,7 +53,11 @@ public class PlayerInteraction : MonoBehaviour
 
     private void FindInteractable ( )
     {
-        Collider[] hits = Physics.OverlapSphere(transform.position, interactionRadius, interactionLayer);
+        Collider[] hits = Physics.OverlapSphere(
+            transform.position,
+            interactionRadius,
+            interactionLayer
+        );
 
         IInteractable bestInteractable = null;
         float bestScore = Mathf.Infinity;
@@ -43,6 +65,7 @@ public class PlayerInteraction : MonoBehaviour
         foreach (Collider hit in hits)
         {
             IInteractable interactable = hit.GetComponentInParent<IInteractable>();
+
             if (interactable == null) continue;
             if (!interactable.CanInteract(gameObject)) continue;
 

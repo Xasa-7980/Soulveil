@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c5eeb2e84d9fd44980bcc5bd92f9418
+guid: 27cf133fdc0bf1444acbf18957844501
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -117,8 +117,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 158864
-  packageName: Wizard spells pack
-  packageVersion: 1.5
+  productId: 164961
+  packageName: Character Auras
+  packageVersion: 1.4
   assetPath: Assets/Hovl Studio/HSFiles/Textures/Noise69.png
-  uploadId: 745086
+  uploadId: 724038

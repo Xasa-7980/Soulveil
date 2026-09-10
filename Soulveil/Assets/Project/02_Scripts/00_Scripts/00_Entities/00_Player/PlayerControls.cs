@@ -156,9 +156,36 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
+                    ""name"": ""FallingAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""8f056a57-78fb-4bb1-9c32-0c9b919765a5"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
                     ""name"": ""Interaction"",
                     ""type"": ""Button"",
                     ""id"": ""a3e0e1d8-04be-407f-a6ca-0922df7a792a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LightSkill"",
+                    ""type"": ""Button"",
+                    ""id"": ""24fcd19f-9a05-45ce-89b4-01ea13c9e33d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""HeavySkill"",
+                    ""type"": ""Button"",
+                    ""id"": ""76096604-9a27-47b3-80a1-6924dba56f42"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -385,6 +412,72 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""Interaction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""169240c9-54ca-45ed-8273-b825b0467762"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LightSkill"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ba868007-c0d1-4238-94e2-5836b1f040f5"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LightSkill"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e9f27371-5d79-44a8-886f-3f54b6edb0ff"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""HeavySkill"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""79113055-0fdb-4f51-a3d4-12b6bccff6ae"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""HeavySkill"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f35df09a-5a1a-45b0-9f4c-85c0a10abe0b"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FallingAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9800d711-a151-4d37-8063-74e8a3facd5d"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FallingAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -400,7 +493,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         m_Player_LightAttack = m_Player.FindAction("LightAttack", throwIfNotFound: true);
         m_Player_HeavyAttack = m_Player.FindAction("HeavyAttack", throwIfNotFound: true);
+        m_Player_FallingAttack = m_Player.FindAction("FallingAttack", throwIfNotFound: true);
         m_Player_Interaction = m_Player.FindAction("Interaction", throwIfNotFound: true);
+        m_Player_LightSkill = m_Player.FindAction("LightSkill", throwIfNotFound: true);
+        m_Player_HeavySkill = m_Player.FindAction("HeavySkill", throwIfNotFound: true);
     }
 
     ~@PlayerControls()
@@ -488,7 +584,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Sprint;
     private readonly InputAction m_Player_LightAttack;
     private readonly InputAction m_Player_HeavyAttack;
+    private readonly InputAction m_Player_FallingAttack;
     private readonly InputAction m_Player_Interaction;
+    private readonly InputAction m_Player_LightSkill;
+    private readonly InputAction m_Player_HeavySkill;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -529,9 +628,21 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @HeavyAttack => m_Wrapper.m_Player_HeavyAttack;
         /// <summary>
+        /// Provides access to the underlying input action "Player/FallingAttack".
+        /// </summary>
+        public InputAction @FallingAttack => m_Wrapper.m_Player_FallingAttack;
+        /// <summary>
         /// Provides access to the underlying input action "Player/Interaction".
         /// </summary>
         public InputAction @Interaction => m_Wrapper.m_Player_Interaction;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/LightSkill".
+        /// </summary>
+        public InputAction @LightSkill => m_Wrapper.m_Player_LightSkill;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/HeavySkill".
+        /// </summary>
+        public InputAction @HeavySkill => m_Wrapper.m_Player_HeavySkill;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -579,9 +690,18 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @HeavyAttack.started += instance.OnHeavyAttack;
             @HeavyAttack.performed += instance.OnHeavyAttack;
             @HeavyAttack.canceled += instance.OnHeavyAttack;
+            @FallingAttack.started += instance.OnFallingAttack;
+            @FallingAttack.performed += instance.OnFallingAttack;
+            @FallingAttack.canceled += instance.OnFallingAttack;
             @Interaction.started += instance.OnInteraction;
             @Interaction.performed += instance.OnInteraction;
             @Interaction.canceled += instance.OnInteraction;
+            @LightSkill.started += instance.OnLightSkill;
+            @LightSkill.performed += instance.OnLightSkill;
+            @LightSkill.canceled += instance.OnLightSkill;
+            @HeavySkill.started += instance.OnHeavySkill;
+            @HeavySkill.performed += instance.OnHeavySkill;
+            @HeavySkill.canceled += instance.OnHeavySkill;
         }
 
         /// <summary>
@@ -614,9 +734,18 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @HeavyAttack.started -= instance.OnHeavyAttack;
             @HeavyAttack.performed -= instance.OnHeavyAttack;
             @HeavyAttack.canceled -= instance.OnHeavyAttack;
+            @FallingAttack.started -= instance.OnFallingAttack;
+            @FallingAttack.performed -= instance.OnFallingAttack;
+            @FallingAttack.canceled -= instance.OnFallingAttack;
             @Interaction.started -= instance.OnInteraction;
             @Interaction.performed -= instance.OnInteraction;
             @Interaction.canceled -= instance.OnInteraction;
+            @LightSkill.started -= instance.OnLightSkill;
+            @LightSkill.performed -= instance.OnLightSkill;
+            @LightSkill.canceled -= instance.OnLightSkill;
+            @HeavySkill.started -= instance.OnHeavySkill;
+            @HeavySkill.performed -= instance.OnHeavySkill;
+            @HeavySkill.canceled -= instance.OnHeavySkill;
         }
 
         /// <summary>
@@ -707,11 +836,32 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnHeavyAttack(InputAction.CallbackContext context);
         /// <summary>
+        /// Method invoked when associated input action "FallingAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnFallingAttack(InputAction.CallbackContext context);
+        /// <summary>
         /// Method invoked when associated input action "Interaction" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnInteraction(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "LightSkill" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnLightSkill(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "HeavySkill" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnHeavySkill(InputAction.CallbackContext context);
     }
 }

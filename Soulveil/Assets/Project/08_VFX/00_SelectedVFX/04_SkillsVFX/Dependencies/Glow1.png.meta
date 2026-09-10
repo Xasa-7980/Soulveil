@@ -117,8 +117,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 158864
-  packageName: Wizard spells pack
-  packageVersion: 1.5
-  assetPath: Assets/Hovl Studio/HSFiles/Textures/Glow1.png
-  uploadId: 745086
+  productId: 164961
+  packageName: Character Auras
+  packageVersion: 1.4
+  assetPath: Assets/Project/08_VFX/00_SelectedVFX/04_SkillsVFX/Dependencies/Glow1.png
+  uploadId: 724038

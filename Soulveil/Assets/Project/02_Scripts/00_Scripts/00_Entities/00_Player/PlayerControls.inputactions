@@ -70,9 +70,36 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "FallingAttack",
+                    "type": "Button",
+                    "id": "8f056a57-78fb-4bb1-9c32-0c9b919765a5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Interaction",
                     "type": "Button",
                     "id": "a3e0e1d8-04be-407f-a6ca-0922df7a792a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LightSkill",
+                    "type": "Button",
+                    "id": "24fcd19f-9a05-45ce-89b4-01ea13c9e33d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HeavySkill",
+                    "type": "Button",
+                    "id": "76096604-9a27-47b3-80a1-6924dba56f42",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -297,6 +324,72 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "169240c9-54ca-45ed-8273-b825b0467762",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightSkill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba868007-c0d1-4238-94e2-5836b1f040f5",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightSkill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9f27371-5d79-44a8-886f-3f54b6edb0ff",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HeavySkill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79113055-0fdb-4f51-a3d4-12b6bccff6ae",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HeavySkill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f35df09a-5a1a-45b0-9f4c-85c0a10abe0b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FallingAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9800d711-a151-4d37-8063-74e8a3facd5d",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FallingAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
