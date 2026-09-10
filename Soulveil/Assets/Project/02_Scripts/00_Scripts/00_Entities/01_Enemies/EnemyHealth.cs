@@ -16,6 +16,7 @@ public class EnemyHealth : Health
     protected override void OnDamaged ( DamageInfo damageInfo )
     {
         Debug.Log($"{gameObject.name} golpeado en {damageInfo.hitZone} por {damageInfo.attacker.name}");
+        if (controller != null) controller.FocusAttacker(damageInfo.attacker);
     }
 
     protected override void Die ( )
@@ -23,7 +24,6 @@ public class EnemyHealth : Health
         if (isDead) return;
 
         base.Die();
-        Debug.Log($"{gameObject.name} ha muerto.");
 
         if (controller != null) controller.ChangeState(controller.DeadState);
         Destroy(gameObject, 2f);

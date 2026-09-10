@@ -43,7 +43,7 @@ public class EnemyDeath : MonoBehaviour
         if (itemData.WorldPrefab == null) return;
 
         int level = Random.Range(minItemLevel, maxItemLevel + 1);
-        ItemInstance itemInstance = new ItemInstance(itemData, level, itemData.Rarity);
+        ItemInstance itemInstance = new ItemInstance(itemData, level);
 
         Vector3 spawnPosition = lootSpawnPoint != null ? lootSpawnPoint.position : transform.position;
 

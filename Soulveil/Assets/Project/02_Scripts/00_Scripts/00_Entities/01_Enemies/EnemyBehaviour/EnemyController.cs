@@ -84,6 +84,24 @@ public class EnemyController : MonoBehaviour
         target = newTarget;
     }
 
+    public void FocusAttacker ( GameObject attacker )
+    {
+        if (attacker == null) return;
+        if (currentState == deadState) return;
+
+        PlayerStats playerStats = attacker.GetComponentInParent<PlayerStats>();
+
+        if (playerStats == null) return;
+
+        target = playerStats.transform;
+
+        if (!IsTargetInsideChaseArea()) return;
+
+        if (currentState == stunnedState) return;
+
+        ChangeState(chaseState);
+    }
+
     public void ClearTarget ( )
     {
         target = null;
@@ -154,6 +172,7 @@ public class EnemyController : MonoBehaviour
 
         return null;
     }
+
     public bool CanDetectTarget ( Transform possibleTarget )
     {
         if (possibleTarget == null) return false;

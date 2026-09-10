@@ -9,14 +9,24 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float maxInteractionAngle = 70f;
 
     private IInteractable currentInteractable;
+    private PlayerInput playerInput;
+    private InputAction interactAction;
 
     public IInteractable CurrentInteractable => currentInteractable;
     public bool HasInteractable => currentInteractable != null;
-    public string InteractionText => currentInteractable != null ? currentInteractable.InteractionText : "";
+    public string InteractionText => currentInteractable != null ? "[" + GetInteractionBinding() + "]" + " " + currentInteractable.InteractionText : "";
 
+    private void Awake ( )
+    {
+        playerInput = GetComponent<PlayerInput>();
+
+        if (playerInput != null) interactAction = playerInput.actions["Interaction"];
+    }
     private void Update ( )
     {
         FindInteractable();
+
+        Debug.Log($"Control Scheme: {playerInput.currentControlScheme}");
     }
 
     public void OnInteract ( InputAction.CallbackContext context )
@@ -25,6 +35,7 @@ public class PlayerInteraction : MonoBehaviour
 
         TryInteract();
     }
+
     public void TryInteract ( )
     {
         if (currentInteractable == null) return;
@@ -33,6 +44,31 @@ public class PlayerInteraction : MonoBehaviour
         currentInteractable.Interact(gameObject);
     }
 
+    private string GetInteractionBinding ( )
+    {
+        if (interactAction == null) return "";
+        if (playerInput == null) return "";
+
+        string controlScheme = playerInput.currentControlScheme;
+
+        for (int i = 0; i < interactAction.bindings.Count; i++)
+        {
+            InputBinding binding = interactAction.bindings[i];
+
+            if (string.IsNullOrEmpty(binding.groups)) continue;
+            if (!binding.groups.Contains(controlScheme)) continue;
+
+            return interactAction.GetBindingDisplayString(i);
+        }
+
+        return "";
+    }
+    public Vector3 GetInteractionUIPosition ( )
+    {
+        if (currentInteractable == null) return Vector3.zero;
+
+        return currentInteractable.InteractionPoint.position;
+    }
     private void FindInteractable ( )
     {
         Collider[] hits = Physics.OverlapSphere(transform.position, interactionRadius, interactionLayer);
