@@ -113,7 +113,7 @@ public abstract class Health : MonoBehaviour, iDamageable
 
         isDead = true;
 
-        Debug.Log($"{gameObject.name} ha muerto."); 
+        Debug.Log($"{gameObject.name} ha muerto.");
     }
     private void CheckElementReaction ( DamageInfo damageInfo )
     {
