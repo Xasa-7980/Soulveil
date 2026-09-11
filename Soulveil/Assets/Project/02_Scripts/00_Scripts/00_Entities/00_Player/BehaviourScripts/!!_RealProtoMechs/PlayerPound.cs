@@ -65,8 +65,12 @@ public class PlayerPound : MonoBehaviour
 
         damagedTargets.Clear();
 
-        if (playerActionController != null) playerActionController.Block(this, PlayerActionBlock.All);
+        if (playerActionController != null)
+        {
+            playerActionController.Block(this, PlayerActionBlock.All);
 
+            Debug.Log($"[PlayerPound] Bloqueado. Combat permitido: {playerActionController.CanCombat}");
+        }
         playerMovement.ApplyDownwardVelocity(fallingVelocityMultiplier, minimumFallingSpeed);
 
         if (playerAnimationController != null) playerAnimationController.PlayFallingAttackIntro();
@@ -95,12 +99,17 @@ public class PlayerPound : MonoBehaviour
 
         PerformImpactDamage();
 
+        if (playerAnimationController != null)
+        {
+            playerAnimationController.PlayFallingAttackEnding();
+            Debug.Log("[PlayerPound] FallingAttackEnd = TRUE.");
+        }
+
         // Temporalmente termina inmediatamente al impactar.
         // Cuando exista animación de recuperación,
         // FinishFallingAttack será llamado por Animation Event.
         FinishFallingAttack();
     }
-
     private void PerformImpactDamage ( )
     {
         damagedTargets.Clear();
@@ -143,11 +152,15 @@ public class PlayerPound : MonoBehaviour
 
         damagedTargets.Clear();
 
-        if (playerActionController != null) playerActionController.Unblock(this);
+        if (playerActionController != null)
+        {
+            playerActionController.Unblock(this);
+
+            Debug.Log($"[PlayerPound] Unblock realizado. Combat permitido: {playerActionController.CanCombat}");
+        }
 
         Debug.Log("[PlayerPound] Falling Attack finalizado.");
     }
-
     private bool CanPerformFallingAttack ( )
     {
         Ray ray = new Ray(transform.position, Vector3.down);

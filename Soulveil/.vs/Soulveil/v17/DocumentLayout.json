@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\!!_realprotomechs\\playerpound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\!!_realprotomechs\\playerpound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\lootitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\lootitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\rarityvfxpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\rarityvfxpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\rarityvfxpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,6 +36,19 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAnimationController.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAAwCQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T00:08:50.285Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
@@ -39,6 +64,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerCombat.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAwA8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T00:03:26.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerPound.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswG8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T23:58:33.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RarityVFXPicker.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
@@ -46,12 +97,11 @@
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAwwCoAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T23:49:57.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T23:49:57.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InteractionUI.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
@@ -59,12 +109,11 @@
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T23:49:11.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T23:49:11.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "LootItem.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",

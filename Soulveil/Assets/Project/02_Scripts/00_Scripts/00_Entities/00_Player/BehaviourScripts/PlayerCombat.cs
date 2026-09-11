@@ -79,34 +79,50 @@ public class PlayerCombat : MonoBehaviour
     public void OnLightAttack ( InputAction.CallbackContext context )
     {
         if (!context.performed) return;
-        if (playerMovement != null && !playerMovement.IsGrounded) return;
         if (playerActions != null && !playerActions.CanCombat) return;
+
+        if (!attackLocked)
+        {
+            StartAttack(AttackType.Light);
+            return;
+        }
 
         if (animationController.GetCombatNormalizedTime() < nextAttackWindow) return;
 
-        if (!attackLocked)
-            StartAttack(AttackType.Light);
-        else
-            bufferedAttack = AttackType.Light;
+        bufferedAttack = AttackType.Light;
     }
 
     public void OnHeavyAttack ( InputAction.CallbackContext context )
     {
         if (!context.performed) return;
-        if (playerMovement != null && !playerMovement.IsGrounded) return;
         if (playerActions != null && !playerActions.CanCombat) return;
+
+        if (!attackLocked)
+        {
+            StartAttack(AttackType.Heavy);
+            return;
+        }
 
         if (animationController.GetCombatNormalizedTime() < nextAttackWindow) return;
 
-        if (!attackLocked)
-            StartAttack(AttackType.Heavy);
-        else
-            bufferedAttack = AttackType.Heavy;
+        bufferedAttack = AttackType.Heavy;
     }
-
     private void StartAttack ( AttackType type )
     {
-        if (playerActions != null && !playerActions.CanCombat) return;
+        if (playerActions != null && !playerActions.CanCombat)
+        {
+            Debug.Log($"[PlayerCombat] {type} bloqueado porque CanCombat = false.");
+            return;
+        }
+
+        if (playerMovement != null && !playerMovement.IsGrounded)
+        {
+            Debug.Log($"[PlayerCombat] {type} cancelado porque el jugador NO está grounded.");
+            return;
+        }
+
+        Debug.Log($"[PlayerCombat] {type} permitido | Grounded: {playerMovement.IsGrounded}");
+
         if (GetAttackLength(type) <= 0) return;
 
         hitTargets.Clear();
@@ -125,8 +141,8 @@ public class PlayerCombat : MonoBehaviour
 
         EnterCombat();
         PlayAttack(type);
-    }
 
+    }
     private void UpdateAttack ( )
     {
         if (!attackLocked || animationController.IsInAttackTransition()) return;
