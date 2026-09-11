@@ -1,10 +1,12 @@
-using UnityEngine;
+ï»¿using UnityEngine;
+
 public struct EntityInfo
 {
     public GameObject entity;
     public Health health;
     public Stats stats;
     public EntityElement element;
+
     public EntityInfo ( GameObject entity, Health health, Stats stats, EntityElement element )
     {
         this.entity = entity;
@@ -13,6 +15,7 @@ public struct EntityInfo
         this.element = element;
     }
 }
+
 public abstract class Health : MonoBehaviour, iDamageable
 {
     [Header("Health")]
@@ -23,9 +26,13 @@ public abstract class Health : MonoBehaviour, iDamageable
     [SerializeField] private float bodyDamageMultiplier = 1f;
     [SerializeField] private float legsDamageMultiplier = 0.8f;
 
+    [Header("Damage")]
+    [SerializeField] private float zeroDamageThreshold = 0.5f;
+
     protected float currentHealth;
     protected bool isDead;
     protected bool isInvincible;
+
     public event System.EventHandler<DamageInfo> OnDamagedEvent;
     public event System.EventHandler<ElementReactionType> OnElementReactionEvent;
 
@@ -34,9 +41,11 @@ public abstract class Health : MonoBehaviour, iDamageable
     public float MaxHealth => maxHealth;
     public bool IsDead => isDead;
     public bool IsInvincible => isInvincible;
+
     private Stats stats;
-    public EntityInfo EntityInfo => new EntityInfo(gameObject, this, stats, entityElement);
     private EntityElement entityElement;
+
+    public EntityInfo EntityInfo => new EntityInfo(gameObject, this, stats, entityElement);
 
     protected virtual void Awake ( )
     {
@@ -51,25 +60,27 @@ public abstract class Health : MonoBehaviour, iDamageable
         if (isInvincible) return;
         if (damageInfo.damage <= 0f) return;
 
-        float finalDamage = CalculateHitZoneDamage( damageInfo.damage,  damageInfo.hitZone );
+        float damageAfterDefense = stats != null ? stats.CalculateReceivedDamage(damageInfo.damage) : damageInfo.damage;
+        float finalDamage = CalculateHitZoneDamage(damageAfterDefense, damageInfo.hitZone);
 
-        // Actualizamos DamageInfo para que el resto de sistemas
-        // reciban el daño final realmente aplicado.
+        if (finalDamage < zeroDamageThreshold) finalDamage = 0f;
+
         damageInfo.damage = finalDamage;
 
         currentHealth -= finalDamage;
-
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
-        //Debug.Log( $"{gameObject.name} recibe {finalDamage} de daño " + $"en {damageInfo.hitZone}. " + $"Vida: {currentHealth}/{maxHealth}" + 
+        //Debug.Log( $"{gameObject.name} recibe {finalDamage} de daÅ„o " + $"en {damageInfo.hitZone}. " + $"Vida: {currentHealth}/{maxHealth}" +
         //    $"Elemento personaje: {entityElement.CurrentElement}" + $"Elemento Enemigo: {damageInfo.element}");
 
         CheckElementReaction(damageInfo);
         OnDamaged(damageInfo);
+
         WorldTextManager.ShowDamage(damageInfo.damage, transform.position + Vector3.up * 2f);
+
         if (damageInfo.element != null)
         {
-            CombatVFXManager.ShowHit( damageInfo.element, damageInfo.hitPoint);
+            CombatVFXManager.ShowHit(damageInfo.element, damageInfo.hitPoint);
         }
 
         if (currentHealth <= 0f)
@@ -78,7 +89,7 @@ public abstract class Health : MonoBehaviour, iDamageable
         }
     }
 
-    private float CalculateHitZoneDamage ( float damage,  HitZone hitZone )
+    private float CalculateHitZoneDamage ( float damage, HitZone hitZone )
     {
         switch (hitZone)
         {
@@ -108,13 +119,13 @@ public abstract class Health : MonoBehaviour, iDamageable
 
     protected virtual void Die ( )
     {
-        if (isDead)
-            return;
+        if (isDead) return;
 
         isDead = true;
 
         Debug.Log($"{gameObject.name} ha muerto.");
     }
+
     private void CheckElementReaction ( DamageInfo damageInfo )
     {
         if (entityElement == null) return;
@@ -126,6 +137,6 @@ public abstract class Health : MonoBehaviour, iDamageable
 
         if (reaction == ElementReactionType.None) return;
 
-        OnElementReactionEvent?.Invoke(this,reaction);
+        OnElementReactionEvent?.Invoke(this, reaction);
     }
 }

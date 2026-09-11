@@ -6,7 +6,9 @@ public class EnemyStunned : MonoBehaviour
     [SerializeField] private float stunDuration = 1.5f;
 
     private EnemyController controller;
+
     private float stunTimer;
+    private float nextStunDuration = -1f;
 
     private void Awake ( )
     {
@@ -15,7 +17,8 @@ public class EnemyStunned : MonoBehaviour
 
     private void OnEnable ( )
     {
-        stunTimer = stunDuration;
+        stunTimer = nextStunDuration >= 0f ? nextStunDuration : stunDuration;
+        nextStunDuration = -1f;
 
         if (controller.Agent != null && controller.Agent.isOnNavMesh)
         {
@@ -50,8 +53,9 @@ public class EnemyStunned : MonoBehaviour
     {
         stunTimer = 0f;
     }
-    public void SetStunDuration( float duration )
+
+    public void SetStunDuration ( float duration )
     {
-        stunDuration = duration;
-    }   
+        nextStunDuration = Mathf.Max(0f, duration);
+    }
 }

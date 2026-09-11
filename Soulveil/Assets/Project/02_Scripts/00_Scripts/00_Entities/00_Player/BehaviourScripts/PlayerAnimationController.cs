@@ -156,7 +156,6 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetFloat(SpeedHash, speed, 0.1f, Time.deltaTime);
         animator.SetBool(IsCrouchingHash, playerMovement.IsCrouching);
         animator.SetBool(GroundedHash, playerMovement.IsGrounded);
-        animator.SetFloat(VerticalSpeedHash, playerMovement.VerticalVelocity);
     }
 
     #endregion

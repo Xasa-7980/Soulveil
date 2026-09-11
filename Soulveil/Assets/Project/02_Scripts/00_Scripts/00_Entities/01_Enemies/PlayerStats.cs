@@ -12,8 +12,8 @@ public class PlayerStats : Stats
     [SerializeField] private float baseCriticalDamage = 1.5f;
 
     public float MaxHealth => CalculateStat(StatType.MaxHealth, baseMaxHealth);
-    public float AttackDamage => CalculateStat(StatType.AttackDamage, baseAttackDamage);
-    public float Defense => CalculateStat(StatType.Defense, baseDefense);
+    public override float AttackDamage => CalculateStat(StatType.AttackDamage, baseAttackDamage);
+    public override float Defense => CalculateStat(StatType.Defense, baseDefense);
     public float CriticalChance => CalculateStat(StatType.CriticalChance, baseCriticalChance);
     public float CriticalDamage => CalculateStat(StatType.CriticalDamage, baseCriticalDamage);
 }
