@@ -5,16 +5,19 @@ using UnityEngine.InputSystem;
 public class PlayerPound : MonoBehaviour
 {
     [Header("Fall Attack")]
-    [SerializeField, Range(0f, 3f)] private float fallingVelocityMultiplier = 2f;
-    [SerializeField] private AnimationCurve fallingSpeedCurve;
-    [SerializeField] private float minimumFallingSpeed = 15f;
-    [SerializeField] private float minimumFallDistance = 15f;
+    [SerializeField] private float minimumFallingSpeed = 1.5f;
+    [SerializeField] private float maximumFallingSpeed = 25f;
+    [SerializeField] private AnimationCurve fallingSpeedCurve = AnimationCurve.EaseInOut(0f, 0f, 1f, 1f);
+    [SerializeField] private float fallingCurveDuration = 0.55f;
+    [SerializeField] private float minimumFallDistance = 3f;
     [SerializeField] private LayerMask groundLayer;
+
     [Header("Impact")]
     [SerializeField] private float impactRadius = 3f;
     [SerializeField] private float damageMultiplier = 1.5f;
     [SerializeField] private LayerMask targetLayer;
 
+    private CharacterController characterController;
     private PlayerMovement playerMovement;
     private PlayerActionController playerActionController;
     private PlayerAnimationController playerAnimationController;
@@ -27,11 +30,16 @@ public class PlayerPound : MonoBehaviour
     private bool isFallingAttack;
     private bool hasImpacted;
 
+    private float fallingAttackTimer;
+    private float currentFallingSpeed;
+
     public bool IsFallingAttack => isFallingAttack;
     public bool HasImpacted => hasImpacted;
+    public float CurrentFallingSpeed => currentFallingSpeed;
 
     private void Awake ( )
     {
+        characterController = GetComponent<CharacterController>();
         playerMovement = GetComponent<PlayerMovement>();
         playerActionController = GetComponent<PlayerActionController>();
         playerAnimationController = GetComponent<PlayerAnimationController>();
@@ -55,6 +63,7 @@ public class PlayerPound : MonoBehaviour
     public void FallingAttack ( )
     {
         if (playerMovement == null) return;
+        if (characterController == null) return;
         if (playerMovement.IsGrounded) return;
         if (isFallingAttack) return;
         if (!CanPerformFallingAttack()) return;
@@ -62,6 +71,9 @@ public class PlayerPound : MonoBehaviour
 
         isFallingAttack = true;
         hasImpacted = false;
+
+        fallingAttackTimer = 0f;
+        currentFallingSpeed = minimumFallingSpeed;
 
         damagedTargets.Clear();
 
@@ -71,7 +83,10 @@ public class PlayerPound : MonoBehaviour
 
             Debug.Log($"[PlayerPound] Bloqueado. Combat permitido: {playerActionController.CanCombat}");
         }
-        playerMovement.ApplyDownwardVelocity(fallingVelocityMultiplier, minimumFallingSpeed);
+
+        // Durante el Falling Attack la velocidad vertical es controlada
+        // directamente por PlayerPound mediante la AnimationCurve.
+        playerMovement.SetGravitySuspended(true);
 
         if (playerAnimationController != null) playerAnimationController.PlayFallingAttackIntro();
 
@@ -82,9 +97,19 @@ public class PlayerPound : MonoBehaviour
     {
         if (!isFallingAttack) return;
         if (hasImpacted) return;
-        if (!playerMovement.IsGrounded) return;
 
-        Impact();
+        fallingAttackTimer += Time.deltaTime;
+
+        float normalizedTime = fallingCurveDuration > 0f ? fallingAttackTimer / fallingCurveDuration : 1f;
+        normalizedTime = Mathf.Clamp01(normalizedTime);
+
+        float curveValue = fallingSpeedCurve.Evaluate(normalizedTime);
+
+        currentFallingSpeed = Mathf.LerpUnclamped(minimumFallingSpeed, maximumFallingSpeed, curveValue);
+
+        CollisionFlags collisionFlags = characterController.Move(Vector3.down * currentFallingSpeed * Time.deltaTime);
+
+        if ((collisionFlags & CollisionFlags.Below) != 0) Impact();
     }
 
     private void Impact ( )
@@ -93,15 +118,14 @@ public class PlayerPound : MonoBehaviour
 
         hasImpacted = true;
 
-        float impactSpeed = Mathf.Abs(playerMovement.MaxFallSpeed);
-
-        Debug.Log($"[PlayerPound] Impacto | Velocidad de caída: {impactSpeed:F2}");
+        Debug.Log($"[PlayerPound] Impacto | Velocidad de caída: {currentFallingSpeed:F2}");
 
         PerformImpactDamage();
 
         if (playerAnimationController != null)
         {
             playerAnimationController.PlayFallingAttackEnding();
+
             Debug.Log("[PlayerPound] FallingAttackEnd = TRUE.");
         }
 
@@ -110,6 +134,7 @@ public class PlayerPound : MonoBehaviour
         // FinishFallingAttack será llamado por Animation Event.
         FinishFallingAttack();
     }
+
     private void PerformImpactDamage ( )
     {
         damagedTargets.Clear();
@@ -150,7 +175,12 @@ public class PlayerPound : MonoBehaviour
         isFallingAttack = false;
         hasImpacted = false;
 
+        fallingAttackTimer = 0f;
+        currentFallingSpeed = 0f;
+
         damagedTargets.Clear();
+
+        if (playerMovement != null) playerMovement.SetGravitySuspended(false);
 
         if (playerActionController != null)
         {
@@ -161,6 +191,7 @@ public class PlayerPound : MonoBehaviour
 
         Debug.Log("[PlayerPound] Falling Attack finalizado.");
     }
+
     private bool CanPerformFallingAttack ( )
     {
         Ray ray = new Ray(transform.position, Vector3.down);
@@ -179,12 +210,16 @@ public class PlayerPound : MonoBehaviour
 
     private void OnDisable ( )
     {
+        if (playerMovement != null) playerMovement.SetGravitySuspended(false);
         if (playerActionController != null) playerActionController.Unblock(this);
 
         damagedTargets.Clear();
 
         isFallingAttack = false;
         hasImpacted = false;
+
+        fallingAttackTimer = 0f;
+        currentFallingSpeed = 0f;
     }
 
     private void OnDrawGizmosSelected ( )

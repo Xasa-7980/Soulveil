@@ -9,19 +9,40 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float maxInteractionAngle = 70f;
 
     private IInteractable currentInteractable;
+
     private PlayerActionController playerActions;
+    private PlayerInput playerInput;
+    private InputAction interactAction;
 
     public IInteractable CurrentInteractable => currentInteractable;
     public bool HasInteractable => currentInteractable != null;
 
-    public string InteractionText =>
-        currentInteractable != null
-            ? currentInteractable.InteractionText
-            : "";
+    public string InteractionText
+    {
+        get
+        {
+            if (currentInteractable == null) return "";
+
+            string binding = GetInteractionBinding();
+
+            if (string.IsNullOrEmpty(binding))
+            {
+                return currentInteractable.InteractionText;
+            }
+
+            return $"[{binding}] {currentInteractable.InteractionText}";
+        }
+    }
 
     private void Awake ( )
     {
         playerActions = GetComponent<PlayerActionController>();
+        playerInput = GetComponent<PlayerInput>();
+
+        if (playerInput != null)
+        {
+            interactAction = playerInput.actions["Interaction"];
+        }
     }
 
     private void Update ( )
@@ -51,13 +72,38 @@ public class PlayerInteraction : MonoBehaviour
         currentInteractable.Interact(gameObject);
     }
 
+    public Vector3 GetInteractionUIPosition ( )
+    {
+        if (currentInteractable == null) return Vector3.zero;
+
+        return currentInteractable.InteractionPosition;
+    }
+
+    private string GetInteractionBinding ( )
+    {
+        if (interactAction == null) return "";
+        if (playerInput == null) return "";
+
+        string controlScheme = playerInput.currentControlScheme;
+
+        if (string.IsNullOrEmpty(controlScheme)) return "";
+
+        for (int i = 0; i < interactAction.bindings.Count; i++)
+        {
+            InputBinding binding = interactAction.bindings[i];
+
+            if (string.IsNullOrEmpty(binding.groups)) continue;
+            if (!binding.groups.Contains(controlScheme)) continue;
+
+            return interactAction.GetBindingDisplayString(i);
+        }
+
+        return "";
+    }
+
     private void FindInteractable ( )
     {
-        Collider[] hits = Physics.OverlapSphere(
-            transform.position,
-            interactionRadius,
-            interactionLayer
-        );
+        Collider[] hits = Physics.OverlapSphere(transform.position, interactionRadius, interactionLayer);
 
         IInteractable bestInteractable = null;
         float bestScore = Mathf.Infinity;

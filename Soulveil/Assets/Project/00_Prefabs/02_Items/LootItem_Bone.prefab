@@ -34,6 +34,7 @@ Transform:
   m_Children:
   - {fileID: 8535708069258352092}
   - {fileID: 4459280291576837558}
+  - {fileID: 1159029911112656899}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8338258542664943151
@@ -50,8 +51,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInstance:
     itemData: {fileID: 11400000, guid: ad1e3cf5f2e2ec44ab350655b5f02ba3, type: 2}
-    level: 0
+    level: 1
     rarity: 5
+  interactionOffset: {x: 0, y: 1, z: 0}
+  interactionGizmoSize: {x: 1.5, y: 0.2, z: 0}
   launchForce: 6
   horizontalForce: 2
   rotationSpeed: 180
@@ -283,6 +286,37 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5173037785423927447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159029911112656899}
+  m_Layer: 8
+  m_Name: InteractionPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1159029911112656899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173037785423927447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7824004861800592811}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2291206035591871619
 PrefabInstance:
   m_ObjectHideFlags: 0

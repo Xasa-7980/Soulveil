@@ -3,7 +3,12 @@ using UnityEngine.Events;
 
 public class LootItem : MonoBehaviour, IInteractable
 {
+    [Header("Item")]
     [SerializeField] private ItemInstance itemInstance;
+
+    [Header("Interaction")]
+    [SerializeField] private Vector3 interactionOffset = new Vector3(0f, 0.5f, 0f);
+    [SerializeField] private Vector3 interactionGizmoSize = new Vector3(0.8f, 0.3f, 0.2f);
 
     [Header("Drop")]
     [SerializeField] private float launchForce = 4f;
@@ -15,27 +20,29 @@ public class LootItem : MonoBehaviour, IInteractable
     private Rigidbody rb;
     private bool isDropping;
 
-    public ItemInstance ItemInstance => itemInstance;
-    public bool IsDropping => isDropping;
-    public string InteractionText => itemInstance != null && itemInstance.ItemData != null ? $"Recoger {itemInstance.ItemData.ItemName}" : "Recoger";
     public UnityEvent onPicked;
+
+    public bool IsDropping => isDropping;
+    public Vector3 InteractionPosition => transform.position + interactionOffset;
+    public ItemInstance ItemInstance => itemInstance;
+
+    //Texto del objeto en el suelo interactuable
+    public string InteractionText => itemInstance != null && itemInstance.ItemData != null ? $"Recoger {itemInstance.ItemData.ItemName}" : "Recoger";
+
     private void Awake ( )
     {
         rb = GetComponent<Rigidbody>();
-        onPicked.AddListener(( ) => Destroy(gameObject));
     }
 
     private void Update ( )
     {
-        if (!isDropping) return;
-        if (visual == null) return;
-
-        visual.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
+        RotateVisual();
     }
 
     public void Initialize ( ItemInstance newItemInstance )
     {
         itemInstance = newItemInstance;
+
         Launch();
     }
 
@@ -45,28 +52,66 @@ public class LootItem : MonoBehaviour, IInteractable
 
         Vector2 randomDirection = Random.insideUnitCircle.normalized;
 
-        Vector3 force = new Vector3(
-            randomDirection.x * horizontalForce,
-            launchForce,
-            randomDirection.y * horizontalForce
-        );
+        Vector3 horizontalVelocity = new Vector3(randomDirection.x, 0f, randomDirection.y) * horizontalForce;
+        Vector3 verticalVelocity = Vector3.up * launchForce;
 
         isDropping = true;
 
         rb.isKinematic = false;
-        rb.AddForce(force, ForceMode.Impulse);
+        rb.linearVelocity = horizontalVelocity + verticalVelocity;
+    }
+
+    private void RotateVisual ( )
+    {
+        if (visual == null) return;
+
+        visual.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
     }
 
     private void OnCollisionEnter ( Collision collision )
     {
-        if (!isDropping) return;
-        if ((groundLayer.value & (1 << collision.gameObject.layer)) == 0) return;
+        TryStopDrop(collision);
+    }
 
+    private void OnCollisionStay ( Collision collision )
+    {
+        TryStopDrop(collision);
+    }
+
+    private void TryStopDrop ( Collision collision )
+    {
+        if (!isDropping) return;
+        if (!IsGroundCollision(collision)) return;
+
+        StopDrop();
+    }
+
+    private bool IsGroundCollision ( Collision collision )
+    {
+        if ((groundLayer.value & (1 << collision.gameObject.layer)) == 0) return false;
+
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            ContactPoint contact = collision.GetContact(i);
+
+            // Solo consideramos suelo una superficie que esté debajo del objeto.
+            if (contact.normal.y > 0.5f) return true;
+        }
+
+        return false;
+    }
+
+    private void StopDrop ( )
+    {
         isDropping = false;
+
+        if (rb == null) return;
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         rb.isKinematic = true;
+
+        Debug.Log($"{gameObject.name} terminó de caer y ya puede recogerse.");
     }
 
     public bool CanInteract ( GameObject interactor )
@@ -80,11 +125,19 @@ public class LootItem : MonoBehaviour, IInteractable
     public void Interact ( GameObject interactor )
     {
         PlayerInventory inventory = interactor.GetComponent<PlayerInventory>();
+
         if (inventory == null) return;
         if (!inventory.AddItem(itemInstance)) return;
 
         Debug.Log($"Recogido: {itemInstance.ItemData.ItemName}");
 
         onPicked?.Invoke();
+
+        Destroy(gameObject);
+    }
+
+    private void OnDrawGizmosSelected ( )
+    {
+        Gizmos.DrawWireCube(InteractionPosition, interactionGizmoSize);
     }
 }
