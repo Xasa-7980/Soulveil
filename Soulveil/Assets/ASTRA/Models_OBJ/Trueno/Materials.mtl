@@ -1,0 +1,24 @@
+newmtl Wood
+Kd 0.25 0.22 0.31
+map_Kd ../../Assets/ElementalCurves/Shared/Textures/Wood_Albedo.png
+newmtl Iron
+Kd 0.13 0.16 0.21
+newmtl Stone
+Kd 0.34 0.39 0.49
+map_Kd ../../Assets/ElementalCurves/Shared/Textures/Stone_Albedo.png
+newmtl Cloth
+Kd 0.32 0.3 0.66
+map_Kd ../../Assets/ElementalCurves/Shared/Textures/Cloth_Albedo.png
+newmtl Rope
+Kd 0.56 0.43 0.26
+map_Kd ../../Assets/ElementalCurves/Shared/Textures/Cloth_Albedo.png
+newmtl Glow
+Kd 0.53 0.7 1
+newmtl Wall
+Kd 0.75 0.82 0.9
+map_Kd ../../Assets/ElementalCurves/Shared/Textures/Stone_Albedo.png
+newmtl Roof
+Kd 0.23 0.22 0.53
+map_Kd ../../Assets/ElementalCurves/Shared/Textures/Stone_Albedo.png
+newmtl Trim
+Kd 1 0.81 0.25
