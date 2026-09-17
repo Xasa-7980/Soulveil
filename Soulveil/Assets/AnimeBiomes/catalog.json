@@ -1,0 +1,328 @@
+{
+  "entries": [
+    {
+      "biome": "Pradera",
+      "role": "Plano",
+      "id": "Meadow_Flat",
+      "title": "Cesped de jade",
+      "tileSize": 4,
+      "normalScale": 0.35,
+      "smoothness": 0.16
+    },
+    {
+      "biome": "Pradera",
+      "role": "Semiplano",
+      "id": "Meadow_Rolling",
+      "title": "Hierba y tierra",
+      "tileSize": 4,
+      "normalScale": 0.4,
+      "smoothness": 0.16
+    },
+    {
+      "biome": "Pradera",
+      "role": "Transicion",
+      "id": "Meadow_Footslope",
+      "title": "Tierra y guijarros",
+      "tileSize": 4,
+      "normalScale": 0.45,
+      "smoothness": 0.18
+    },
+    {
+      "biome": "Pradera",
+      "role": "Pendiente",
+      "id": "Meadow_Cliff",
+      "title": "Caliza con musgo",
+      "tileSize": 6,
+      "normalScale": 0.65,
+      "smoothness": 0.2
+    },
+    {
+      "biome": "Lava",
+      "role": "Plano",
+      "id": "Lava_Flat",
+      "title": "Basalto y magma",
+      "tileSize": 4,
+      "normalScale": 0.45,
+      "smoothness": 0.25
+    },
+    {
+      "biome": "Lava",
+      "role": "Semiplano",
+      "id": "Lava_Rolling",
+      "title": "Ceniza volcanica",
+      "tileSize": 4,
+      "normalScale": 0.35,
+      "smoothness": 0.12
+    },
+    {
+      "biome": "Lava",
+      "role": "Transicion",
+      "id": "Lava_Footslope",
+      "title": "Escoria rojiza",
+      "tileSize": 4,
+      "normalScale": 0.5,
+      "smoothness": 0.18
+    },
+    {
+      "biome": "Lava",
+      "role": "Pendiente",
+      "id": "Lava_Cliff",
+      "title": "Columnas basalticas",
+      "tileSize": 6,
+      "normalScale": 0.7,
+      "smoothness": 0.24
+    },
+    {
+      "biome": "Acuatico",
+      "role": "Plano",
+      "id": "Ocean_Flat",
+      "title": "Arena de laguna",
+      "tileSize": 4,
+      "normalScale": 0.25,
+      "smoothness": 0.18
+    },
+    {
+      "biome": "Acuatico",
+      "role": "Semiplano",
+      "id": "Ocean_Rolling",
+      "title": "Arena y conchas",
+      "tileSize": 4,
+      "normalScale": 0.35,
+      "smoothness": 0.22
+    },
+    {
+      "biome": "Acuatico",
+      "role": "Transicion",
+      "id": "Ocean_Footslope",
+      "title": "Guijarros marinos",
+      "tileSize": 4,
+      "normalScale": 0.5,
+      "smoothness": 0.34
+    },
+    {
+      "biome": "Acuatico",
+      "role": "Pendiente",
+      "id": "Ocean_Cliff",
+      "title": "Roca coralina",
+      "tileSize": 6,
+      "normalScale": 0.6,
+      "smoothness": 0.28
+    },
+    {
+      "biome": "Nieve",
+      "role": "Plano",
+      "id": "Snow_Flat",
+      "title": "Nieve virgen",
+      "tileSize": 4,
+      "normalScale": 0.22,
+      "smoothness": 0.22
+    },
+    {
+      "biome": "Nieve",
+      "role": "Semiplano",
+      "id": "Snow_Rolling",
+      "title": "Nieve y hielo",
+      "tileSize": 4,
+      "normalScale": 0.32,
+      "smoothness": 0.4
+    },
+    {
+      "biome": "Nieve",
+      "role": "Transicion",
+      "id": "Snow_Footslope",
+      "title": "Grava escarchada",
+      "tileSize": 4,
+      "normalScale": 0.48,
+      "smoothness": 0.3
+    },
+    {
+      "biome": "Nieve",
+      "role": "Pendiente",
+      "id": "Snow_Cliff",
+      "title": "Hielo glaciar",
+      "tileSize": 6,
+      "normalScale": 0.6,
+      "smoothness": 0.72
+    },
+    {
+      "biome": "Trueno",
+      "role": "Plano",
+      "id": "Storm_Flat",
+      "title": "Suelo de tormenta",
+      "tileSize": 4,
+      "normalScale": 0.4,
+      "smoothness": 0.25
+    },
+    {
+      "biome": "Trueno",
+      "role": "Semiplano",
+      "id": "Storm_Rolling",
+      "title": "Brezo electrico",
+      "tileSize": 4,
+      "normalScale": 0.32,
+      "smoothness": 0.16
+    },
+    {
+      "biome": "Trueno",
+      "role": "Transicion",
+      "id": "Storm_Footslope",
+      "title": "Fragmentos de fulgurita",
+      "tileSize": 4,
+      "normalScale": 0.5,
+      "smoothness": 0.28
+    },
+    {
+      "biome": "Trueno",
+      "role": "Pendiente",
+      "id": "Storm_Cliff",
+      "title": "Roca de fulgurita",
+      "tileSize": 6,
+      "normalScale": 0.68,
+      "smoothness": 0.32
+    },
+    {
+      "biome": "Cielo",
+      "role": "Plano",
+      "id": "Sky_Flat",
+      "title": "Suelo de nacar",
+      "tileSize": 4,
+      "normalScale": 0.3,
+      "smoothness": 0.38
+    },
+    {
+      "biome": "Cielo",
+      "role": "Semiplano",
+      "id": "Sky_Rolling",
+      "title": "Pradera celeste",
+      "tileSize": 4,
+      "normalScale": 0.3,
+      "smoothness": 0.2
+    },
+    {
+      "biome": "Cielo",
+      "role": "Transicion",
+      "id": "Sky_Footslope",
+      "title": "Grava celeste",
+      "tileSize": 4,
+      "normalScale": 0.45,
+      "smoothness": 0.35
+    },
+    {
+      "biome": "Cielo",
+      "role": "Pendiente",
+      "id": "Sky_Cliff",
+      "title": "Marmol de las alturas",
+      "tileSize": 6,
+      "normalScale": 0.6,
+      "smoothness": 0.4
+    },
+    {
+      "biome": "Oscuridad",
+      "role": "Plano",
+      "id": "Dark_Flat",
+      "title": "Tierra del eclipse",
+      "tileSize": 4,
+      "normalScale": 0.3,
+      "smoothness": 0.18
+    },
+    {
+      "biome": "Oscuridad",
+      "role": "Semiplano",
+      "id": "Dark_Rolling",
+      "title": "Musgo umbrio",
+      "tileSize": 4,
+      "normalScale": 0.35,
+      "smoothness": 0.18
+    },
+    {
+      "biome": "Oscuridad",
+      "role": "Transicion",
+      "id": "Dark_Footslope",
+      "title": "Fragmentos de obsidiana",
+      "tileSize": 4,
+      "normalScale": 0.5,
+      "smoothness": 0.4
+    },
+    {
+      "biome": "Oscuridad",
+      "role": "Pendiente",
+      "id": "Dark_Cliff",
+      "title": "Obsidiana del vacio",
+      "tileSize": 6,
+      "normalScale": 0.65,
+      "smoothness": 0.5
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Cobble",
+      "title": "Adoquin de aldea",
+      "tileSize": 3,
+      "normalScale": 0.48,
+      "smoothness": 0.22
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Terracotta",
+      "title": "Terracota en espiga",
+      "tileSize": 3,
+      "normalScale": 0.35,
+      "smoothness": 0.23
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Azure",
+      "title": "Azulejo de laguna",
+      "tileSize": 3,
+      "normalScale": 0.25,
+      "smoothness": 0.5
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Marble",
+      "title": "Baldosas palaciegas",
+      "tileSize": 4,
+      "normalScale": 0.3,
+      "smoothness": 0.48
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Volcanic",
+      "title": "Losas de la forja",
+      "tileSize": 3,
+      "normalScale": 0.4,
+      "smoothness": 0.28
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Storm",
+      "title": "Mosaico del trueno",
+      "tileSize": 3,
+      "normalScale": 0.3,
+      "smoothness": 0.48
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Celestial",
+      "title": "Mosaico celestial",
+      "tileSize": 4,
+      "normalScale": 0.3,
+      "smoothness": 0.45
+    },
+    {
+      "biome": "Pueblos",
+      "role": "Pavimento",
+      "id": "Town_Eclipse",
+      "title": "Mosaico del eclipse",
+      "tileSize": 4,
+      "normalScale": 0.32,
+      "smoothness": 0.45
+    }
+  ]
+}

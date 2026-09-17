@@ -1,0 +1,16 @@
+{
+  "triangles": 7656,
+  "obj_vertices_with_uv_splits": 7956,
+  "materials": 2,
+  "collision_triangles": 164,
+  "dimensions_m": [
+    8.138,
+    2.544,
+    2.8
+  ],
+  "axis": "Y up, length X",
+  "texture_size": [
+    1254,
+    1254
+  ]
+}

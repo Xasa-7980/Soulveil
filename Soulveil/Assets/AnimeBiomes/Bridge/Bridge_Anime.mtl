@@ -1,0 +1,12 @@
+newmtl Wood
+Ka 0.12 0.10 0.08
+Kd 1.0 1.0 1.0
+Ks 0.1 0.1 0.1
+Ns 18
+map_Kd Textures/Wood_Albedo.png
+
+newmtl Iron
+Ka 0.03 0.04 0.04
+Kd 0.12 0.17 0.18
+Ks 0.25 0.25 0.25
+Ns 45
