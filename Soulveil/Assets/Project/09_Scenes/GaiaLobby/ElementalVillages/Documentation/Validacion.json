@@ -1,0 +1,16 @@
+{
+  "prefabs": 588,
+  "base_types": 84,
+  "biomes": 7,
+  "referenced_meshes": 1298,
+  "unique_vertices": 639555,
+  "unique_triangles": 599552,
+  "degenerate_triangles": 0,
+  "guid_references_checked": 5932,
+  "door_rays": 3360,
+  "blocked_passages": [],
+  "errors": [],
+  "unity_editor_tested": false,
+  "shader_compilation_tested": false,
+  "opposing_face_normals": 0
+}

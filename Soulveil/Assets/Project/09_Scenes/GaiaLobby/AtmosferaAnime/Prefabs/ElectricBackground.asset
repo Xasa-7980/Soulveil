@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8559c35c3afd5e338e8406c1d7fe46ee, type: 3}
+  m_Name: ElectricBackground
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  texture: {fileID: 2800000, guid: 7df243b99dc904346b7ae9d9b7302ebb, type: 3}
+  layout: 1
+  replaceProcedural: 1
+  opacity: 1
+  tint: {r: 3.0117648, g: 3.0117648, b: 5386.7656, a: 1}
+  useStatusColor: 1
+  blend: 0
+  alphaSource: 2
+  maskOnly: 0
+  limitToEdges: 1
+  width: 0.4
+  feather: 0.905
+  sides: {x: 1, y: 1, z: 1, w: 1}
+  tiling: {x: 2, y: 2}
+  offset: {x: 0, y: 0}
+  scroll: {x: -0.5, y: 0.5}
+  rotationDegrees: 90
+  rotationSpeed: -2
+  repeat: 1
+  noiseAmount: 0.15
+  noiseFrequency: 20
+  noiseSpeed: 10
+  noiseSeed: 1
+  columns: 2
+  rows: 2
+  framesPerSecond: 0
+  startFrame: 0

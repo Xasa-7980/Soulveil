@@ -1,0 +1,870 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47808aaea3c45a59abfabd578d7163e7, type: 3}
+  m_Name: StatusVFXLibrary
+  m_EditorClassIdentifier: 
+  layers:
+  - id: Bubble
+    enabled: 1
+    trigger: 5
+    strength: 1
+    fadeIn: 0.15
+    fadeOut: 0.3
+    manualDuration: 1
+    anchor: 0
+    cameraDistance: 0.5
+    viewportCenter: {x: 0.5, y: 0.5}
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    inheritPlayerRotation: 0
+    depthTest: 0
+    sprites: 1
+    frames: []
+    texture: {fileID: 2800000, guid: f3011e235269d0843bbd9395fcdd5fbf, type: 3}
+    fallbackShape: 4
+    columns: 1
+    rows: 1
+    animationCycles: 0
+    randomStartFrame: 0
+    additive: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    colorOverLifetime:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 5166
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    emissionRate: 12
+    burstOnActivation: 0
+    maxParticles: 12
+    lifetime: {x: 1, y: 2}
+    size: {x: 0.05, y: 0.05}
+    sizeOverLifetime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -0.08567922
+        outSlope: -0.08567922
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.26233378
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -3.20583
+        outSlope: -3.20583
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.034782767
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    useParticleCurves: 1
+    startSizeMode:
+      m_Mode: 3
+      m_CurveMultiplier: 0
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 0.35
+      m_ConstantMax: 0.75
+    sizeLifetimeMode:
+      m_Mode: 3
+      m_CurveMultiplier: 1
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: -0.08567922
+          outSlope: -0.08567922
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.26233378
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -3.20583
+          outSlope: -3.20583
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.034782767
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 0.1
+      m_ConstantMax: 0.15
+    startColorMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 5166
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 1, g: 1, b: 1, a: 1}
+    colorLifetimeMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 5166
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 0, g: 0, b: 0, a: 1}
+    startRotationDegrees: {x: 0, y: 0}
+    rotationSpeedDegrees: {x: 0, y: 0}
+    shape: 0
+    area: {x: 1, y: 1, z: 1}
+    radius: 0
+    shapeRotation: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0.1, z: 0}
+    orbit: {x: 0, y: 0, z: 0}
+    gravity: 0
+    noise: 0
+    noiseStrength: 0.1
+    noiseFrequency: 0.8
+    noiseScrollSpeed: 0
+    noiseQuality: 0
+    seed: 1
+    sortingOrder: 5
+    prefab: {fileID: 0}
+    prefabScale: {x: 1, y: 1, z: 1}
+    scalePrefabEmission: 1
+    clearPrefabOnStop: 1
+    prefabStopDelay: 0
+  - id: Fire
+    enabled: 1
+    trigger: 1
+    strength: 1
+    fadeIn: 0.01
+    fadeOut: 0.12
+    manualDuration: 5
+    anchor: 0
+    cameraDistance: 0.7
+    viewportCenter: {x: 0.5, y: 0.5}
+    offset: {x: 0, y: -0.14, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    inheritPlayerRotation: 1
+    depthTest: 1
+    sprites: 1
+    frames: []
+    texture: {fileID: 2800000, guid: 48246dccdfaeccb4899c373cd0bb8a57, type: 3}
+    fallbackShape: 5
+    columns: 6
+    rows: 6
+    animationCycles: 40
+    randomStartFrame: 1
+    additive: 1
+    tint: {r: 3.0188675, g: 1.1294118, b: 0, a: 1}
+    colorOverLifetime:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 0}
+      key2: {r: 0.043032646, g: 0, b: 1, a: 0.8}
+      key3: {r: 0.24007416, g: 0, b: 1, a: 0}
+      key4: {r: 0.47089702, g: 0.054901958, b: 1, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 29556
+      ctime3: 39321
+      ctime4: 49344
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 5166
+      atime1: 65535
+      atime2: 42598
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    emissionRate: 24
+    burstOnActivation: 0
+    maxParticles: 24
+    lifetime: {x: 15, y: 15}
+    size: {x: 0.1, y: 0.1}
+    sizeOverLifetime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.9797058
+        value: 0.98215866
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    useParticleCurves: 1
+    startSizeMode:
+      m_Mode: 3
+      m_CurveMultiplier: 0
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 5
+      m_ConstantMax: 15
+    sizeLifetimeMode:
+      m_Mode: 1
+      m_CurveMultiplier: 1
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.35
+          value: 1
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 0.05
+      m_ConstantMax: 0.15
+    startColorMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 0}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0.8}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 7864
+        atime2: 42598
+        atime3: 65535
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 4
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 0.94716984, g: 0, b: 0, a: 1}
+    colorLifetimeMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 0}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0.8}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 7864
+        atime2: 42598
+        atime3: 65535
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 4
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 0, g: 0, b: 0, a: 1}
+    startRotationDegrees: {x: 0, y: 0}
+    rotationSpeedDegrees: {x: 0, y: 0}
+    shape: 0
+    area: {x: 1, y: -0.48, z: 1}
+    radius: 3
+    shapeRotation: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    orbit: {x: 0, y: 0, z: 0}
+    gravity: 0
+    noise: 0
+    noiseStrength: 0.01
+    noiseFrequency: 1555
+    noiseScrollSpeed: 15
+    noiseQuality: 0
+    seed: 1729
+    sortingOrder: 0
+    prefab: {fileID: 7089503087897117033, guid: 6b0a9977b7451d84497536eb42bc0be3, type: 3}
+    prefabScale: {x: 1, y: 1, z: 1}
+    scalePrefabEmission: 1
+    clearPrefabOnStop: 1
+    prefabStopDelay: 6
+  - id: Poison
+    enabled: 1
+    trigger: 0
+    strength: 1
+    fadeIn: 0.1
+    fadeOut: 0.35
+    manualDuration: 0.5
+    anchor: 0
+    cameraDistance: 0.7
+    viewportCenter: {x: 0.5, y: 0.5}
+    offset: {x: 0, y: -0.5, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    inheritPlayerRotation: 0
+    depthTest: 0
+    sprites: 1
+    frames: []
+    texture: {fileID: 2800000, guid: f7ed5a74547598a4abfa43946310d902, type: 3}
+    fallbackShape: 1
+    columns: 1
+    rows: 1
+    animationCycles: 1
+    randomStartFrame: 1
+    additive: 1
+    tint: {r: 0.6366081, g: 3.0188675, b: 0, a: 1}
+    colorOverLifetime:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 0.20784314}
+      key1: {r: 1, g: 1, b: 1, a: 0}
+      key2: {r: 0.07169801, g: 0.07169801, b: 0.07169801, a: 0.8}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0.47089702, g: 0.054901958, b: 1, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 14264
+      ctime3: 52505
+      ctime4: 49344
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 5166
+      atime1: 65535
+      atime2: 42598
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    emissionRate: 12
+    burstOnActivation: 0
+    maxParticles: 12
+    lifetime: {x: 0.1, y: 1}
+    size: {x: 1, y: 4}
+    sizeOverLifetime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    useParticleCurves: 0
+    startSizeMode:
+      m_Mode: 3
+      m_CurveMultiplier: 0
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 2
+      m_ConstantMax: 3
+    sizeLifetimeMode:
+      m_Mode: 1
+      m_CurveMultiplier: 1
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 2
+          value: 1.5
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 0.05
+      m_ConstantMax: 0.15
+    startColorMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 0}
+        key2: {r: 0.07169801, g: 0.07169801, b: 0.07169801, a: 0.8}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 14264
+        ctime3: 52505
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 5166
+        atime1: 65535
+        atime2: 42598
+        atime3: 65535
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 0.94716984, g: 0, b: 0, a: 1}
+    colorLifetimeMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 0}
+        key2: {r: 0.07169801, g: 0.07169801, b: 0.07169801, a: 0.8}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 14264
+        ctime3: 52505
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 5166
+        atime1: 65535
+        atime2: 42598
+        atime3: 65535
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 0, g: 0, b: 0, a: 1}
+    startRotationDegrees: {x: 0, y: 0}
+    rotationSpeedDegrees: {x: 0, y: 0}
+    shape: 0
+    area: {x: 1, y: 0.33, z: 1}
+    radius: 3
+    shapeRotation: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0.2, z: 0}
+    orbit: {x: 0, y: 0, z: 0}
+    gravity: 0
+    noise: 1
+    noiseStrength: 0.1
+    noiseFrequency: 1
+    noiseScrollSpeed: 1
+    noiseQuality: 0
+    seed: 1729
+    sortingOrder: 0
+    prefab: {fileID: 7089503087897117033, guid: 6b0a9977b7451d84497536eb42bc0be3, type: 3}
+    prefabScale: {x: 1, y: 1, z: 1}
+    scalePrefabEmission: 0
+    clearPrefabOnStop: 0
+    prefabStopDelay: 1

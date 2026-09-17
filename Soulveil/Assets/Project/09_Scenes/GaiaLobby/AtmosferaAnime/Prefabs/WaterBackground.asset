@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8559c35c3afd5e338e8406c1d7fe46ee, type: 3}
+  m_Name: WaterBackground
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  texture: {fileID: 2800000, guid: 1601f41e5edaa0549bb457077a4bbc24, type: 3}
+  layout: 0
+  replaceProcedural: 0
+  opacity: 0.25
+  tint: {r: 0, g: 0.64149857, b: 2, a: 1}
+  useStatusColor: 1
+  blend: 1
+  alphaSource: 2
+  maskOnly: 1
+  limitToEdges: 1
+  width: 0.49
+  feather: 0.182
+  sides: {x: 1, y: 1, z: 1, w: 1}
+  tiling: {x: 4, y: 5}
+  offset: {x: 1, y: 1}
+  scroll: {x: 0, y: 1}
+  rotationDegrees: 0
+  rotationSpeed: 0
+  repeat: 1
+  noiseAmount: 0.1252
+  noiseFrequency: 2.6
+  noiseSpeed: 2.96
+  noiseSeed: 17.92
+  columns: 1
+  rows: 2
+  framesPerSecond: 0
+  startFrame: 1
+  interiorSprites: []

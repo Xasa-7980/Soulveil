@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8559c35c3afd5e338e8406c1d7fe46ee, type: 3}
+  m_Name: LightningEdge
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  texture: {fileID: 2800000, guid: 875718428e6d230448355f58de93326c, type: 3}
+  layout: 0
+  replaceProcedural: 1
+  opacity: 1
+  tint: {r: 6.2532086, g: 1.7765725, b: 13.050978, a: 1}
+  useStatusColor: 1
+  blend: 0
+  alphaSource: 0
+  maskOnly: 1
+  limitToEdges: 1
+  width: 0.25
+  feather: 1
+  sides: {x: 1, y: 1, z: 1, w: 1}
+  tiling: {x: 1.5, y: 1.5}
+  offset: {x: 0, y: 0}
+  scroll: {x: 0, y: 0.5}
+  rotationDegrees: 0
+  rotationSpeed: 0
+  repeat: 1
+  noiseAmount: 0.036
+  noiseFrequency: 5.4
+  noiseSpeed: 9.82
+  noiseSeed: 1
+  columns: 4
+  rows: 4
+  framesPerSecond: 25
+  startFrame: 0
+  interiorSprites:
+  - name: Interior sprites
+    enabled: 1
+    sprite: {fileID: 0}
+    texture: {fileID: 2800000, guid: 875718428e6d230448355f58de93326c, type: 3}
+    fallbackShape: 1
+    columns: 4
+    rows: 4
+    framesPerSecond: 10.7
+    startFrame: 0
+    synchronizeFrames: 1
+    randomStartFrame: 1
+    count: 4
+    opacity: 1
+    tint: {r: 6.2532086, g: 1.7765725, b: 13.050978, a: 1}
+    useStatusColor: 0
+    blend: 0
+    alphaSource: 0
+    maskOnly: 1
+    sizePercent: {x: 1, y: 50}
+    keepImageAspect: 1
+    sizeOverLifetime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    startColor: {r: 1, g: 1, b: 1, a: 1}
+    endColor: {r: 1, g: 1, b: 1, a: 1}
+    useParticleCurves: 1
+    heightMode:
+      m_Mode: 3
+      m_CurveMultiplier: 0
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 1
+      m_ConstantMax: 50
+    colorMode:
+      m_Mode: 1
+      m_GradientMin:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientMax:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 0}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0.8}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 7864
+        atime2: 42598
+        atime3: 65535
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 4
+      m_ColorMin: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorMax: {r: 0.081131995, g: 0.6307426, b: 1, a: 1}
+    lifetime: {x: 0.2, y: 0.3}
+    fadeInFraction: 0.12
+    fadeOutFraction: 0.25
+    placement: 0
+    centerPercent: {x: 50, y: 50}
+    areaPercent: {x: 85, y: 85}
+    edgeWidthPercent: 40
+    velocityPercent: {x: 0, y: 0}
+    driftPercent: 16.8
+    driftSpeed: 0
+    rotationDegrees: {x: 0, y: 360}
+    rotationSpeedDegrees: {x: -25, y: 25}
+    wrapAround: 1
+    seed: 1729

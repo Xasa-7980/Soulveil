@@ -1,0 +1,582 @@
+﻿Elemento,Prefab,Hijo,Pivote_local,Euler_inicial,Rango
+Fuego,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Fuego,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Fuego,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Fuego,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Fuego,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Fuego,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Fuego,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Fuego,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Fuego,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Fuego,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Fuego,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Fuego,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Fuego,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Fuego,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Fuego,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Fuego,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Fuego,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Fuego,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Fuego,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Fuego,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Fuego,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Fuego,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Fuego,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Fuego,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Fuego,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Fuego,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
+Trueno,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Trueno,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Trueno,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Trueno,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Trueno,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Trueno,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Trueno,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Trueno,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Trueno,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Trueno,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Trueno,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Trueno,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Trueno,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Trueno,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Trueno,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Trueno,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Trueno,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Trueno,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Trueno,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Trueno,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Trueno,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Trueno,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Trueno,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Trueno,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Trueno,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Trueno,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
+Luz,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Luz,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Luz,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Luz,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Luz,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Luz,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Luz,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Luz,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Luz,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Luz,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Luz,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Luz,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Luz,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Luz,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Luz,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Luz,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Luz,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Luz,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Luz,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Luz,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Luz,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Luz,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Luz,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Luz,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Luz,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Luz,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
+Oscuridad,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Oscuridad,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Oscuridad,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Oscuridad,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Oscuridad,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Oscuridad,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Oscuridad,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Oscuridad,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Oscuridad,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Oscuridad,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Oscuridad,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Oscuridad,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Oscuridad,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Oscuridad,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Oscuridad,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Oscuridad,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Oscuridad,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Oscuridad,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Oscuridad,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Oscuridad,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Oscuridad,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Oscuridad,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Oscuridad,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Oscuridad,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Oscuridad,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Oscuridad,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
+Agua,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Agua,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Agua,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Agua,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Agua,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Agua,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Agua,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Agua,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Agua,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Agua,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Agua,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Agua,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Agua,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Agua,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Agua,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Agua,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Agua,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Agua,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Agua,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Agua,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Agua,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Agua,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Agua,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Agua,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Agua,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Agua,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
+Tierra,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Tierra,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Tierra,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Tierra,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Tierra,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Tierra,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Tierra,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Tierra,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Tierra,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Tierra,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Tierra,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Tierra,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Tierra,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Tierra,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Tierra,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Tierra,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Tierra,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Tierra,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Tierra,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Tierra,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Tierra,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Tierra,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Tierra,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Tierra,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Tierra,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Tierra,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
+Viento,Casa_Pequena,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Casa_Pequena,Contraventana_HingeY,"[-2.49, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Casa_Pequena,Contraventana_HingeY_2,"[-1.41, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Casa_Pequena,Contraventana_HingeY_3,"[1.41, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Casa_Pequena,Contraventana_HingeY_4,"[2.49, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Casa_Jugador,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Casa_Jugador,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Casa_Jugador,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Casa_Jugador,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Casa_Jugador,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Casa_Dos_Estancias,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Casa_Dos_Estancias,Contraventana_HingeY,"[-3.49, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Casa_Dos_Estancias,Contraventana_HingeY_2,"[-2.41, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Casa_Dos_Estancias,Contraventana_HingeY_3,"[2.41, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Casa_Dos_Estancias,Contraventana_HingeY_4,"[3.49, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Posada,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Posada,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Posada,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Posada,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Posada,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Tienda_Armas,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Tienda_Armas,Contraventana_HingeY,"[-2.99, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Tienda_Armas,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Tienda_Armas,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Tienda_Armas,Contraventana_HingeY_4,"[2.99, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Tienda_Armaduras,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Tienda_Armaduras,Contraventana_HingeY,"[-2.99, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Tienda_Armaduras,Contraventana_HingeY_2,"[-1.9100000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Tienda_Armaduras,Contraventana_HingeY_3,"[1.9100000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Tienda_Armaduras,Contraventana_HingeY_4,"[2.99, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Tienda_Artefactos,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Tienda_Artefactos,Contraventana_HingeY,"[-2.74, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Tienda_Artefactos,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Tienda_Artefactos,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Tienda_Artefactos,Contraventana_HingeY_4,"[2.74, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Herreria,Puerta_HingeY,"[-0.84, 0.12, -3.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Herreria,Contraventana_HingeY,"[-3.24, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Herreria,Contraventana_HingeY_2,"[-2.16, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Herreria,Contraventana_HingeY_3,"[2.16, 1.22, -3.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Herreria,Contraventana_HingeY_4,"[3.24, 1.22, -3.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Archivo,Puerta_HingeY,"[-0.84, 0.12, -4.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Archivo,Contraventana_HingeY,"[-3.49, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Archivo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Archivo,Contraventana_HingeY_3,"[2.41, 1.22, -4.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Archivo,Contraventana_HingeY_4,"[3.49, 1.22, -4.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Santuario,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Santuario,Contraventana_HingeY,"[-3.24, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Santuario,Contraventana_HingeY_2,"[-2.16, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Santuario,Contraventana_HingeY_3,"[2.16, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Santuario,Contraventana_HingeY_4,"[3.24, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Mercado_Negro,Puerta_HingeY,"[-0.84, 0.12, -3.22]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Mercado_Negro,Contraventana_HingeY,"[-2.74, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Mercado_Negro,Contraventana_HingeY_2,"[-1.6600000000000001, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Mercado_Negro,Contraventana_HingeY_3,"[1.6600000000000001, 1.22, -3.19]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Mercado_Negro,Contraventana_HingeY_4,"[2.74, 1.22, -3.19]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Museo,Puerta_HingeY,"[-0.84, 0.12, -4.72]","[0, 100, 0]",Y: 0 cerrada / 100 abierta
+Viento,Museo,Contraventana_HingeY,"[-3.49, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Museo,Contraventana_HingeY_2,"[-2.41, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Museo,Contraventana_HingeY_3,"[2.41, 1.22, -4.69]","[0, -100, 0]",Y: 0 cerrada / -100 abierta
+Viento,Museo,Contraventana_HingeY_4,"[3.49, 1.22, -4.69]","[0, 80, 0]",Y: 180 cerrada / 80 abierta
+Viento,Porton,Hoja_Izquierda_HingeY,"[-1.8, 0, 0]","[0, 90, 0]",Y 0..90
+Viento,Porton,Hoja_Derecha_HingeY,"[1.8, 0, 0]","[0, 90, 0]",Y 180..90
+Viento,Farola,Farol_SwingX,"[0.59, 2.68, 0]","[0, 0, 0]",X +/-12; Z +/-12
+Viento,Farol_Pared,Farol_SwingX,"[0, 0.8, 0.45]","[0, 0, 0]",X +/-12; Z +/-12
+Viento,Portilla,Portilla_HingeY,"[-0.8, 0, 0]","[0, 0, 0]",Y 0..100
+Viento,Barril_Cerrado,Tapa_ExtraibleY,"[0, 1.04, 0]","[0, 0, 0]",traslacion +Y
+Viento,Caja_Cerrada,Tapa_HingeX,"[0, 0.77, 0.42]","[0, 0, 0]",X 0..-100
+Viento,Carro_Mano,Rueda_1_AxleZ,"[0.7311973, 0.512, -0.69]","[0, 0, 0]",Z 0..360
+Viento,Carro_Mano,Rueda_2_AxleZ,"[0.7311973, 0.512, 0.69]","[0, 0, 0]",Z 0..360
+Viento,Carretilla,Rueda_1_AxleZ,"[0.7091189999999999, 0.342, 0.0]","[0, 0, 0]",Z 0..360
+Viento,Pozo,Torno_AxleX,"[0, 1.66, 0]","[0, 0, 0]",X 0..360
+Viento,Cubo,Asa_AxleX,"[0, 0.51, 0]","[0, 0, 0]",X 0..90
+Viento,Armario,Puerta_HingeY,"[-0.65, 0.1, -0.4]","[0, 0, 0]",Y +/-100 desde cerrado
+Viento,Armario,Puerta_HingeY_2,"[0.65, 0.1, -0.4]","[0, 180, 0]",Y +/-100 desde cerrado
+Viento,Cofre,Tapa_HingeX,"[0, 0.58, 0.34]","[0, 0, 0]",X 0..-105
+Viento,Puerta,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Viento,Contraventana,Hoja_HingeY,"[0, 0, 0]","[0, 0, 0]",Y 0..100
+Viento,Trampilla,Tapa_HingeX,"[0, 0, 0]","[0, 0, 0]",X 0..-100
+Viento,Veleta,Rotor_AxleY,"[0, 1.5, 0]","[0, 0, 0]",Y 0..360
+Viento,Portal,Aro_AxleZ,"[0, 2.42, 0]","[0, 0, 0]",Z 0..360
+Viento,Forja,Fuelle_HingeZ,"[-1.2, 0.8, 0]","[0, 0, 0]",Z 0..20
+Viento,Entrenamiento,Diana_AxleY,"[0, 1.43, 0]","[0, 0, 0]",Y +/-90
+Viento,Vitrina,Tapa_HingeX,"[0, 0.97, 0.45]","[0, 0, 0]",X 0..-100
