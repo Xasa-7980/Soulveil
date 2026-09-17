@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: cc2bf3742cf452f4cb6e63b93b13df42
+timeCreated: 1512332797
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Shapes/TriangPrismShape3D.cs
+  uploadId: 992216

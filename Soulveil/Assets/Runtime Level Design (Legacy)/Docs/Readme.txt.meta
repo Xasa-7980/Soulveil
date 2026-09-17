@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bba9cdcaf6720bc40940d84e84f373ac
+timeCreated: 1485452727
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Docs/Readme.txt
+  uploadId: 992216

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b0eaa3fd435e89543abe8214a56018d5
+timeCreated: 1521298681
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/Universal
+    Gizmo/UniversalGizmo.cs
+  uploadId: 992216

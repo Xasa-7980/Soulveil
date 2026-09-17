@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: dc23f3452d279a0488309d08e3b1d550
+timeCreated: 1511028843
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/Scale
+    Gizmo/ScaleGizmoHotkeys.cs
+  uploadId: 992216

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1eb165275c9b8d64dbe1ba4576783faf
+timeCreated: 1497262820
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Extensions/GUIEx.cs
+  uploadId: 992216

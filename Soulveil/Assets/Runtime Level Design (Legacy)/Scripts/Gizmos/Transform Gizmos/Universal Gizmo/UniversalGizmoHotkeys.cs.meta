@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: a8c50469c4a790844a50726804e4070a
+timeCreated: 1521377769
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/Universal
+    Gizmo/UniversalGizmoHotkeys.cs
+  uploadId: 992216

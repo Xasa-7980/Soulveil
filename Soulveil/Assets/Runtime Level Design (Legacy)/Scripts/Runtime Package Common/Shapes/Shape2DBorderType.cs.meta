@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c54605ddd422c76499d71caeef4e780e
+timeCreated: 1520101076
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Shapes/Shape2DBorderType.cs
+  uploadId: 992216

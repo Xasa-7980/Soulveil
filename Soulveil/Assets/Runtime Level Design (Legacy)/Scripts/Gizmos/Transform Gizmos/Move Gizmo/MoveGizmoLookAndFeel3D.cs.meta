@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 783e6f8036b0ab549889d268ede23147
+timeCreated: 1497552941
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/Move
+    Gizmo/MoveGizmoLookAndFeel3D.cs
+  uploadId: 992216

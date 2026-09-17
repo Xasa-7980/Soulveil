@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 12f935c5fc2c98b44af59680c04d7ae8
+timeCreated: 1524510963
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Camera/RTFocusCamera.cs
+  uploadId: 992216

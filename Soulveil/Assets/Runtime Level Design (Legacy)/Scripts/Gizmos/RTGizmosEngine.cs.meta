@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 56ad6ff4da11be6469667bbd3e41843c
+timeCreated: 1524510963
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/RTGizmosEngine.cs
+  uploadId: 992216

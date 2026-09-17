@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9a7c1da3ae9fa74488759604d4f0dc9c
+timeCreated: 1523712445
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Prefabs/RTPrefabPreviewButton.prefab
+  uploadId: 992216

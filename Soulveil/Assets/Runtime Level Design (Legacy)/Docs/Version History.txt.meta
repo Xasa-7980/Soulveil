@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ca2999f96aec8244bdb303c16351bc7
+timeCreated: 1485452727
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Docs/Version History.txt
+  uploadId: 992216

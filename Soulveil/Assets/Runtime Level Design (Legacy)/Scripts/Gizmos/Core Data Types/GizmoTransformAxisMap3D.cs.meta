@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2d3361b3a1673d141ad9dbd3689de5ae
+timeCreated: 1516738127
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Core Data Types/GizmoTransformAxisMap3D.cs
+  uploadId: 992216

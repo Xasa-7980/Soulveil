@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5192fbb5d8606754283d7627c445925a
+timeCreated: 1486641063
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resource
+    Management/TexturePool.cs
+  uploadId: 992216

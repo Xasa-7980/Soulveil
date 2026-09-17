@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c29aa8bd7771b3943b86ad5b7e4dc4a6
+timeCreated: 1486476117
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Shaders/RTApp_GizmoSolidHandle.shader
+  uploadId: 992216

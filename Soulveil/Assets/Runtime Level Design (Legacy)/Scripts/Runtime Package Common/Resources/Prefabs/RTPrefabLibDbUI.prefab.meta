@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 451b26fa89513704fa5123cb30ab9f2f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Prefabs/RTPrefabLibDbUI.prefab
+  uploadId: 992216

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7ea2f68788571854ab19208bff381119
+timeCreated: 1523533731
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Prefab
+    Management/RTPrefabLib.cs
+  uploadId: 992216

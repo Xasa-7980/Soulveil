@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ca1020fee216a6947a19699647b038bb
+timeCreated: 1518984129
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Sliders/2D Plane
+    Slider/GizmoQuad2DBorderType.cs
+  uploadId: 992216

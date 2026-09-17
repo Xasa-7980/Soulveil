@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 944320f1f6027cb40a6090dfaf2bf565
+timeCreated: 1515069691
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Selection/ObjectSelectionGizmoId.cs
+  uploadId: 992216

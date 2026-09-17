@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 305acb5aa58b77345a08dd31a473784c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Demo Scenes/Demo/LightingData.asset
+  uploadId: 992216

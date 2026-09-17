@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3946e598cb4e99c46992f2c4e25b8cf4
+timeCreated: 1497377850
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Shapes/QuadShape2D.cs
+  uploadId: 992216

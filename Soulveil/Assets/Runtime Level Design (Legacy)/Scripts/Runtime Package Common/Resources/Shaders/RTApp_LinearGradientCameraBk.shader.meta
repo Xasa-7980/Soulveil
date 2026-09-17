@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dd650f6451274024ca4ba797ab760dc9
+timeCreated: 1485857998
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Shaders/RTApp_LinearGradientCameraBk.shader
+  uploadId: 992216

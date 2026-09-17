@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fda31fc9304bcd249bd1dd406e46868c
+timeCreated: 1520184233
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Shaders/RTApp_CylindricalTorusCull.shader
+  uploadId: 992216

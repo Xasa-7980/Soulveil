@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d3d5293c03266ce438c8c71597aaaefd
+timeCreated: 1504455526
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Shaders/RTApp_CircleCull.shader
+  uploadId: 992216

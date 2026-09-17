@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 15be68357789fde48940cabada66986a
+timeCreated: 1513693615
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Scene Gizmo/Scene
+    Gizmo Handles/SceneGizmoCamPrjSwitchLabel.cs
+  uploadId: 992216

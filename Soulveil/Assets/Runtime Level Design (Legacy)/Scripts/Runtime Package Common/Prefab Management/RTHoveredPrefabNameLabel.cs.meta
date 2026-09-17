@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e3da8927467fef04e8a3b85a3dc6a429
+timeCreated: 1526130594
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Prefab
+    Management/RTHoveredPrefabNameLabel.cs
+  uploadId: 992216

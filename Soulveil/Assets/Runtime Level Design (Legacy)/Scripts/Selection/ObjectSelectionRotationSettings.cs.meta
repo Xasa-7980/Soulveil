@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d6cf922e67928b749a927bff5ba5d0ef
+timeCreated: 1516394529
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Selection/ObjectSelectionRotationSettings.cs
+  uploadId: 992216

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5a949a52bc76caf4e99f9dcd8ba6a7f4
+timeCreated: 1517491221
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Meshes/Creation/PyramidMesh.cs
+  uploadId: 992216

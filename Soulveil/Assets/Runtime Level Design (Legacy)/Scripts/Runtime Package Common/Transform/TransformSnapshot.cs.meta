@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 23b8867214247524fb521e4cc37aa591
+timeCreated: 1497002147
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Transform/TransformSnapshot.cs
+  uploadId: 992216

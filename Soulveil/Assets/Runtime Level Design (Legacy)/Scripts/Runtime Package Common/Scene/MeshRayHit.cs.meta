@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c11657759a7098742b11a6dd10b3e976
+timeCreated: 1496848389
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Scene/MeshRayHit.cs
+  uploadId: 992216

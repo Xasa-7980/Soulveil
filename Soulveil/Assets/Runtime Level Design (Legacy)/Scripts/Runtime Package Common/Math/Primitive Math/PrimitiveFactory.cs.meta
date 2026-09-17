@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 81f7618fdb08c754d9b9c1345379e644
+timeCreated: 1506080662
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Math/Primitive
+    Math/PrimitiveFactory.cs
+  uploadId: 992216

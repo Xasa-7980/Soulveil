@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 140ae2b4562b87f4b873452fd6065994
+timeCreated: 1522438325
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Object Gizmos/Object
+    Extrude/ObjectExtrudeGizmo.cs
+  uploadId: 992216

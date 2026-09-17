@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 83d8eeaf0ed8a8e479ccec7694b2472d
+timeCreated: 1516640430
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Sliders/3D Plane
+    Slider/GizmoPlaneSlider3D.cs
+  uploadId: 992216

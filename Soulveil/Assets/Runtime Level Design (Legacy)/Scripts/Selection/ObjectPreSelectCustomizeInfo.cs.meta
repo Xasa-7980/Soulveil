@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4039390ad58d19747a23d5c2cedce0b7
+timeCreated: 1507632794
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Selection/ObjectPreSelectCustomizeInfo.cs
+  uploadId: 992216

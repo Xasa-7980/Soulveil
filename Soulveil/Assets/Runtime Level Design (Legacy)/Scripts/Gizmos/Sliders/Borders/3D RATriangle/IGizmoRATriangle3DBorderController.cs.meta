@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: dc7a89251bf018a46b079ff114b4dd59
+timeCreated: 1519305667
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Sliders/Borders/3D
+    RATriangle/IGizmoRATriangle3DBorderController.cs
+  uploadId: 992216

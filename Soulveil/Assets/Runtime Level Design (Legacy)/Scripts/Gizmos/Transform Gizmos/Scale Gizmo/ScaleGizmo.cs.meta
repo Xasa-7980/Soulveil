@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7778b7cb112d9a142b761000c1b6394e
+timeCreated: 1510578965
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/Scale
+    Gizmo/ScaleGizmo.cs
+  uploadId: 992216

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: db6da81218bfdcc4a864a03b698519eb
+timeCreated: 1519504357
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Shaders/RTApp_TorusCull.shader
+  uploadId: 992216

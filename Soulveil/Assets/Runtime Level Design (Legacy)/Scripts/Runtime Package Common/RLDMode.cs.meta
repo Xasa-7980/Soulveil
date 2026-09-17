@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0475f36c7c67f7642a65793be0e2e7a7
+timeCreated: 1524512196
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/RLDMode.cs
+  uploadId: 992216

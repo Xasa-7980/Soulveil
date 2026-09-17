@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5ef8198059834b97ac44e1d444737b32
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Editor/Scripts/RLDLegacyUpgradeWindow.cs
+  uploadId: 992216

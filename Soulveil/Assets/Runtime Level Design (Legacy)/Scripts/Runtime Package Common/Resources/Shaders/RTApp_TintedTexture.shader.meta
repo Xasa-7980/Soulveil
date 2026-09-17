@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 08f402a54f6c98d4fafb51375142e133
+timeCreated: 1486640819
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Resources/Shaders/RTApp_TintedTexture.shader
+  uploadId: 992216

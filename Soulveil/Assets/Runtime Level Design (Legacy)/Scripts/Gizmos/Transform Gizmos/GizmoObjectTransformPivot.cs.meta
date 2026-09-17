@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: cd6377d4cd7445942b1c5bec7358ccca
+timeCreated: 1499175700
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/GizmoObjectTransformPivot.cs
+  uploadId: 992216

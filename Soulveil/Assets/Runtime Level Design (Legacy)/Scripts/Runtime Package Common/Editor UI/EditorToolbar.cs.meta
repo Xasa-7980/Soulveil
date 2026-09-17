@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 69e86f1346ac2ff4098ebc2fa983cca2
+timeCreated: 1498413406
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Editor
+    UI/EditorToolbar.cs
+  uploadId: 992216

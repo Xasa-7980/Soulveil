@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b66c304fbfaf7004a879082db6da4360
+timeCreated: 1523711633
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Prefab
+    Management/RTPrefabScrollView.cs
+  uploadId: 992216

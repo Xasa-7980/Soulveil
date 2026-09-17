@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f67ac46a3b287fb4e9b675411b549916
+timeCreated: 1520339272
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/GizmoEngineSettings.cs
+  uploadId: 992216

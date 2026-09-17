@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 478ab1f60d95cc54f9d7b339238fc64f
+timeCreated: 1520532395
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Utilities/ObjectSurfaceSnap.cs
+  uploadId: 992216

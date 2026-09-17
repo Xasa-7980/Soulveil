@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9952dd52bc8ca0d4a9d54c06b8997f56
+timeCreated: 1517492074
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Meshes/Creation/CircleMesh.cs
+  uploadId: 992216

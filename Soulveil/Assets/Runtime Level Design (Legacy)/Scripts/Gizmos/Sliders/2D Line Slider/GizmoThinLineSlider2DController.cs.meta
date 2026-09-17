@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7db6001448805234ba3329057b41595b
+timeCreated: 1518372117
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Sliders/2D Line
+    Slider/GizmoThinLineSlider2DController.cs
+  uploadId: 992216

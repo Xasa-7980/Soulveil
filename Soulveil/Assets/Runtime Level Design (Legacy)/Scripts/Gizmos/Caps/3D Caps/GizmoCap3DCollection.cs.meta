@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a98ace8985317e64f8b50ef9fad4174f
+timeCreated: 1518546366
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Caps/3D Caps/GizmoCap3DCollection.cs
+  uploadId: 992216

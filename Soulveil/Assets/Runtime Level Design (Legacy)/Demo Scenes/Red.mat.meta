@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5135d2a67ae7f3e458b3109d5fbd5f04
+timeCreated: 1526645214
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Demo Scenes/Red.mat
+  uploadId: 992216

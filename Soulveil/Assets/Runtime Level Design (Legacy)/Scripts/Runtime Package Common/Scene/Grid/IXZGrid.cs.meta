@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a5c5573ce6b730b4da8f9468f8e76b11
+timeCreated: 1514494925
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Scene/Grid/IXZGrid.cs
+  uploadId: 992216

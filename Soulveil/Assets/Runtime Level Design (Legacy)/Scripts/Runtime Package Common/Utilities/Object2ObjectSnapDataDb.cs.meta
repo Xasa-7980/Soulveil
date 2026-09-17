@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4f234724f604dd0498d6b0f19a1366c0
+timeCreated: 1520770798
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Runtime Package Common/Utilities/Object2ObjectSnapDataDb.cs
+  uploadId: 992216

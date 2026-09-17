@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2bd3568bbdba772479f44cce799a32f2
+timeCreated: 1516303063
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Caps/3D Caps/GizmoBoxCap3DController.cs
+  uploadId: 992216

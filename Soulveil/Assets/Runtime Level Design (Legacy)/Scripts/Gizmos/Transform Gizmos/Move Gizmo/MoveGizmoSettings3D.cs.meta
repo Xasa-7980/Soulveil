@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 09636a23545ec4742bdfeb05d2cccffe
+timeCreated: 1497611665
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Transform Gizmos/Move
+    Gizmo/MoveGizmoSettings3D.cs
+  uploadId: 992216

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: fae566bc9de70a547828d0540e311592
+timeCreated: 1519061810
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52325
+  packageName: Runtime Level Design (Legacy)
+  packageVersion: 2.3.5
+  assetPath: Assets/Runtime Level Design (Legacy)/Scripts/Gizmos/Sliders/2D Plane
+    Slider/IGizmoPlaneSlider2DController.cs
+  uploadId: 992216
