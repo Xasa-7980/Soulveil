@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3c88190807637bf45951b0fb814b06ef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259090
+  packageName: Stylized Pirate Port City (Modular)
+  packageVersion: 1.0
+  assetPath: Assets/LeartesStudios/Art/ShaderGraphs/S_Decals.shadergraph
+  uploadId: 607776

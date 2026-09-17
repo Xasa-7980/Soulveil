@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f97303fc46e30354fb8af20f6e55d265
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259090
+  packageName: Stylized Pirate Port City (Modular)
+  packageVersion: 1.0
+  assetPath: Assets/LeartesStudios/Art/Scripts/BoatFloat.cs
+  uploadId: 607776
