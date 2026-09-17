@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7798556472612442119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509c59bead495e01b577d5f3e1b4a043, type: 3}
+  m_Name: ElementalCelFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: 5072036d3f1a5e00a78970ec67cf45c9, type: 2}
+  showInSceneView: 1
 --- !u!114 &-5436943194556111420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,6 +98,66 @@ MonoBehaviour:
   glareSample3Angle: 135
   glareSample3Intensity: 1
   glareSample3Offset: 0
+--- !u!114 &-4119178459270605011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373bc7f953475f84a129f64108bbfb20, type: 3}
+  m_Name: JapanesePaintingFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: 72612719c665518face914b606122fe1, type: 2}
+  showInSceneView: 1
+--- !u!114 &-4018062511847303624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61072451b0105399bd6664b3f2723ce3, type: 3}
+  m_Name: StatusScreenFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: 7f3bb19663e25646b4ad0f0d933d7a68, type: 2}
+  showInSceneView: 1
+--- !u!114 &-3264680627394807239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64482a4d397154618bc5d122395f4ff8, type: 3}
+  m_Name: HarmonieFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: bc1bd81f676b5e58bb54b1795db4d991, type: 2}
+  showInSceneView: 1
+--- !u!114 &-3188724683760951391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200e6e7d70fd5e88a87e626c12e4e1be, type: 3}
+  m_Name: AtmosphereFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: 595f6383c838522ba797b0e79a0fb428, type: 2}
+  showInSceneView: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +187,14 @@ MonoBehaviour:
   - {fileID: -5436943194556111420}
   - {fileID: 4749010375973846131}
   - {fileID: 6416112760560632467}
-  m_RendererFeatureMap: ad6b866f10d7b46cc4658180f8188cb473bc908ec6dfe741934211cc8f9c0a59
+  - {fileID: -7798556472612442119}
+  - {fileID: -4119178459270605011}
+  - {fileID: 6847703784941787378}
+  - {fileID: 4524227054307034695}
+  - {fileID: -3264680627394807239}
+  - {fileID: 8928369464582418188}
+  - {fileID: -4018062511847303624}
+  m_RendererFeatureMap: ad6b866f10d7b46cc4658180f8188cb473bc908ec6dfe741934211cc8f9c0a59f9af1ce934f6c5932d17bc0004bdd5c6f2988dcc4fee075f47c62e178948c93e397a08334486b1d20c2fe137b9f0e77b381607206ff93cc8
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -138,6 +220,21 @@ MonoBehaviour:
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &4524227054307034695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61072451b0105399bd6664b3f2723ce3, type: 3}
+  m_Name: StatusScreenFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: 7f3bb19663e25646b4ad0f0d933d7a68, type: 2}
+  showInSceneView: 1
 --- !u!114 &4749010375973846131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +270,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   m_Shader: {fileID: 4800000, guid: 0f854b35a0cf61a429bd5dcfea30eddd, type: 3}
+--- !u!114 &6847703784941787378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02286b296c55ce9c06e454813780a8, type: 3}
+  m_Name: OkamiInkFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: adb7526b86c452ecb6fb26ed297578b4, type: 2}
+  showInSceneView: 1
 --- !u!114 &7833122117494664109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,3 +311,18 @@ MonoBehaviour:
     BlurQuality: 0
     Falloff: 100
     SampleCount: -1
+--- !u!114 &8928369464582418188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc62196cfbe32540828a86b2f40a0fd, type: 3}
+  m_Name: HarmoniePainterlyRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: 2b2c48a3250dde84cb17788496d0695e, type: 2}
+  showInSceneView: 1

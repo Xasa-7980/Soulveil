@@ -1,5 +1,258 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9099837451905336161
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3d9f8c61d45281b18b7e6770bd3df7, type: 3}
+  m_Name: StatusScreenVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  poison:
+    m_OverrideState: 1
+    m_Value: 0
+  fire:
+    m_OverrideState: 1
+    m_Value: 0
+  darkness:
+    m_OverrideState: 1
+    m_Value: 0
+  buff:
+    m_OverrideState: 1
+    m_Value: 0
+  wet:
+    m_OverrideState: 1
+    m_Value: 0
+  underwater:
+    m_OverrideState: 1
+    m_Value: 0
+  electric:
+    m_OverrideState: 0
+    m_Value: 1
+  frost:
+    m_OverrideState: 0
+    m_Value: 1
+  bleeding:
+    m_OverrideState: 1
+    m_Value: 0
+  poisonColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.25, g: 0.4, b: 0.035, a: 1}
+  fireColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0.15, b: 0.015, a: 1}
+  darknessColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.035, g: 0.01, b: 0.075, a: 1}
+  buffColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.9, g: 0.65, b: 0.15, a: 1}
+  waterColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.035, g: 0.28, b: 0.4, a: 1}
+  electricColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.6, b: 1, a: 1}
+  frostColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.7, b: 0.8, a: 1}
+  bloodColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.015, b: 0.025, a: 1}
+  edgeWidth:
+    m_OverrideState: 1
+    m_Value: 0.438
+  distortionPixels:
+    m_OverrideState: 1
+    m_Value: 4.8
+  animationSpeed:
+    m_OverrideState: 1
+    m_Value: 1
+  pulseAmount:
+    m_OverrideState: 1
+    m_Value: 1
+  proceduralStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  poisonOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  fireOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  darknessOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  buffOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  wetOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  underwaterOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  electricOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  frostOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  bleedingOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  poisonNoiseScale:
+    m_OverrideState: 1
+    m_Value: 40
+  poisonMotion:
+    m_OverrideState: 1
+    m_Value: 4
+  fireHeight:
+    m_OverrideState: 1
+    m_Value: 0.769
+  fireTurbulence:
+    m_OverrideState: 1
+    m_Value: 7.9
+  fireSpeed:
+    m_OverrideState: 1
+    m_Value: 8
+  darknessNoiseScale:
+    m_OverrideState: 0
+    m_Value: 13
+  darknessCoverage:
+    m_OverrideState: 0
+    m_Value: 0.78
+  darknessSpeed:
+    m_OverrideState: 0
+    m_Value: 0.25
+  buffAnchorToPlayer:
+    m_OverrideState: 1
+    m_Value: 1
+  buffFitPlayer:
+    m_OverrideState: 1
+    m_Value: 1
+  buffSizeMultiplier:
+    m_OverrideState: 1
+    m_Value: 1.27
+  buffRadius:
+    m_OverrideState: 1
+    m_Value: 0.6
+  buffThickness:
+    m_OverrideState: 1
+    m_Value: 0.5
+  buffOrbitSpeed:
+    m_OverrideState: 1
+    m_Value: 3.34
+  buffMoteDensity:
+    m_OverrideState: 1
+    m_Value: 4
+  buffMoteSize:
+    m_OverrideState: 1
+    m_Value: 1.95
+  buffGlow:
+    m_OverrideState: 1
+    m_Value: 2
+  wetDensity:
+    m_OverrideState: 1
+    m_Value: 80
+  wetSpeed:
+    m_OverrideState: 1
+    m_Value: 4
+  wetSize:
+    m_OverrideState: 1
+    m_Value: 16
+  underwaterFrequency:
+    m_OverrideState: 1
+    m_Value: 1
+  underwaterSpeed:
+    m_OverrideState: 1
+    m_Value: 6
+  electricBoltCount:
+    m_OverrideState: 1
+    m_Value: 6
+  electricNoiseFrequency:
+    m_OverrideState: 1
+    m_Value: 31.1
+  electricNoiseAmplitude:
+    m_OverrideState: 1
+    m_Value: 0.041
+  electricNoiseSpeed:
+    m_OverrideState: 1
+    m_Value: 5.7
+  electricWidth:
+    m_OverrideState: 1
+    m_Value: 0.95
+  electricBranchStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  electricFlicker:
+    m_OverrideState: 1
+    m_Value: 1
+  frostCrystalScale:
+    m_OverrideState: 1
+    m_Value: 240
+  snowAmount:
+    m_OverrideState: 1
+    m_Value: 1
+  snowDensity:
+    m_OverrideState: 1
+    m_Value: 10.9
+  snowSize:
+    m_OverrideState: 1
+    m_Value: 3.54
+  snowSpeed:
+    m_OverrideState: 1
+    m_Value: 0.25
+  snowDrift:
+    m_OverrideState: 1
+    m_Value: 0.4
+  bleedNoiseScale:
+    m_OverrideState: 1
+    m_Value: 60
+  bleedCoverage:
+    m_OverrideState: 1
+    m_Value: 0.552
+  edgeImagesStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  interiorSpriteBudget:
+    m_OverrideState: 0
+    m_Value: 192
+  poisonEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 11400000, guid: fd21c3e745b6df14286de2346361e7b5, type: 2}
+  fireEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  darknessEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  buffEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  wetEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  underwaterEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 11400000, guid: fd21c3e745b6df14286de2346361e7b5, type: 2}
+  electricEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 11400000, guid: 7f62b4abda056a844af989e2008a3179, type: 2}
+  frostEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  bleedingEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
 --- !u!114 &-7893295128165547882
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -47,6 +300,70 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-7890892544400575378
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5e372da6905bfcbfbf443286cd57d3, type: 3}
+  m_Name: OkamiInkVolume
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.072
+  bands:
+    m_OverrideState: 1
+    m_Value: 16
+  whitePoint:
+    m_OverrideState: 1
+    m_Value: 5.45
+  saturation:
+    m_OverrideState: 1
+    m_Value: 2
+  inkStrength:
+    m_OverrideState: 1
+    m_Value: 0.95
+  inkWidth:
+    m_OverrideState: 1
+    m_Value: 2.1
+  depthThreshold:
+    m_OverrideState: 1
+    m_Value: 0.003
+  normalThreshold:
+    m_OverrideState: 1
+    m_Value: 0.4
+  normalEdges:
+    m_OverrideState: 1
+    m_Value: 1
+  colorEdges:
+    m_OverrideState: 1
+    m_Value: 1
+  paperStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  paperScale:
+    m_OverrideState: 1
+    m_Value: 0.25
+  wobble:
+    m_OverrideState: 1
+    m_Value: 0
+  pigment:
+    m_OverrideState: 1
+    m_Value: 0.45
+  monochrome:
+    m_OverrideState: 1
+    m_Value: 1
+  paperColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.92, g: 0.84, b: 0.66, a: 1}
+  inkColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.015, g: 0.012, b: 0.018, a: 1}
 --- !u!114 &-3357603926938260329
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -75,6 +392,332 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-1955757709134187371
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3d9f8c61d45281b18b7e6770bd3df7, type: 3}
+  m_Name: StatusScreenVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  poison:
+    m_OverrideState: 1
+    m_Value: 0
+  fire:
+    m_OverrideState: 1
+    m_Value: 0
+  darkness:
+    m_OverrideState: 1
+    m_Value: 0
+  buff:
+    m_OverrideState: 1
+    m_Value: 0
+  wet:
+    m_OverrideState: 1
+    m_Value: 0
+  underwater:
+    m_OverrideState: 1
+    m_Value: 0
+  electric:
+    m_OverrideState: 1
+    m_Value: 0
+  frost:
+    m_OverrideState: 1
+    m_Value: 0
+  bleeding:
+    m_OverrideState: 1
+    m_Value: 0
+  poisonColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.25, g: 0.4, b: 0.035, a: 1}
+  fireColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0.15, b: 0.015, a: 1}
+  darknessColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.035, g: 0.01, b: 0.075, a: 1}
+  buffColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.9, g: 0.65, b: 0.15, a: 1}
+  waterColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.03529412, g: 0.2784314, b: 0.4, a: 1}
+  electricColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.6, b: 1, a: 1}
+  frostColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.7, b: 0.8, a: 1}
+  bloodColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.015, b: 0.025, a: 1}
+  edgeWidth:
+    m_OverrideState: 0
+    m_Value: 0.3
+  distortionPixels:
+    m_OverrideState: 1
+    m_Value: 12
+  animationSpeed:
+    m_OverrideState: 1
+    m_Value: 1
+  pulseAmount:
+    m_OverrideState: 1
+    m_Value: 0.238
+  proceduralStrength:
+    m_OverrideState: 0
+    m_Value: 1
+  poisonOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  fireOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  darknessOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  buffOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  wetOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  underwaterOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  electricOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  frostOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  bleedingOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  poisonNoiseScale:
+    m_OverrideState: 1
+    m_Value: 60
+  poisonMotion:
+    m_OverrideState: 1
+    m_Value: 0.25
+  fireHeight:
+    m_OverrideState: 0
+    m_Value: 0.25
+  fireTurbulence:
+    m_OverrideState: 0
+    m_Value: 28
+  fireSpeed:
+    m_OverrideState: 0
+    m_Value: 1.4
+  darknessNoiseScale:
+    m_OverrideState: 0
+    m_Value: 13
+  darknessCoverage:
+    m_OverrideState: 0
+    m_Value: 0.78
+  darknessSpeed:
+    m_OverrideState: 0
+    m_Value: 0.25
+  buffAnchorToPlayer:
+    m_OverrideState: 1
+    m_Value: 1
+  buffFitPlayer:
+    m_OverrideState: 0
+    m_Value: 1
+  buffSizeMultiplier:
+    m_OverrideState: 1
+    m_Value: 1.2
+  buffRadius:
+    m_OverrideState: 1
+    m_Value: 0.16
+  buffThickness:
+    m_OverrideState: 1
+    m_Value: 0.85
+  buffOrbitSpeed:
+    m_OverrideState: 1
+    m_Value: 1
+  buffMoteDensity:
+    m_OverrideState: 1
+    m_Value: 24
+  buffMoteSize:
+    m_OverrideState: 1
+    m_Value: 3
+  buffGlow:
+    m_OverrideState: 1
+    m_Value: 2
+  wetDensity:
+    m_OverrideState: 0
+    m_Value: 37.9
+  wetSpeed:
+    m_OverrideState: 0
+    m_Value: 3.25
+  wetSize:
+    m_OverrideState: 0
+    m_Value: 6.47
+  underwaterFrequency:
+    m_OverrideState: 1
+    m_Value: 16.2
+  underwaterSpeed:
+    m_OverrideState: 1
+    m_Value: 2.4
+  electricBoltCount:
+    m_OverrideState: 0
+    m_Value: 3
+  electricNoiseFrequency:
+    m_OverrideState: 0
+    m_Value: 9
+  electricNoiseAmplitude:
+    m_OverrideState: 0
+    m_Value: 0.055
+  electricNoiseSpeed:
+    m_OverrideState: 0
+    m_Value: 8
+  electricWidth:
+    m_OverrideState: 0
+    m_Value: 1.5
+  electricBranchStrength:
+    m_OverrideState: 0
+    m_Value: 0.45
+  electricFlicker:
+    m_OverrideState: 0
+    m_Value: 0.25
+  frostCrystalScale:
+    m_OverrideState: 1
+    m_Value: 110
+  snowAmount:
+    m_OverrideState: 1
+    m_Value: 0.4
+  snowDensity:
+    m_OverrideState: 1
+    m_Value: 12
+  snowSize:
+    m_OverrideState: 1
+    m_Value: 3
+  snowSpeed:
+    m_OverrideState: 1
+    m_Value: 0.25
+  snowDrift:
+    m_OverrideState: 1
+    m_Value: 0.4
+  bleedNoiseScale:
+    m_OverrideState: 0
+    m_Value: 18
+  bleedCoverage:
+    m_OverrideState: 0
+    m_Value: 0.65
+  edgeImagesStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  interiorSpriteBudget:
+    m_OverrideState: 1
+    m_Value: 192
+  poisonEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  fireEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  darknessEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 11400000, guid: 58c895e649bd22b40af0ecca3370c985, type: 2}
+  buffEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 11400000, guid: f669fc1a188541340bfdd6e18a459b46, type: 2}
+  wetEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  underwaterEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 11400000, guid: fd21c3e745b6df14286de2346361e7b5, type: 2}
+  electricEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 11400000, guid: dbfc3835da595b34ca61bf2f7311571a, type: 2}
+  frostEdgeStyle:
+    m_OverrideState: 1
+    m_Value: {fileID: 11400000, guid: e84aecdc3832a574a9d8b331bf5765e3, type: 2}
+  bleedingEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+--- !u!114 &-1212308164141924041
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4163ba45e5bf57ff8def783fec1e84ef, type: 3}
+  m_Name: JapanesePaintingVolume
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  bands:
+    m_OverrideState: 1
+    m_Value: 4.38
+  whitePoint:
+    m_OverrideState: 1
+    m_Value: 2.47
+  saturation:
+    m_OverrideState: 1
+    m_Value: 2
+  inkStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  inkWidth:
+    m_OverrideState: 1
+    m_Value: 1.1
+  depthThreshold:
+    m_OverrideState: 1
+    m_Value: 0.007
+  normalThreshold:
+    m_OverrideState: 1
+    m_Value: 2
+  normalEdges:
+    m_OverrideState: 1
+    m_Value: 0
+  colorEdges:
+    m_OverrideState: 1
+    m_Value: 1
+  paperStrength:
+    m_OverrideState: 1
+    m_Value: 0.312
+  paperScale:
+    m_OverrideState: 1
+    m_Value: 0.63
+  wobble:
+    m_OverrideState: 1
+    m_Value: 0.66
+  pigment:
+    m_OverrideState: 1
+    m_Value: 0.65
+  monochrome:
+    m_OverrideState: 1
+    m_Value: 0
+  washRadius:
+    m_OverrideState: 1
+    m_Value: 0
+  washStrength:
+    m_OverrideState: 1
+    m_Value: 0.662
+  bleed:
+    m_OverrideState: 1
+    m_Value: 0
+  paperColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.92, g: 0.84, b: 0.66, a: 1}
+  inkColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.015, g: 0.012, b: 0.018, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,6 +736,7 @@ MonoBehaviour:
   - {fileID: 7391319092446245454}
   - {fileID: -3357603926938260329}
   - {fileID: 5371222223763101162}
+  - {fileID: -1955757709134187371}
 --- !u!114 &849379129802519247
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -133,6 +777,259 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 1
     m_Value: 647
+--- !u!114 &2600650242886227233
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3d9f8c61d45281b18b7e6770bd3df7, type: 3}
+  m_Name: StatusScreenVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  poison:
+    m_OverrideState: 1
+    m_Value: 0
+  fire:
+    m_OverrideState: 1
+    m_Value: 0
+  darkness:
+    m_OverrideState: 1
+    m_Value: 0
+  buff:
+    m_OverrideState: 1
+    m_Value: 0
+  wet:
+    m_OverrideState: 1
+    m_Value: 0
+  underwater:
+    m_OverrideState: 0
+    m_Value: 0
+  electric:
+    m_OverrideState: 1
+    m_Value: 1
+  frost:
+    m_OverrideState: 1
+    m_Value: 0
+  bleeding:
+    m_OverrideState: 1
+    m_Value: 0
+  poisonColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.25, g: 0.4, b: 0.035, a: 1}
+  fireColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0.15, b: 0.015, a: 1}
+  darknessColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.035, g: 0.01, b: 0.075, a: 1}
+  buffColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.9, g: 0.65, b: 0.15, a: 1}
+  waterColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.035, g: 0.28, b: 0.4, a: 1}
+  electricColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.6, b: 1, a: 1}
+  frostColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.7, b: 0.8, a: 1}
+  bloodColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.015, b: 0.025, a: 1}
+  edgeWidth:
+    m_OverrideState: 1
+    m_Value: 0.3
+  distortionPixels:
+    m_OverrideState: 1
+    m_Value: 2
+  animationSpeed:
+    m_OverrideState: 1
+    m_Value: 1
+  pulseAmount:
+    m_OverrideState: 1
+    m_Value: 0.25
+  proceduralStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  poisonOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  fireOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  darknessOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  buffOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  wetOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  underwaterOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  electricOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  frostOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  bleedingOverlay:
+    m_OverrideState: 1
+    m_Value: 1
+  poisonNoiseScale:
+    m_OverrideState: 0
+    m_Value: 13
+  poisonMotion:
+    m_OverrideState: 0
+    m_Value: 0.25
+  fireHeight:
+    m_OverrideState: 0
+    m_Value: 0.25
+  fireTurbulence:
+    m_OverrideState: 0
+    m_Value: 28
+  fireSpeed:
+    m_OverrideState: 0
+    m_Value: 1.4
+  darknessNoiseScale:
+    m_OverrideState: 0
+    m_Value: 13
+  darknessCoverage:
+    m_OverrideState: 0
+    m_Value: 0.78
+  darknessSpeed:
+    m_OverrideState: 0
+    m_Value: 0.25
+  buffAnchorToPlayer:
+    m_OverrideState: 0
+    m_Value: 1
+  buffFitPlayer:
+    m_OverrideState: 0
+    m_Value: 1
+  buffSizeMultiplier:
+    m_OverrideState: 0
+    m_Value: 1.2
+  buffRadius:
+    m_OverrideState: 0
+    m_Value: 0.16
+  buffThickness:
+    m_OverrideState: 0
+    m_Value: 3
+  buffOrbitSpeed:
+    m_OverrideState: 0
+    m_Value: 1
+  buffMoteDensity:
+    m_OverrideState: 0
+    m_Value: 24
+  buffMoteSize:
+    m_OverrideState: 0
+    m_Value: 3
+  buffGlow:
+    m_OverrideState: 0
+    m_Value: 0.5
+  wetDensity:
+    m_OverrideState: 0
+    m_Value: 32
+  wetSpeed:
+    m_OverrideState: 0
+    m_Value: 0.7
+  wetSize:
+    m_OverrideState: 0
+    m_Value: 5
+  underwaterFrequency:
+    m_OverrideState: 0
+    m_Value: 35
+  underwaterSpeed:
+    m_OverrideState: 0
+    m_Value: 2
+  electricBoltCount:
+    m_OverrideState: 0
+    m_Value: 3
+  electricNoiseFrequency:
+    m_OverrideState: 0
+    m_Value: 9
+  electricNoiseAmplitude:
+    m_OverrideState: 0
+    m_Value: 0.055
+  electricNoiseSpeed:
+    m_OverrideState: 0
+    m_Value: 8
+  electricWidth:
+    m_OverrideState: 0
+    m_Value: 1.5
+  electricBranchStrength:
+    m_OverrideState: 0
+    m_Value: 0.45
+  electricFlicker:
+    m_OverrideState: 0
+    m_Value: 0.25
+  frostCrystalScale:
+    m_OverrideState: 0
+    m_Value: 110
+  snowAmount:
+    m_OverrideState: 0
+    m_Value: 0.4
+  snowDensity:
+    m_OverrideState: 0
+    m_Value: 12
+  snowSize:
+    m_OverrideState: 0
+    m_Value: 3
+  snowSpeed:
+    m_OverrideState: 0
+    m_Value: 0.25
+  snowDrift:
+    m_OverrideState: 0
+    m_Value: 0.4
+  bleedNoiseScale:
+    m_OverrideState: 0
+    m_Value: 18
+  bleedCoverage:
+    m_OverrideState: 0
+    m_Value: 0.65
+  edgeImagesStrength:
+    m_OverrideState: 0
+    m_Value: 1
+  interiorSpriteBudget:
+    m_OverrideState: 0
+    m_Value: 192
+  poisonEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  fireEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  darknessEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  buffEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  wetEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  underwaterEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  electricEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  frostEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  bleedingEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
 --- !u!114 &5371222223763101162
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -340,6 +1237,314 @@ MonoBehaviour:
   glareSample3Offset:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &5949710536699298880
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3d9f8c61d45281b18b7e6770bd3df7, type: 3}
+  m_Name: StatusScreenVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 0
+    m_Value: 1
+  poison:
+    m_OverrideState: 0
+    m_Value: 0
+  fire:
+    m_OverrideState: 0
+    m_Value: 0
+  darkness:
+    m_OverrideState: 0
+    m_Value: 0
+  buff:
+    m_OverrideState: 0
+    m_Value: 0
+  wet:
+    m_OverrideState: 0
+    m_Value: 0
+  underwater:
+    m_OverrideState: 0
+    m_Value: 0
+  electric:
+    m_OverrideState: 0
+    m_Value: 0
+  frost:
+    m_OverrideState: 0
+    m_Value: 0
+  bleeding:
+    m_OverrideState: 0
+    m_Value: 0
+  poisonColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.25, g: 0.4, b: 0.035, a: 1}
+  fireColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0.15, b: 0.015, a: 1}
+  darknessColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.035, g: 0.01, b: 0.075, a: 1}
+  buffColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.9, g: 0.65, b: 0.15, a: 1}
+  waterColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.035, g: 0.28, b: 0.4, a: 1}
+  electricColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.6, b: 1, a: 1}
+  frostColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.7, b: 0.8, a: 1}
+  bloodColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.35, g: 0.015, b: 0.025, a: 1}
+  edgeWidth:
+    m_OverrideState: 0
+    m_Value: 0.3
+  distortionPixels:
+    m_OverrideState: 0
+    m_Value: 2
+  animationSpeed:
+    m_OverrideState: 0
+    m_Value: 1
+  pulseAmount:
+    m_OverrideState: 0
+    m_Value: 0.25
+  proceduralStrength:
+    m_OverrideState: 0
+    m_Value: 1
+  poisonOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  fireOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  darknessOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  buffOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  wetOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  underwaterOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  electricOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  frostOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  bleedingOverlay:
+    m_OverrideState: 0
+    m_Value: 1
+  poisonNoiseScale:
+    m_OverrideState: 0
+    m_Value: 13
+  poisonMotion:
+    m_OverrideState: 0
+    m_Value: 0.25
+  fireHeight:
+    m_OverrideState: 0
+    m_Value: 0.25
+  fireTurbulence:
+    m_OverrideState: 0
+    m_Value: 28
+  fireSpeed:
+    m_OverrideState: 0
+    m_Value: 1.4
+  darknessNoiseScale:
+    m_OverrideState: 0
+    m_Value: 13
+  darknessCoverage:
+    m_OverrideState: 0
+    m_Value: 0.78
+  darknessSpeed:
+    m_OverrideState: 0
+    m_Value: 0.25
+  buffAnchorToPlayer:
+    m_OverrideState: 0
+    m_Value: 1
+  buffFitPlayer:
+    m_OverrideState: 0
+    m_Value: 1
+  buffSizeMultiplier:
+    m_OverrideState: 0
+    m_Value: 1.2
+  buffRadius:
+    m_OverrideState: 0
+    m_Value: 0.16
+  buffThickness:
+    m_OverrideState: 0
+    m_Value: 3
+  buffOrbitSpeed:
+    m_OverrideState: 0
+    m_Value: 1
+  buffMoteDensity:
+    m_OverrideState: 0
+    m_Value: 24
+  buffMoteSize:
+    m_OverrideState: 0
+    m_Value: 3
+  buffGlow:
+    m_OverrideState: 0
+    m_Value: 0.5
+  wetDensity:
+    m_OverrideState: 0
+    m_Value: 32
+  wetSpeed:
+    m_OverrideState: 0
+    m_Value: 0.7
+  wetSize:
+    m_OverrideState: 0
+    m_Value: 5
+  underwaterFrequency:
+    m_OverrideState: 0
+    m_Value: 35
+  underwaterSpeed:
+    m_OverrideState: 0
+    m_Value: 2
+  electricBoltCount:
+    m_OverrideState: 0
+    m_Value: 3
+  electricNoiseFrequency:
+    m_OverrideState: 0
+    m_Value: 9
+  electricNoiseAmplitude:
+    m_OverrideState: 0
+    m_Value: 0.055
+  electricNoiseSpeed:
+    m_OverrideState: 0
+    m_Value: 8
+  electricWidth:
+    m_OverrideState: 0
+    m_Value: 1.5
+  electricBranchStrength:
+    m_OverrideState: 0
+    m_Value: 0.45
+  electricFlicker:
+    m_OverrideState: 0
+    m_Value: 0.25
+  frostCrystalScale:
+    m_OverrideState: 0
+    m_Value: 110
+  snowAmount:
+    m_OverrideState: 0
+    m_Value: 0.4
+  snowDensity:
+    m_OverrideState: 0
+    m_Value: 12
+  snowSize:
+    m_OverrideState: 0
+    m_Value: 3
+  snowSpeed:
+    m_OverrideState: 0
+    m_Value: 0.25
+  snowDrift:
+    m_OverrideState: 0
+    m_Value: 0.4
+  bleedNoiseScale:
+    m_OverrideState: 0
+    m_Value: 18
+  bleedCoverage:
+    m_OverrideState: 0
+    m_Value: 0.65
+  edgeImagesStrength:
+    m_OverrideState: 0
+    m_Value: 1
+  interiorSpriteBudget:
+    m_OverrideState: 0
+    m_Value: 192
+  poisonEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  fireEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  darknessEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  buffEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  wetEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  underwaterEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  electricEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  frostEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  bleedingEdgeStyle:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+--- !u!114 &6689654224769768927
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0cb758a65777647b9c995a4210c130, type: 3}
+  m_Name: HarmoniePainterlyVolume
+  m_EditorClassIdentifier: 
+  active: 0
+  enabledEffect:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.873
+  brushBlend:
+    m_OverrideState: 1
+    m_Value: 0.491
+  blurRadius:
+    m_OverrideState: 1
+    m_Value: 2.99
+  colorSteps:
+    m_OverrideState: 1
+    m_Value: 7
+  outlineStrength:
+    m_OverrideState: 1
+    m_Value: 2
+  outlineThreshold:
+    m_OverrideState: 1
+    m_Value: 0.001
+  saturation:
+    m_OverrideState: 1
+    m_Value: 1.03
+  contrast:
+    m_OverrideState: 1
+    m_Value: 1.01
+  warmth:
+    m_OverrideState: 1
+    m_Value: -0.39
+  glow:
+    m_OverrideState: 1
+    m_Value: 1
+  paperGrain:
+    m_OverrideState: 1
+    m_Value: 1
+  motionStrength:
+    m_OverrideState: 1
+    m_Value: 2
+  motionSpeed:
+    m_OverrideState: 1
+    m_Value: 5
 --- !u!114 &7391319092446245454
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -354,14 +1559,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   quality:
     m_OverrideState: 1
     m_Value: 2
   intensity:
     m_OverrideState: 1
-    m_Value: 0.6
+    m_Value: 0.039
   clamp:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.05

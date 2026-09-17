@@ -822,7 +822,7 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Standalone: MAGIO
+    Standalone: MAGIO;GAIA_V3_CINEMACHINE_OR_NEWER;GAIA_INPUT_SYSTEM;UPPipeline;GAIA_2023;GAIA_MESH_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

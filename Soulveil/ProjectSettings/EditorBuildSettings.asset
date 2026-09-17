@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Project/09_Scenes/GaiaLobby/GaiaLobby.unity
+    guid: 5bad67da71696e94d90bf211308df11e
+  - enabled: 1
     path: Assets/Project/09_Scenes/PlayerProtoScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
