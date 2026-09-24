@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\hurtreactions\\frogfallinghurtreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\hurtreactions\\frogfallinghurtreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\09_scenes\\gaialobby\\atmosferaanime\\editor\\statuslivepreviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\atmosferaanime\\editor\\statuslivepreviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemystunned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemystunned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\09_scenes\\gaialobby\\atmosferaanime\\editor\\statusedgestyleeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\atmosferaanime\\editor\\statusedgestyleeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\09_scenes\\gaialobby\\atmosferaanime\\runtime\\statusvfxrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\atmosferaanime\\runtime\\statusvfxrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\entityelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\entityelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\01_enemies\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\01_enemies\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\itemslotui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\itemslotui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +31,132 @@
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\!!_realprotomechs\\playerpound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\02_managers\\runmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\02_managers\\runmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\01_scriptableobjects\\01_enemies\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\01_scriptableobjects\\01_enemies\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemystunned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\enemystunned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\entityelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\entityelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\09_scenes\\gaialobby\\harmonie\\temp\\harmoniepainterlyvolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\harmonie\\temp\\harmoniepainterlyvolume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\lootitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\lootitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\TempGood\\Editor\\StatusVFXEditors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\TempGood\\Editor\\StatusVFXEditors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\editor\\cameracontrollereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E53AFF-C9EC-84C2-5934-AC91D647D131}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\cameracontrollereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\09_scenes\\gaialobby\\harmonie\\temp\\harmoniepainterly.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\harmonie\\temp\\harmoniepainterly.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\09_scenes\\gaialobby\\harmonie\\temp\\harmoniepainterlyrendererfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\harmonie\\temp\\harmoniepainterlyrendererfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\09_scenes\\gaialobby\\harmonie\\runtime\\harmoniefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\09_scenes\\gaialobby\\harmonie\\runtime\\harmoniefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\06_camera\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\06_camera\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\03_constructors\\animecameraextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\03_constructors\\animecameraextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\portals\\portalinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\portals\\portalinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\npc\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\npc\\npcinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\portals\\extractionportal\\extractionportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\portals\\extractionportal\\extractionportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\chest\\chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\03_staticentities\\chest\\chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\000_interfaces\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\000_interfaces\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\rarityvfxpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\02_items\\rarityvfxpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\xasa7\\documents\\github\\gittemp\\soulveil\\soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\ui\\interactionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\inventory\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\inventory\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playeringametext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\00_player\\behaviourscripts\\playeringametext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\hurtreactions\\frogfallinghurtreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114D90B4-C06D-A246-107B-C0DE46DFC60C}|Assembly-CSharp.csproj|solutionrelative:assets\\project\\02_scripts\\00_scripts\\00_entities\\01_enemies\\enemybehaviour\\hurtreactions\\frogfallinghurtreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,8 +166,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Chest.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Chest\\Chest.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Chest\\Chest.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Chest\\Chest.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Chest\\Chest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:25:51.716Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NPCInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\NPC\\NPCInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\NPC\\NPCInteraction.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\NPC\\NPCInteraction.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\NPC\\NPCInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:28:08.336Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExtractionPortal.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\ExtractionPortal\\ExtractionPortal.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\ExtractionPortal\\ExtractionPortal.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\ExtractionPortal\\ExtractionPortal.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\ExtractionPortal\\ExtractionPortal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:03:13.291Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PortalInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\PortalInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\PortalInteraction.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\PortalInteraction.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\03_StaticEntities\\Portals\\PortalInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:27:42.057Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
@@ -91,6 +235,246 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StatusLivePreviews.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusLivePreviews.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusLivePreviews.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusLivePreviews.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusLivePreviews.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwE8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T17:47:49.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatusEdgeStyleEditor.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusEdgeStyleEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusEdgeStyleEditor.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusEdgeStyleEditor.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Editor\\StatusEdgeStyleEditor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T16:51:41.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusVFXRig.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Runtime\\StatusVFXRig.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Runtime\\StatusVFXRig.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Runtime\\StatusVFXRig.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\Runtime\\StatusVFXRig.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAIAwwJcAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T16:46:02.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CameraControllerEditor.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Editor\\CameraControllerEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\CameraControllerEditor.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Editor\\CameraControllerEditor.cs",
+              "RelativeToolTip": "Assets\\Editor\\CameraControllerEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T17:04:33.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StatusVFXEditors.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\TempGood\\Editor\\StatusVFXEditors.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\TempGood\\Editor\\StatusVFXEditors.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\TempGood\\Editor\\StatusVFXEditors.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\AtmosferaAnime\\TempGood\\Editor\\StatusVFXEditors.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T18:28:52.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HarmonieFeature.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Runtime\\HarmonieFeature.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Runtime\\HarmonieFeature.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Runtime\\HarmonieFeature.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Runtime\\HarmonieFeature.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAiwKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T18:04:32.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HarmoniePainterly.shader",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterly.shader",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterly.shader",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterly.shader",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterly.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-09-16T17:52:10.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HarmoniePainterlyRendererFeature.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyRendererFeature.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyRendererFeature.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyRendererFeature.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyRendererFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T17:51:28.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HarmoniePainterlyVolume.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyVolume.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyVolume.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyVolume.cs",
+              "RelativeToolTip": "Assets\\Project\\09_Scenes\\GaiaLobby\\Harmonie\\Temp\\HarmoniePainterlyVolume.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T17:51:20.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AnimeCameraExtension.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\03_Constructors\\AnimeCameraExtension.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\03_Constructors\\AnimeCameraExtension.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\03_Constructors\\AnimeCameraExtension.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\03_Constructors\\AnimeCameraExtension.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAkwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T17:27:31.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\06_Camera\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\06_Camera\\CameraController.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\06_Camera\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\06_Camera\\CameraController.cs",
+              "ViewState": "AgIAAMEEAAAAAAAAAAAQwMoEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T12:57:31.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RunManager.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\02_Managers\\RunManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\02_Managers\\RunManager.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\02_Managers\\RunManager.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\02_Managers\\RunManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T09:42:22.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerPound.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAowGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T23:58:33.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemSlotUI.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\ItemSlotUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\ItemSlotUI.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\ItemSlotUI.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\ItemSlotUI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:30:28.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InventorySlot.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\Inventory\\InventorySlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\Inventory\\InventorySlot.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\Inventory\\InventorySlot.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\Inventory\\InventorySlot.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:30:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAswI4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:29:49.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InventoryUI.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InventoryUI.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InventoryUI.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAcwCYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:29:16.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "iInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\000_Interfaces\\iInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\000_Interfaces\\iInteractable.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\000_Interfaces\\iInteractable.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\000_Interfaces\\iInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:25:02.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInteraction.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInteraction.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowE4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:05:03.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PlayerInGameText.cs",
+              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInGameText.cs",
+              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInGameText.cs",
+              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInGameText.cs",
+              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerInGameText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:04:49.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "FrogFallingHurtReaction.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\HurtReactions\\FrogFallingHurtReaction.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\HurtReactions\\FrogFallingHurtReaction.cs",
@@ -98,12 +482,11 @@
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\HurtReactions\\FrogFallingHurtReaction.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T15:41:40.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T15:41:40.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "EnemyStunned.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyStunned.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyStunned.cs",
@@ -115,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\PlayerStats.cs",
@@ -127,43 +510,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\Stats.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\Stats.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\Stats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T12:03:18.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\Health.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAiwEMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T11:44:59.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyController.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyBehaviour\\EnemyController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv2AAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAwwGAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T11:16:25.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "EntityElement.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\EntityElement.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\EntityElement.cs",
@@ -175,19 +558,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "EnemyStats.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyStats.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyStats.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyStats.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T11:12:16.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\01_Enemies\\EnemyHealth.cs",
@@ -199,85 +582,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "EnemyData.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Enemies\\EnemyData.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Enemies\\EnemyData.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Enemies\\EnemyData.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\01_ScriptableObjects\\01_Enemies\\EnemyData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T11:11:04.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "PlayerAnimationController.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerAnimationController.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAcwBcAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwM4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T00:08:50.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\PlayerCombat.cs",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAAwA8BAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADUBAAAAAAAAAAAYwLEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T00:03:26.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerPound.cs",
-              "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
-              "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
-              "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
-              "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\BehaviourScripts\\!!_RealProtoMechs\\PlayerPound.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswG4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T23:58:33.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "RarityVFXPicker.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\RarityVFXPicker.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAwwCoAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T23:49:57.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 34,
               "Title": "InteractionUI.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\00_Player\\UI\\InteractionUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T23:49:11.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "LootItem.cs",
               "DocumentMoniker": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
               "RelativeDocumentMoniker": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
               "ToolTip": "C:\\Users\\xasa7\\Documents\\GitHub\\GitTemp\\Soulveil\\Soulveil\\Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
               "RelativeToolTip": "Assets\\Project\\02_Scripts\\00_Scripts\\00_Entities\\02_Items\\LootItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T23:43:01.291Z"
             }

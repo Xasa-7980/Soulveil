@@ -194,7 +194,8 @@ MonoBehaviour:
   - {fileID: -3264680627394807239}
   - {fileID: 8928369464582418188}
   - {fileID: -4018062511847303624}
-  m_RendererFeatureMap: ad6b866f10d7b46cc4658180f8188cb473bc908ec6dfe741934211cc8f9c0a59f9af1ce934f6c5932d17bc0004bdd5c6f2988dcc4fee075f47c62e178948c93e397a08334486b1d20c2fe137b9f0e77b381607206ff93cc8
+  - {fileID: 8691228631752156154}
+  m_RendererFeatureMap: ad6b866f10d7b46cc4658180f8188cb473bc908ec6dfe741934211cc8f9c0a59f9af1ce934f6c5932d17bc0004bdd5c6f2988dcc4fee075f47c62e178948c93e397a08334486b1d20c2fe137b9f0e77b381607206ff93cc8faa34a7964729d78
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -311,6 +312,21 @@ MonoBehaviour:
     BlurQuality: 0
     Falloff: 100
     SampleCount: -1
+--- !u!114 &8691228631752156154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b49677a17925bbc866b80bb451d58e0, type: 3}
+  m_Name: MelancholyFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  effectMaterial: {fileID: 2100000, guid: e05680b1c2da55c8ae640273c7d2cbb7, type: 2}
+  showInSceneView: 1
 --- !u!114 &8928369464582418188
 MonoBehaviour:
   m_ObjectHideFlags: 0

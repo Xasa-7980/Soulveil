@@ -83,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: dffe15b195b642d39fb9d424cf14b351, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e8dc30bda2a4452a7d01e8d4a098661, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -141,7 +141,7 @@ Material:
     - _ChromaticAberration: 0.1
     - _CousticOffset: 0
     - _Cutoff: 0.5
-    - _Depth: 1.36
+    - _Depth: 1.69
     - _DetailNormalMapScale: 1
     - _DistanceFade: 50
     - _DistanceFadeOffset: 2000

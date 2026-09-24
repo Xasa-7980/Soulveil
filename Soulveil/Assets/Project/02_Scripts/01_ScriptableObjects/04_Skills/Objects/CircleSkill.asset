@@ -9,22 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f88b117ebf7f8b4bb67a5a82d617e89, type: 3}
-  m_Name: 2
+  m_Script: {fileID: 11500000, guid: 096e664d7b4d3bf41af07c2321f70bdb, type: 3}
+  m_Name: CircleSkill
   m_EditorClassIdentifier: 
-  skillName: FlameBreath
+  skillName: Meteor
   icon: {fileID: 0}
   element: {fileID: 0}
-  baseDamage: 30
-  manaCost: 8
-  cooldown: 3
+  baseDamage: 40
+  manaCost: 10
+  cooldown: 4
   castVFX: {fileID: 0}
   hitVFX: {fileID: 0}
+  radius: 4.1
+  movable: 1
+  maxCastDistance: 8
   requiresHold: 1
-  rotationSpeed: 15
-  previewVFX: {fileID: 7422237345607465833, guid: 8f2777899b4d6f54b923226359de6ac9, type: 3}
-  range: 5
-  angle: 35
+  previewVFX: {fileID: 1588951084909865874, guid: a05ad04d83e657f42a797c8b1fa969b2, type: 3}
   targetLayer:
     serializedVersion: 2
     m_Bits: 8
